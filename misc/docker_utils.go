@@ -4,10 +4,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"os"
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/client"
+	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/docker/docker/pkg/term"
 )
 
 func RemoveNetwork(ctx context.Context, dockerClient *client.Client, networkName string) error {
@@ -38,6 +41,18 @@ func RemoveNetwork(ctx context.Context, dockerClient *client.Client, networkName
 			return networkRemoveError
 		}
 	}
+
+	return nil
+}
+
+func PullImage(ctx context.Context, dockerClient *client.Client, imageName string) error {
+	reader, pullError := dockerClient.ImagePull(ctx, fmt.Sprintf("docker.io/%s", imageName), types.ImagePullOptions{All: true})
+	if pullError != nil {
+		return pullError
+	}
+
+	termFd, isTerm := term.GetFdInfo(os.Stderr)
+	jsonmessage.DisplayJSONMessagesStream(reader, os.Stderr, termFd, isTerm, nil)
 
 	return nil
 }
