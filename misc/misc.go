@@ -1,6 +1,10 @@
 package misc
 
 import (
+	"errors"
+	"fmt"
+	"os"
+
 	"github.com/docker/docker/client"
 )
 
@@ -19,4 +23,18 @@ func StringInSlice(a string, list []string) bool {
 		}
 	}
 	return false
+}
+
+func CheckOutput(outputJson string) error {
+	fileStat, err := os.Stat(outputJson)
+	if err != nil {
+		return err
+	}
+
+	if fileStat.Size() == 0 {
+		return errors.New(fmt.Sprintf("%s is empty", outputJson))
+	} else {
+		return nil
+	}
+
 }

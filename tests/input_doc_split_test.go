@@ -24,7 +24,7 @@ func TestInputDocSplit(t *testing.T) {
 	require.Equal(t, len(*taskDirNames), 11, "Improper number of task folders")
 
 	// count the lines in last task folder
-	lastInputJsonPath := path.Join(workDir, "rlimsp", "task_10", "input_10.json")
+	lastInputJsonPath := path.Join(workDir, "rlimsp", "task_10", "input.json")
 	lineCount, lineCountError := CountLines(lastInputJsonPath)
 	require.Equal(t, nil, lineCountError, lineCountError)
 	require.Equal(t, 20, lineCount)

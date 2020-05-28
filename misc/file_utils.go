@@ -136,7 +136,7 @@ func writeLines(taskIndex int, lines []string, toolWorkDirPath string) error {
 	}
 
 	//  create a file for writing
-	taskInputFilePath := path.Join(taskFolderName, fmt.Sprintf("input_%d.json", taskIndex))
+	taskInputFilePath := path.Join(taskFolderName, "input.json")
 	taskInputFile, err := os.Create(taskInputFilePath)
 	if err != nil {
 		return err
