@@ -95,19 +95,28 @@ func pathExists(path string) (bool, error) {
 	return true, err
 }
 
-func cleanDir(dirPath string) error {
+func GetSubDirNames(dirPath string) (*[]string, error) {
 	dir, dirErr := os.Open(dirPath)
 	if dirErr != nil {
-		return dirErr
+		return nil, dirErr
 	}
 
 	subDirs, subDirErr := dir.Readdirnames(0)
 	if subDirErr != nil {
-		return subDirErr
+		return nil, subDirErr
+	}
+	return &subDirs, nil
+}
+
+func cleanDir(dirPath string) error {
+
+	subDirs, err := GetSubDirNames(dirPath)
+	if err != nil {
+		return err
 	}
 
-	for index := range subDirs {
-		subDir := subDirs[index]
+	for index := range *subDirs {
+		subDir := (*subDirs)[index]
 		subDirPath := path.Join(dirPath, subDir)
 		subDirRemoveError := os.RemoveAll(subDirPath)
 		if subDirRemoveError != nil {
