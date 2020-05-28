@@ -27,7 +27,7 @@ func SplitInputDoc(inputDocPath string, workdirPath string, toolName string, num
 	}
 
 	// clean the work dir
-	cleanError := cleanDir(toolWorkDirPath)
+	cleanError := CleanDir(toolWorkDirPath)
 	if cleanError != nil {
 		return cleanError
 	}
@@ -108,7 +108,7 @@ func GetSubDirNames(dirPath string) (*[]string, error) {
 	return &subDirs, nil
 }
 
-func cleanDir(dirPath string) error {
+func CleanDir(dirPath string) error {
 
 	subDirs, err := GetSubDirNames(dirPath)
 	if err != nil {
