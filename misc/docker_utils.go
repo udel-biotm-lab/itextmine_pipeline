@@ -56,3 +56,8 @@ func PullImage(ctx context.Context, dockerClient *client.Client, imageName strin
 
 	return nil
 }
+
+func StopAndRemoveContainers(ctx context.Context, dockerClient *client.Client, _ string) error {
+
+	return nil
+}

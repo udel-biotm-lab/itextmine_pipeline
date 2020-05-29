@@ -13,6 +13,7 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
 	"github.com/docker/docker/client"
+	"github.com/gammazero/workerpool"
 )
 
 func Execute(workDir string, numParallelTasks int) error {
@@ -50,13 +51,76 @@ func Execute(workDir string, numParallelTasks int) error {
 		return pullError
 	}
 
-	// start rlimsp dockers
-	rlimsContainerError := executeRLIMSPContainer(ctx, dockerClient, "task_10", workDir)
-	if rlimsContainerError != nil {
-		return rlimsContainerError
+	// get a list of all the tasks
+	rlimsWorkDirPath := path.Join(workDir, "rlimsp")
+	tasks, tasksError := misc.GetSubDirNames(rlimsWorkDirPath)
+	if tasksError != nil {
+		return tasksError
 	}
 
+	// create a worker pool and start the execution
+	wp := workerpool.New(numParallelTasks)
+
+	// make a buffered channel to receive errors
+	errorChan := make(chan error, len(*tasks))
+
+	// make a buffered channel to receive progress
+	progressChan := make(chan bool, len(*tasks))
+
+	// make a done channel to signal work completion
+	terminateChan := make(chan bool)
+
+	// start a goroutine to handle the messages from worker pool
+	go handleMessage(errorChan, progressChan, terminateChan, len(*tasks))
+
+	for _, task := range *tasks {
+		taskCopy := task
+		println("Sending " + taskCopy)
+		wp.Submit(func() {
+			println("Executing " + taskCopy)
+			rlimsContainerError := executeRLIMSPContainer(ctx, dockerClient, taskCopy, workDir)
+			if rlimsContainerError != nil {
+				errorChan <- rlimsContainerError
+			}
+			progressChan <- true
+		})
+	}
+
+	wp.StopWait()
+
+	// close the error channel
+	close(errorChan)
+	close(progressChan)
+
+	// send a message on done channel to quit the goroutine
+	terminateChan <- true
+
 	return nil
+}
+
+func handleMessage(errorChan chan error, progressChan chan bool, terminateChan chan bool, taskCount int) {
+	// create and start new bar
+	// bar := pb.StartNew(taskCount)
+
+	for {
+		select {
+		case err := <-errorChan:
+			if err != nil {
+				println(err.Error())
+			}
+		case isTaskDone := <-progressChan:
+			if isTaskDone {
+				//bar.Increment()
+				println("Task done")
+			}
+		case isTerminate := <-terminateChan:
+			if isTerminate {
+				//bar.Finish()
+				return
+			}
+		}
+	}
+
 }
 
 func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, taskName string, workdir string) error {
