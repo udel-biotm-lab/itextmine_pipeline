@@ -9,6 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/cheggaaa/pb"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
@@ -75,9 +76,7 @@ func Execute(workDir string, numParallelTasks int) error {
 
 	for _, task := range *tasks {
 		taskCopy := task
-		println("Sending " + taskCopy)
 		wp.Submit(func() {
-			println("Executing " + taskCopy)
 			rlimsContainerError := executeRLIMSPContainer(ctx, dockerClient, taskCopy, workDir)
 			if rlimsContainerError != nil {
 				errorChan <- rlimsContainerError
@@ -100,8 +99,7 @@ func Execute(workDir string, numParallelTasks int) error {
 
 func handleMessage(errorChan chan error, progressChan chan bool, terminateChan chan bool, taskCount int) {
 	// create and start new bar
-	// bar := pb.StartNew(taskCount)
-
+	bar := pb.Full.Start(taskCount)
 	for {
 		select {
 		case err := <-errorChan:
@@ -110,12 +108,11 @@ func handleMessage(errorChan chan error, progressChan chan bool, terminateChan c
 			}
 		case isTaskDone := <-progressChan:
 			if isTaskDone {
-				//bar.Increment()
-				println("Task done")
+				bar.Increment()
 			}
 		case isTerminate := <-terminateChan:
 			if isTerminate {
-				//bar.Finish()
+				bar.Finish()
 				return
 			}
 		}
