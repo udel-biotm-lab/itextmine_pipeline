@@ -34,7 +34,7 @@ func main() {
 
 	// run tool based on arguments
 	if opts.Tool == "rlimsp" {
-		rlimspError := rlimsp.Execute(opts.InputDoc, opts.OutputDoc, opts.Workdir, opts.NumberOfTask)
+		rlimspError := rlimsp.Execute(opts.InputDoc, opts.NumberOfTask)
 		if rlimspError != nil {
 			panic(rlimspError)
 		}
