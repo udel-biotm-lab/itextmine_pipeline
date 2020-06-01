@@ -47,9 +47,15 @@ func Execute(workDir string, numParallelTasks int) error {
 	defer dockerClient.ContainerRemove(ctx, rlimsMySQLContainerID, types.ContainerRemoveOptions{Force: true})
 
 	// pull rlimsp docker image
-	pullError := misc.PullImage(ctx, dockerClient, "itextmine/rlimsp")
-	if pullError != nil {
-		return pullError
+	rlimsPullError := misc.PullImage(ctx, dockerClient, "itextmine/rlimsp")
+	if rlimsPullError != nil {
+		return rlimsPullError
+	}
+
+	// pull align docker image
+	alignPullError := misc.PullImage(ctx, dockerClient, "itextmine/align")
+	if alignPullError != nil {
+		return alignPullError
 	}
 
 	// get a list of all the tasks
@@ -62,7 +68,7 @@ func Execute(workDir string, numParallelTasks int) error {
 	// create a worker pool and start the execution
 	wp := workerpool.New(numParallelTasks)
 
-	// make a buffered channel to receive errors
+	// make a buffered channel to receive errors in go routine
 	errorChan := make(chan error, len(*tasks))
 
 	// make a buffered channel to receive progress
@@ -72,7 +78,7 @@ func Execute(workDir string, numParallelTasks int) error {
 	terminateChan := make(chan bool)
 
 	// start a goroutine to handle the messages from worker pool
-	go handleMessage(errorChan, progressChan, terminateChan, len(*tasks))
+	go handleProgress(progressChan, terminateChan, len(*tasks))
 
 	for _, task := range *tasks {
 		taskCopy := task
@@ -87,25 +93,34 @@ func Execute(workDir string, numParallelTasks int) error {
 
 	wp.StopWait()
 
-	// close the error channel
+	// close the channels channel
 	close(errorChan)
 	close(progressChan)
+
+	// get the errors from error channel
+	errors := make([]error, 0)
+	for err := range errorChan {
+		errors = append(errors, err)
+	}
 
 	// send a message on done channel to quit the goroutine
 	terminateChan <- true
 
+	// check if we had any errors
+	if len(errors) > 0 {
+		error_value := errors[0]
+		return error_value
+	}
+
 	return nil
 }
 
-func handleMessage(errorChan chan error, progressChan chan bool, terminateChan chan bool, taskCount int) {
+func handleProgress(progressChan chan bool, terminateChan chan bool, taskCount int) {
 	// create and start new bar
 	bar := pb.Full.Start(taskCount)
+
 	for {
 		select {
-		case err := <-errorChan:
-			if err != nil {
-				println(err.Error())
-			}
 		case isTaskDone := <-progressChan:
 			if isTaskDone {
 				bar.Increment()
@@ -125,7 +140,7 @@ func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, ta
 	// network config
 	rlimspNetworkConfig := network.NetworkingConfig{
 		EndpointsConfig: map[string]*network.EndpointSettings{
-			"rlimsp": &network.EndpointSettings{
+			"rlimsp": {
 				IPAddress: "10.0.0.2",
 			},
 		},
@@ -204,6 +219,18 @@ func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, ta
 		return checkoutputErr
 	}
 
+	// create the absolute path for align output
+	alignOutputAbsolutePath, alignOutputAbsolutePathError := filepath.Abs(path.Join(workdir, "rlimsp", taskName, "align.json"))
+	if alignOutputAbsolutePathError != nil {
+		return alignOutputAbsolutePathError
+	}
+
+	// run alignment
+	alignError := misc.ExecuteAlign(ctx, dockerClient, taskName, taskInputAbsolutePath, taskOutputJsonAbsolutePath, alignOutputAbsolutePath)
+	if alignError != nil {
+		return alignError
+	}
+
 	return nil
 }
 
@@ -213,7 +240,7 @@ func createRlimspNetwork(ctx context.Context, dockerClient *client.Client) (stri
 		Driver:         "bridge",
 		IPAM: &network.IPAM{
 			Config: []network.IPAMConfig{
-				network.IPAMConfig{
+				{
 					Subnet: "10.0.0.0/16",
 				},
 			},
@@ -239,7 +266,7 @@ func startRLIMSPMySQLContainer(ctx context.Context, dockerClient *client.Client)
 	// create the container
 	rlimsMySQLNetworkConfig := network.NetworkingConfig{
 		EndpointsConfig: map[string]*network.EndpointSettings{
-			"rlimsp": &network.EndpointSettings{
+			"rlimsp": {
 				IPAddress: "10.0.0.2",
 			},
 		},

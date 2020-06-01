@@ -13,10 +13,7 @@ func SplitInputDoc(inputDocPath string, workdirPath string, toolName string, num
 	toolWorkDirPath := path.Join(workdirPath, toolName)
 
 	// check if exists
-	toolWorkDirExist, err := pathExists(toolWorkDirPath)
-	if err != nil {
-		return err
-	}
+	toolWorkDirExist, _ := PathExists(toolWorkDirPath)
 
 	// if does not exist create it
 	if toolWorkDirExist == false {
@@ -84,15 +81,13 @@ func SplitInputDoc(inputDocPath string, workdirPath string, toolName string, num
 	return nil
 }
 
-func pathExists(path string) (bool, error) {
+func PathExists(path string) (bool, error) {
 	_, err := os.Stat(path)
 	if err == nil {
 		return true, nil
+	} else {
+		return false, err
 	}
-	if os.IsNotExist(err) {
-		return false, nil
-	}
-	return true, err
 }
 
 func GetSubDirNames(dirPath string) (*[]string, error) {
@@ -149,11 +144,29 @@ func writeLines(taskIndex int, lines []string, toolWorkDirPath string) error {
 
 	// create the witer
 	taskInputwriter := bufio.NewWriter(taskInputFile)
+
+	// wirte string
 	_, writeErr := taskInputwriter.WriteString(joinedLines)
 	if writeErr != nil {
 		return writeErr
 	}
 
+	// flush the writer
+	flushError := taskInputwriter.Flush()
+	if flushError != nil {
+		return flushError
+	}
+
 	return nil
 
+}
+
+func TouchFile(filePath string) error {
+	// create the output.json
+	file, fileCreateError := os.Create(filePath)
+	if fileCreateError != nil {
+		return fileCreateError
+	}
+	file.Close()
+	return nil
 }

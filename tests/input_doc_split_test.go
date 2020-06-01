@@ -10,7 +10,7 @@ import (
 
 // Test splitting of input doc
 func TestInputDocSplit(t *testing.T) {
-	inputDoc := "../data/rlimsp/test_doc_in.json"
+	inputDoc := "../data/rlimsp/test_split_doc_in.json"
 	workDir := "test_workdir"
 	defer misc.CleanDir(workDir)
 
