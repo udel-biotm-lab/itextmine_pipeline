@@ -2,7 +2,11 @@ package misc
 
 import (
 	"context"
+	"errors"
 	"fmt"
+	"os"
+	"path"
+	"path/filepath"
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
@@ -82,4 +86,110 @@ func ExecuteAlign(ctx context.Context,
 	}
 
 	return nil
+}
+
+func Reduce(workDir string, outputDir string, toolName string, collectionType string) error {
+	// build path to final workdir
+	toolWorkDir, toolWorkDirErr := filepath.Abs(path.Join(workDir, toolName))
+	if toolWorkDirErr != nil {
+		return toolWorkDirErr
+	}
+
+	// check if this path already exist
+	toolWorkDirExists, toolWorkDirExistsError := PathExists(toolWorkDir)
+	if toolWorkDirExists == false {
+		return toolWorkDirExistsError
+	}
+
+	// build path to final output dir
+	toolOutputDir, toolOutputDirErr := filepath.Abs(path.Join(outputDir, toolName))
+	if toolOutputDirErr != nil {
+		return toolOutputDirErr
+	}
+
+	// check if tool output dir exists
+	outputDirExists, _ := PathExists(toolOutputDir)
+
+	// if does not exist, create it
+	if outputDirExists == false {
+		mkDirErr := os.MkdirAll(toolOutputDir, os.FileMode(0777))
+		if mkDirErr != nil {
+			return mkDirErr
+		}
+	}
+
+	if toolName == "rlimsp" {
+		return reduceRlimsp(toolWorkDir, toolOutputDir, collectionType)
+	} else {
+		return errors.New(fmt.Sprintf("Unknown tool %s", toolName))
+	}
+
+	return nil
+}
+
+func reduceRlimsp(toolWorkDir string, toolOutputDir string, collectionType string) error {
+	// build reduce align json
+	alignOutputFilePath := fmt.Sprintf("%s/rlimsp.%s.align.json", toolOutputDir, collectionType)
+	reduceAlignCmdStr := fmt.Sprintf("cat %s/*/align.json > %s", toolWorkDir, alignOutputFilePath)
+
+	// execute the command
+	reduceAlignCmdErr, _, reduceAlignCmdErrOut := Shellout(reduceAlignCmdStr)
+	if reduceAlignCmdErr != nil {
+		return errors.New(reduceAlignCmdErrOut)
+	}
+
+	// check reduce output
+	reduceOutputCheckError := CheckOutput(alignOutputFilePath)
+	if reduceOutputCheckError != nil {
+		return reduceOutputCheckError
+	}
+
+	// create a folder to store efip inputs
+	eFipInputFolderName := fmt.Sprintf("%s/efip_%s_input", toolOutputDir, collectionType)
+	eFipFolderCreateError := CreateFolderIfNotExists(eFipInputFolderName)
+	if eFipFolderCreateError != nil {
+		return eFipFolderCreateError
+	}
+
+	// get a list of all subfolders in tool workdir
+	subDirNames, subDirNamesErr := GetSubDirNames(toolWorkDir)
+	if subDirNamesErr != nil {
+		return subDirNamesErr
+	}
+
+	// loop and copy all the output.txt to efip folder
+	for index := range *subDirNames {
+		subDir := (*subDirNames)[index]
+		originalOutputTxtPath, originalOutputTxtPathErr := filepath.Abs(path.Join(toolWorkDir, subDir, "output.txt"))
+		if originalOutputTxtPathErr != nil {
+			return originalOutputTxtPathErr
+		}
+
+		destFolderPath, destFolderPathErr := filepath.Abs(path.Join(eFipInputFolderName, subDir))
+		if destFolderPathErr != nil {
+			return destFolderPathErr
+		}
+
+		// create the destination folder
+		destFolderCreateErr := CreateFolderIfNotExists(destFolderPath)
+		if destFolderCreateErr != nil {
+			return destFolderCreateErr
+		}
+
+		// location to destination output.txt
+		destOutputTxtPath, destOutputTxtPathErr := filepath.Abs(path.Join(destFolderPath, "output.txt"))
+		if destOutputTxtPathErr != nil {
+			return destOutputTxtPathErr
+		}
+
+		// move to new location
+		moveErr := os.Rename(originalOutputTxtPath, destOutputTxtPath)
+		if moveErr != nil {
+			return moveErr
+		}
+
+	}
+
+	return nil
+
 }

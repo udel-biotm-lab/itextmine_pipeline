@@ -1,9 +1,11 @@
 package misc
 
 import (
+	"bytes"
 	"errors"
 	"fmt"
 	"os"
+	"os/exec"
 
 	"github.com/docker/docker/client"
 )
@@ -37,4 +39,14 @@ func CheckOutput(outputJson string) error {
 		return nil
 	}
 
+}
+
+func Shellout(command string) (error, string, string) {
+	var stdout bytes.Buffer
+	var stderr bytes.Buffer
+	cmd := exec.Command("bash", "-c", command)
+	cmd.Stdout = &stdout
+	cmd.Stderr = &stderr
+	err := cmd.Run()
+	return err, stdout.String(), stderr.String()
 }

@@ -19,7 +19,7 @@ func SplitInputDoc(inputDocPath string, workdirPath string, toolName string, num
 	if toolWorkDirExist == false {
 		mkDirErr := os.MkdirAll(toolWorkDirPath, os.FileMode(0777))
 		if mkDirErr != nil {
-			panic(mkDirErr)
+			return mkDirErr
 		}
 	}
 
@@ -168,5 +168,20 @@ func TouchFile(filePath string) error {
 		return fileCreateError
 	}
 	file.Close()
+	return nil
+}
+
+func CreateFolderIfNotExists(folderPath string) error {
+	// check if already exists
+	folderExists, _ := PathExists(folderPath)
+
+	// if does not exist, create it
+	if folderExists == false {
+		mkDirErr := os.MkdirAll(folderPath, os.FileMode(0777))
+		if mkDirErr != nil {
+			return mkDirErr
+		}
+	}
+
 	return nil
 }

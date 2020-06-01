@@ -12,6 +12,8 @@ import (
 func TestExcuteRlimsp(t *testing.T) {
 	inputDoc := "../data/rlimsp/test_execute_doc_in.json"
 	workDir := "test_workdir"
+	outPutDir := "output_dir"
+
 	numOfParallelTasks := 3
 
 	defer misc.CleanDir(workDir)
@@ -23,5 +25,9 @@ func TestExcuteRlimsp(t *testing.T) {
 	// Execute rlimsp
 	rlimspError := rlimsp.Execute(workDir, numOfParallelTasks)
 	require.Equal(t, nil, rlimspError, rlimspError)
+
+	// Reduce
+	reduceError := misc.Reduce(workDir, outPutDir, "rlimsp", "medline")
+	require.Equal(t, nil, reduceError, reduceError)
 
 }
