@@ -2,7 +2,7 @@ package tests
 
 import (
 	"itextmine/misc"
-	"itextmine/rlimsp"
+	"itextmine/tools"
 	"testing"
 
 	"github.com/stretchr/testify/require"
@@ -23,11 +23,11 @@ func TestExcuteRlimsp(t *testing.T) {
 	require.Equal(t, nil, splitErr, splitErr)
 
 	// Execute rlimsp
-	rlimspError := rlimsp.Execute(workDir, numOfParallelTasks)
+	rlimspError := tools.ExecuteRlimsp(workDir, numOfParallelTasks)
 	require.Equal(t, nil, rlimspError, rlimspError)
 
 	// Reduce
-	reduceError := misc.Reduce(workDir, outPutDir, "rlimsp", "medline")
+	reduceError := tools.Reduce(workDir, outPutDir, "rlimsp", "medline")
 	require.Equal(t, nil, reduceError, reduceError)
 
 }
