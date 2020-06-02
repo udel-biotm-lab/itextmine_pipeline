@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"itextmine/misc"
+	"itextmine/rlimsp"
 
 	"github.com/jessevdk/go-flags"
 )
@@ -33,7 +34,10 @@ func main() {
 
 	// run tool based on arguments
 	if opts.Tool == "rlimsp" {
-		//rlimsp.Execute(opts.InputDoc, opts.OutputDoc, opts.Workdir, opts.NumberOfTask)
+		rlimspError := rlimsp.Execute(opts.InputDoc, opts.NumberOfTask)
+		if rlimspError != nil {
+			panic(rlimspError)
+		}
 	}
 
 }

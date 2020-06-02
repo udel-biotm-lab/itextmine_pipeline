@@ -1,0 +1,2525 @@
+{NP_1}PMID{/NP_1} - {CP_2}3924662{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_6};O-phosphoserine)
+Kinase = (-;-)
+Substrate = ({NP_P_7}<s>human</s> plasma <p>fibronectin</p>{/NP_P_7};-)
+Site = (-;{NP_PP_6}Ser{/NP_PP_6};UNK)
+
+{NP_4}AB{/NP_4} - {NP_5}Identification and quantitation{/NP_5} of {NP_PP_6}<pp>O-phosphoserine</pp>{/NP_PP_6} in {NP_P_7}<s>human</s> plasma <p>fibronectin</p>{/NP_P_7} .
+
+OUTPUT 2
+PTM = ({NP_10};moiety)
+Kinase = (-;-)
+Substrate = ({NP_P_11}<s>human</s> plasma <p>fibronectin</p>{/NP_P_11};-)
+Site = (-;-;UNK)
+
+{NP_PP_8}<pp>O-Phosphoserine</pp>{/NP_PP_8} {VP_pass_9}was positively identified{/VP_pass_9} as {NP_10}the phosphorylated <Bpcf>moiety</Bpcf>{/NP_10} in {NP_P_11}<s>human</s> plasma <p>fibronectin</p>{/NP_P_11} by {NP_B_12}<B>31P-NMR</B>{/NP_B_12} of {NP_PP_13}intact <Bppp>peptides</Bppp>{/NP_PP_13} .
+
+{NP_14}These data{/NP_14} {AV_15}correlated completely{/AV_15} with {NP_16}<Bpcf>chemical</Bpcf> analyses{/NP_16} {NP_17}which{/NP_17} {VP_act_18}demonstrated{/VP_act_18} {NP_19}the presence{/NP_19} of {NP_PP_20}<pp>O-phosphoserine</pp>{/NP_PP_20} at {NP_21}a concentration{/NP_21} of {NP_P_22}2 <Bppf>residues/molecule</Bppf>{/NP_P_22} .
+
+Neither {NP_PP_23}<pp>O-phosphothreonine</pp>{/NP_PP_23} nor {NP_PP_24}<pp>O-phosphotyrosine</pp>{/NP_PP_24} {VP_pass_25}was detected{/VP_pass_25} in {NP_26}partial acid{/NP_26} and {NP_27}partial alkaline hydrolysates{/NP_27} , {AV_28}respectively{/AV_28} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}22233074{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}<Bpcf>Chemical</Bpcf> enrichment{/NP_5} of {NP_PP_6}<pp>tyrosine phosphopeptides</pp>{/NP_PP_6} .
+
+{NP_7}<pp>Tyrosine</pp> phosphorylation{/NP_7} of {NP_P_8}<Bppf>proteins</Bppf>{/NP_P_8} {VP_act_9}plays{/VP_act_9} {NP_10}a vital role{/NP_10} in {NP_11}signal transduction pathway{/NP_11} .
+
+{AV_12}Currently{/AV_12} , {NP_13}<Bppf>antibody</Bppf> -based method{/NP_13} {VP_act_14}dominates{/VP_act_14} {NP_15}the <pp>tyrosine phosphopeptide</pp> enrichment{/NP_15} and there {VP_act_16}is{/VP_act_16} {NP_17}a lack{/NP_17} of {NP_18}other general approaches{/NP_18} for {NP_19}selective isolation{/NP_19} of {NP_PP_20}<pp>tyrosine phosphopeptides</pp>{/NP_PP_20} .
+
+{AV_21}However{/AV_21} , {NP_22}<Bppf>antibody</Bppf> -based methods{/NP_22} {VP_pass_23}are{/VP_pass_23} of {NP_24}high cost{/NP_24} and {VP_act_25}biased{/VP_act_25} to {NP_PP_26}certain <Bppp>motifs</Bppp>{/NP_PP_26} .
+
+{AV_27}Here{/AV_27} {NP_28}we{/NP_28} {VP_act_29}developed{/VP_act_29} {NP_30}a chemistry-based method{/NP_30} for {NP_31}<pp>tyrosine phosphopeptide</pp> enrichment{/NP_31} .
+
+{NP_32}This method{/NP_32} {VP_act_33}utilized{/VP_act_33} {NP_34}the beta-elimination{/NP_34} , {NP_35}which{/NP_35} {VP_act_36}only occurs{/VP_act_36} on {NP_PP_37}phospho-<pp>serine/threonine residues</pp>{/NP_PP_37} , {VP_act_38}to achieve{/VP_act_38} {NP_39}the reverse selection effect{/NP_39} .
+
+After {NP_40}the dephosphorylation{/NP_40} of {NP_PP_41}<pp>serine/threonine phosphopeptides</pp>{/NP_PP_41} {NP_42}a sensitive <pp>phosphopeptide</pp> isolation method{/NP_42} {VP_pass_43}was applied{/VP_pass_43} {VP_act_44}to enrich{/VP_act_44} {NP_PP_45}<pp>tyrosine phosphopeptides</pp>{/NP_PP_45} .
+
+In {NP_46}this proof-of-concept study{/NP_46} , {NP_47}it{/NP_47} {VP_act_48}showed{/VP_act_48} that {NP_49}the beta-elimination{/NP_49} for {NP_PP_50}several standard <pp>serine phosphopeptides</pp>{/NP_PP_50} {VP_pass_51}was completed{/VP_pass_51} over {CP_52}99%{/CP_52} while {NP_53}the recovery{/NP_53} of {NP_PP_54}<pp>tyrosine phosphopeptide</pp>{/NP_PP_54} {VP_pass_55}remained{/VP_pass_55} at around {NP_56}70%{/NP_56} within {NP_57}20 min{/NP_57} .
+
+In {NP_58}the further test{/NP_58} with {NP_59}<p>6-protein</p> digests{/NP_59} {VP_pass_60}monitored{/VP_pass_60} by {NP_61}<B>LONGTOKEN</B> analysis{/NP_61} , {NP_PP_62}only <pp>tyrosine phosphopeptides</pp>{/NP_PP_62} {VP_pass_63}were detected{/VP_pass_63} .
+
+{JP_64}Due{/JP_64} to {NP_65}the low-cost and unbiased properties{/NP_65} , {NP_66}the method{/NP_66} {VP_act_67}has{/VP_act_67} {NP_68}potential applications{/NP_68} in {NP_69}<pp>tyrosine</pp> signaling pathway analysis{/NP_69} as {NP_70}an alternative{/NP_70} to {NP_71}<Bppf>antibody</Bppf> -based approach{/NP_71} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}3001088{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Phosphorylation{/NP_5} of {NP_P_6}<Bppf>receptors</Bppf>{/NP_P_6} for {NP_P_7}<p>insulin</p>{/NP_P_7} and {NP_P_8}insulin-like <Bppf>growth <p>factor I</p></Bppf>{/NP_P_8} .
+
+{NP_9}Effects{/NP_9} of {NP_C_10}<Bppf>hormones</Bppf> and <c>phorbol esters</c>{/NP_C_10} .
+
+OUTPUT 2
+PTM = ({NP_PP_17};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_17}<pp>phosphopeptide</pp>{/NP_PP_17})
+
+{NP_11}The phosphorylation{/NP_11} of {NP_P_12}<Bppf>receptors</Bppf>{/NP_P_12} for {NP_P_13}<p>insulin</p>{/NP_P_13} and {NP_P_14}insulin-like <Bppf>growth <p>factor I</p></Bppf>{/NP_P_14} {VP_pass_15}was studied{/VP_pass_15} by {NP_16}<c>phosphoamino acid</c> analysis{/NP_16} and {NP_PP_17}tryptic <pp>phosphopeptide</pp>{/NP_PP_17} {VP_act_18}maps{/VP_act_18} in {NP_19}an attempt{/NP_19} {VP_act_20}to determine{/VP_act_20} if {NP_P_21}<p>protein kinase C</p>{/NP_P_21} {VP_pass_22}is involved{/VP_pass_22} in {NP_23}their phosphorylation{/NP_23} in {NP_24}response{/NP_24} to {NP_P_25}<p>insulin</p>{/NP_P_25} and {NP_P_26}insulin-like <Bppf>growth <p>factor I</p></Bppf>{/NP_P_26} , {AV_27}respectively{/AV_27} .
+
+OUTPUT 4
+PTM = ({NP_37};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_13}<p>insulin</p>{/NP_P_13};-)
+Site = (-;-;UNK)
+
+OUTPUT 5
+PTM = ({NP_37};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_14}<p>factor I</p>{/NP_P_14};-)
+Site = (-;-;UNK)
+
+{NP_28}Two <Bpcl>cell lines</Bpcl>{/NP_28} {VP_pass_29}were utilized{/VP_pass_29} , {NP_C_30}<p>Hep G2</p> and <c><s>IM-9 cells</s>.sn-1, 2-Dioctanoylglycerol</c>{/NP_C_30} and {NP_C_31}<c>12-O-tetradecanoylphorbol 13-acetate ( TPA )</c>{/NP_C_31} , {NP_32}agents{/NP_32} {VP_act_33}known{/VP_act_33} {VP_act_34}to activate{/VP_act_34} {NP_P_35}<p>protein kinase C</p>{/NP_P_35} , {VP_act_36}stimulated{/VP_act_36} {NP_37}the phosphorylation{/NP_37} of {NP_P_38}the <Bppf>beta subunits</Bppf>{/NP_P_38} of {NP_P_39}both <Bppf>receptors</Bppf>{/NP_P_39} , as {VP_act_40}did{/VP_act_40} {NP_P_41}their <Bppf>hormones</Bppf>{/NP_P_41} .
+
+OUTPUT 6
+PTM = ({NP_43};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_44}<p>insulin receptor</p>{/NP_P_44};-)
+Site = (-;-;{NP_PP_46}<pp>seryl</pp>{/NP_PP_46})
+
+In {NP_42}unstimulated <Bpcl>cells</Bpcl>{/NP_42} , {NP_43}phosphorylation{/NP_43} of {NP_P_44}the <p>insulin receptor</p>{/NP_P_44} {VP_pass_45}occurred{/VP_pass_45} on {NP_PP_46}<pp>seryl</pp>{/NP_PP_46} and to {NP_47}a lesser extent{/NP_47} on {NP_PP_48}threonyl <Bppp>residues</Bppp>{/NP_PP_48} .
+
+OUTPUT 9
+PTM = ({NP_61};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_25}<p>insulin</p>{/NP_P_25};-)
+Site = (-;{NP_PP_62}Thr{/NP_PP_62};UNK)
+
+{NP_C_49}<c>TPA</c>{/NP_C_49} {VP_act_50}stimulated{/VP_act_50} {NP_PP_51}<pp>seryl</pp>{/NP_PP_51} and {NP_52}threonyl phosphorylation{/NP_52} {NP_53}that{/NP_53} {VP_act_54}resulted{/VP_act_54} in {NP_55}the appearance{/NP_55} of {NP_PP_56}four major <pp>phosphoserine-containing phosphopeptides</pp>{/NP_PP_56} {NP_57}which{/NP_57} {VP_pass_neg_58}were not detected{/VP_pass_neg_58} in {NP_59}the basal state{/NP_59} and an {VP_pass_60}increase{/VP_pass_60} in {NP_61}phosphorylation{/NP_61} of {NP_PP_62}a <Bppp>phosphothreonine-containing peptide</Bppp>{/NP_PP_62} {NP_63}which{/NP_63} {VP_pass_64}was present{/VP_pass_64} in {NP_65}the basal state{/NP_65} .
+
+{NP_66}<p>Insulin</p> treatment{/NP_66} {VP_pass_67}resulted{/VP_pass_67} in {NP_68}the appearance{/NP_68} of {NP_PP_69}three major phosphotyrosine-containing tryptic <Bppp>peptides</Bppp>{/NP_PP_69} .
+
+In {NP_S_70}<s><S>IM-9 cells</S></s>{/NP_S_70} , {NP_P_71}<p>insulin</p>{/NP_P_71} {VP_act_72}also increased{/VP_act_72} {NP_PP_73}the <pp>phosphoserine</pp>{/NP_PP_73} and {AV_74}possibly{/AV_74} {NP_75}the <pp>phosphothreonine</pp> content{/NP_75} of {NP_P_76}the <Bppf>beta subunit</Bppf>{/NP_P_76} .
+
+In {NP_77}both <Bpcl>cells</Bpcl>{/NP_77} , {NP_PP_78}the major <Bppp>phosphoserine-containing peptides</Bppp>{/NP_PP_78} {NP_79}that{/NP_79} {VP_pass_80}were stimulated{/VP_pass_80} by {NP_C_81}<c>TPA</c>{/NP_C_81} {VP_pass_neg_82}were not detected{/VP_pass_neg_82} {VP_act_83}following{/VP_act_83} {NP_84}treatment{/NP_84} with {NP_P_85}<p>insulin</p>{/NP_P_85} .
+
+{NP_86}Very similar results{/NP_86} , {VP_act_87}including{/VP_act_87} {NP_PP_88}similar <Bppp>peptide</Bppp>{/NP_PP_88} {VP_act_89}maps{/VP_act_89} , {VP_pass_90}were obtained{/VP_pass_90} for {NP_P_91}the insulin-like <Bppf>growth <p>factor I</p> receptor</Bppf>{/NP_P_91} from {NP_92}<Bpcl>cells</Bpcl>{/NP_92} {VP_act_93}treated{/VP_act_93} with {NP_C_94}<c>TPA</c>{/NP_C_94} and {NP_P_95}insulin-like <Bppf>growth <p>factor I</p></Bppf>{/NP_P_95} .
+
+Although {JP_96}not entirely conclusive{/JP_96} , {NP_97}these results{/NP_97} {VP_act_98}suggest{/VP_act_98} that {NP_P_99}the <p>insulin</p>{/NP_P_99} - and {NP_100}insulin-like <Bppf>growth <p>factor I</p></Bppf> -stimulated phosphorylation{/NP_100} of {NP_P_101}their <Bppf>receptors</Bppf>{/NP_P_101} {VP_act_neg_102}does not result{/VP_act_neg_102} from {NP_103}activation{/NP_103} of {NP_P_104}<p>protein kinase C</p>{/NP_P_104} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}3138233{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({VP_pass_6};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_PP_5}<p>Epidermal growth factor receptor</p>{/NP_PP_5};-)
+Site = (-;{NP_PP_5}Ser{/NP_PP_5};UNK)
+(-;{NP_PP_5}Thr{/NP_PP_5};UNK)
+
+{NP_4}AB{/NP_4} - {NP_PP_5}<p>Epidermal growth factor receptor</p> <pp>threonine</pp> and <pp>serine residues</pp>{/NP_PP_5} {VP_pass_6}phosphorylated{/VP_pass_6} in {NP_7}vivo{/NP_7} .
+
+OUTPUT 1
+PTM = ({NP_10};autophosphorylation)
+Kinase = ({NP_P_8}<p>epidermal growth factor ( EGF ) receptor</p>{/NP_P_8};-)
+Substrate = ({NP_P_8}<p>epidermal growth factor ( EGF ) receptor</p>{/NP_P_8};-)
+Site = (-;-;UNK)
+
+OUTPUT 2
+PTM = ({NP_15};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_16}<Bppp>sites</Bppp>{/NP_PP_16})
+
+{NP_P_8}The <p>epidermal growth factor ( EGF ) receptor</p>{/NP_P_8} {VP_pass_9}is regulated{/VP_pass_9} by {NP_10}<p>EGF</p> -stimulated autophosphorylation{/NP_10} and by {NP_11}<c>phorbol</c> ester{/NP_11} {JP_12}-stimulated{/JP_12} , {NP_P_13}<p>protein kinase C ( Ca2+/phospholipid -dependent enzyme )</p>{/NP_P_13} {VP_act_14}mediated{/VP_act_14} {NP_15}phosphorylation{/NP_15} at {NP_PP_16}identified <Bppp>sites</Bppp>{/NP_PP_16} .
+
+OUTPUT 3
+PTM = ({NP_PP_19};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_19}<Bppp>phosphorylation sites</Bppp>{/NP_PP_19})
+
+{NP_P_17}The <p>EGF receptor</p>{/NP_P_17} {VP_act_18}contains{/VP_act_18} {NP_PP_19}additional <Bppp>phosphorylation sites</Bppp>{/NP_PP_19} {VP_act_20}including{/VP_act_20} {NP_PP_21}a prominent <pp>phosphothreonine</pp> and several <pp>phosphoserines</pp>{/NP_PP_21} {NP_22}which{/NP_22} {VP_act_23}account{/VP_act_23} for {NP_24}the majority{/NP_24} of {NP_G_25}<c>phosphate</c>{/NP_G_25} {VP_act_26}covalently bound{/VP_act_26} to {NP_P_27}the <Bppf>receptor</Bppf>{/NP_P_27} in {NP_28}vivo{/NP_28} .
+
+{NP_29}We{/NP_29} {VP_act_30}have identified{/VP_act_30} {CP_31}three{/CP_31} of {NP_PP_32}these <Bppp>sites</Bppp>{/NP_PP_32} in {NP_P_33}<p>EGF receptor</p>{/NP_P_33} {VP_act_34}purified{/VP_act_34} from {NP_S_35}<S>32P-labeled <s>A431 cells</s></S>{/NP_S_35} .
+
+{NP_PP_36}The major <pp>phosphothreonine</pp>{/NP_PP_36} {VP_pass_37}was identified{/VP_pass_37} as {NP_PP_38}<pp>threonine 669</pp>{/NP_PP_38} in {NP_PP_39}the <pp><p>EGF receptor</p> sequence</pp>{/NP_PP_39} .
+
+{NP_PP_40}<pp>Phosphoserine residues</pp>{/NP_PP_40} {VP_pass_41}were identified{/VP_pass_41} as {NP_PP_42}<pp>serines 671 and 1046/1047</pp>{/NP_PP_42} of {NP_P_43}the <p>EGF receptor</p>{/NP_P_43} .
+
+{NP_PP_44}Two other <pp>phosphoserine residues</pp>{/NP_PP_44} {VP_pass_45}were localized{/VP_pass_45} {VP_act_46}to tryptic{/VP_act_46} {NP_PP_47}<Bppp>peptides</Bppp>{/NP_PP_47} {VP_act_48}containing{/VP_act_48} {NP_PP_49}multiple <pp>serine residues</pp>{/NP_PP_49} {VP_act_50}located{/VP_act_50} {NP_51}carboxyl{/NP_51} - {NP_PP_52}<Bppp>terminal</Bppp>{/NP_PP_52} to {NP_PP_53}the conserved <pp><Bppf>protein kinase</Bppf> domain</pp>{/NP_PP_53} .
+
+OUTPUT 9
+PTM = ({NP_PP_56};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_33}<p>EGF receptor</p>{/NP_P_33};-)
+Site = (-;-;{NP_PP_32}these <Bppp>sites</Bppp>{/NP_PP_32})
+(-;-;{NP_PP_56}<Bppp>phosphorylation sites</Bppp>{/NP_PP_56})
+(-;{NP_PP_5}Ser{/NP_PP_5};UNK)
+(-;{NP_PP_5}Thr{/NP_PP_5};UNK)
+
+{NP_PP_54}The <Bppp>amino acid sequences</Bppp>{/NP_PP_54} {VP_act_55}surrounding{/VP_act_55} {NP_PP_56}the three identified <Bppp>phosphorylation sites</Bppp>{/NP_PP_56} {VP_pass_57}are highly conserved{/VP_pass_57} in {NP_P_58}the <p>EGF receptor</p>{/NP_P_58} and {NP_59}the <Bpf>protein products</Bpf>{/NP_59} of {NP_P_60}the <p>v-erb B</p> and neu <Bppf>oncogenes</Bppf>{/NP_P_60} .
+
+OUTPUT 10
+PTM = ({NP_PP_65};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_33}<p>EGF receptor</p>{/NP_P_33};-)
+Site = (-;-;{NP_PP_32}these <Bppp>sites</Bppp>{/NP_PP_32})
+(-;-;{NP_PP_56}the three identified <Bppp>phosphorylation sites</Bppp>{/NP_PP_56})
+(-;-;{NP_PP_65}<Bppp>phosphorylation sites</Bppp>{/NP_PP_65})
+(-;{NP_PP_5}Ser{/NP_PP_5};UNK)
+(-;{NP_PP_5}Thr{/NP_PP_5};UNK)
+
+{NP_61}Analysis{/NP_61} of {NP_62}predicted secondary <Bpf>structure</Bpf>{/NP_62} of {NP_P_63}the <p>EGF receptor</p>{/NP_P_63} {VP_act_64}reveals{/VP_act_64} that all of {NP_PP_65}the <Bppp>phosphorylation sites</Bppp>{/NP_PP_65} {VP_pass_66}are located{/VP_pass_66} near {NP_67}beta turns{/NP_67} .
+
+OUTPUT 11
+PTM = ({NP_68};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_63}<p>EGF receptor</p>{/NP_P_63};-)
+Site = (-;{NP_PP_69}Ser{/NP_PP_69};UNK)
+
+In {NP_68}<s><S>A431 cells</S></s> phosphorylation{/NP_68} of {NP_PP_69}the <pp>serine residues</pp>{/NP_PP_69} {VP_pass_70}was dependent{/VP_pass_70} upon {NP_71}serum{/NP_71} .
+
+In {NP_S_72}<s>mouse</s> <S>B82 L cells</S>{/NP_S_72} {VP_act_73}transfected{/VP_act_73} with {NP_P_74}a wild type <s>human</s> <p>EGF receptor</p>{/NP_P_74} .
+
+OUTPUT 12
+PTM = ({NP_PP_78};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_78}<pp>phosphopeptides</pp>{/NP_PP_78})
+
+{NP_P_75}<p>EGF</p>{/NP_P_75} {VP_act_76}increased{/VP_act_76} {NP_77}the <c>32P</c> content{/NP_77} in {NP_PP_78}all tryptic <pp>phosphopeptides</pp>{/NP_PP_78} .
+
+OUTPUT 13
+PTM = ({VP_pass_82};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_PP_39}<p>EGF receptor</p>{/NP_PP_39};-)
+Site = ({NP_PP_84}669{/NP_PP_84};{NP_PP_84}Thr{/NP_PP_84};UNK)
+
+{NP_P_79}A <Bppf>mutant</Bppf> <p>EGF receptor</p>{/NP_P_79} {VP_act_80}lacking{/VP_act_80} {NP_81}<Bppf>protein tyrosine kinase</Bppf> activity{/NP_81} {VP_pass_82}was phosphorylated{/VP_pass_82} {AV_83}only{/AV_83} at {NP_PP_84}<pp>threonine 669</pp>{/NP_PP_84} .
+
+OUTPUT 14
+PTM = ({NP_85};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_86}<p>EGF receptor</p>{/NP_P_86};-)
+Site = (-;{NP_PP_87}Ser{/NP_PP_87};UNK)
+(-;{NP_PP_87}Thr{/NP_PP_87};UNK)
+
+{NP_85}Regulated phosphorylation{/NP_85} of {NP_P_86}the <p>EGF receptor</p>{/NP_P_86} at {NP_PP_87}these <pp>threonine</pp> and <pp>serine residues</pp>{/NP_PP_87} {VP_act_88}may influence{/VP_act_88} {NP_89}aspects{/NP_89} of {NP_90}<Bppf>receptor</Bppf> function{/NP_90} .
+
+NORM=egf receptor
+SYNONYM=EGF receptor
+SYNONYM=Epidermal growth factor receptor
+SYNONYM=epidermal growth factor ( EGF ) receptor
+
+
+{NP_1}PMID{/NP_1} - {CP_2}6842186{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_6};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_7}<p>region 1B protein</p>{/NP_P_7};-)
+Site = (-;-;UNK)
+
+{NP_4}AB{/NP_4} - {NP_5}Studies{/NP_5} on {NP_6}the phosphorylation{/NP_6} of {NP_P_7}the 58000 dalton early <p>region 1B protein</p>{/NP_P_7} of {NP_8}<s>human</s> <s>adenovirus</s> type 5{/NP_8} .
+
+OUTPUT 1
+PTM = ({VP_pass_14};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_12}<s>human</s> <p>adenovirus type 5 ( Ad5 )</p>{/NP_P_12};-)
+Site = (-;-;UNK)
+
+{NP_P_9}The 58000 dalton ( <B>58K</B> ) <Bppf>protein</Bppf>{/NP_P_9} {VP_act_10}coded{/VP_act_10} for by early {NP_P_11}<p>region 1B</p>{/NP_P_11} of {NP_P_12}<s>human</s> <p>adenovirus type 5 ( Ad5 )</p>{/NP_P_12} {VP_pass_13}was found{/VP_pass_13} {VP_pass_14}to be phosphorylated{/VP_pass_14} .
+
+OUTPUT 2
+PTM = ({NP_PP_15};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_15}<pp>phosphopeptides</pp>{/NP_PP_15})
+
+At {NP_PP_15}least three major tryptic <pp>phosphopeptides</pp>{/NP_PP_15} {VP_pass_16}were identified{/VP_pass_16} and {NP_17}the average number{/NP_17} of {NP_G_18}<c>phosphates</c>{/NP_G_18} per {NP_P_19}<Bppf>58K molecule</Bppf>{/NP_P_19} {VP_pass_20}was estimated{/VP_pass_20} {VP_pass_21}to be{/VP_pass_21} between {CP_22}two and three{/CP_22} .
+
+OUTPUT 3
+PTM = ({NP_PP_26};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_26}<pp>phosphopeptide</pp>{/NP_PP_26})
+
+{AV_23}Thus{/AV_23} , {NP_24}it{/NP_24} {VP_pass_25}was possible{/VP_pass_25} that {NP_PP_26}each <pp>phosphopeptide</pp>{/NP_PP_26} {VP_act_27}contained{/VP_act_27} {NP_G_28}just <c>one phosphate group</c>{/NP_G_28} .
+
+{NP_29}The ratio{/NP_29} of {NP_PP_30}<pp>phosphoserine</pp>{/NP_PP_30} to {NP_PP_31}<pp>phosphothreonine</pp>{/NP_PP_31} {VP_pass_32}was{/VP_pass_32} about {CP_33}2 to 1{/CP_33} on {JP_34}average{/JP_34} and {AV_35}essentially{/AV_35} {NP_PP_36}no <pp>phosphotyrosine</pp>{/NP_PP_36} {VP_pass_37}was detected{/VP_pass_37} .
+
+OUTPUT 7
+PTM = ({NP_43};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_B_44}<B>58K</B>{/NP_B_44};-)
+Site = (-;-;UNK)
+
+{NP_38}No evidence{/NP_38} {VP_pass_39}was found{/VP_pass_39} {VP_act_40}to suggest{/VP_act_40} that {NP_P_41}<p>cAMP -dependent protein kinase</p>{/NP_P_41} {VP_pass_42}was involved{/VP_pass_42} in {NP_43}the phosphorylation{/NP_43} of {NP_B_44}<B>58K</B>{/NP_B_44} .
+
+OUTPUT 8
+PTM = ({VP_pass_48};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_B_47}<B>58K</B>{/NP_B_47};-)
+Site = (-;-;UNK)
+
+{NP_45}Previous studies{/NP_45} {VP_act_46}have shown{/VP_act_46} that {NP_B_47}<B>58K</B>{/NP_B_47} {VP_pass_48}was phosphorylated{/VP_pass_48} when {VP_act_49}immunoprecipitates{/VP_act_49} {VP_act_50}containing{/VP_act_50} {NP_P_51}<p>Ad5</p> early <Bppf>region 1 proteins</Bppf>{/NP_P_51} {VP_pass_52}were incubated{/VP_pass_52} in {NP_53}vitro{/NP_53} with {NP_P_54}<p>[gamma-32P]ATP</p>{/NP_P_54} .
+
+OUTPUT 9
+PTM = ({NP_PP_56};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_56}<pp>phosphopeptides</pp>{/NP_PP_56})
+
+OUTPUT 10
+PTM = ({NP_PP_62};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_62}<Bppp>phosphorylation sites</Bppp>{/NP_PP_62})
+
+{NP_55}Analysis{/NP_55} of {NP_PP_56}the <pp>phosphopeptides</pp>{/NP_PP_56} of {NP_B_57}<B>58K</B>{/NP_B_57} {VP_act_58}labelled{/VP_act_58} under {NP_59}these conditions{/NP_59} {VP_act_60}indicated{/VP_act_60} {NP_61}a large number{/NP_61} of {NP_PP_62}<Bppp>phosphorylation sites</Bppp>{/NP_PP_62} {NP_63}which{/NP_63} {VP_act_64}differed{/VP_act_64} from {NP_65}those found{/NP_65} in {NP_66}vivo{/NP_66} .
+
+OUTPUT 11
+PTM = ({NP_70};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_B_71}<B>58K</B>{/NP_B_71};-)
+Site = (-;-;UNK)
+
+OUTPUT 12
+PTM = ({NP_76};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_76}<B>58K</B>{/NP_76};-)
+Site = (-;-;UNK)
+
+{AV_67}Thus{/AV_67} , {NP_68}the action{/NP_68} of {NP_P_69}<Bppf>kinases</Bppf>{/NP_P_69} in {NP_70}the in vitro phosphorylation{/NP_70} of {NP_B_71}<B>58K</B>{/NP_B_71} in {VP_act_72}immunoprecipitates{/VP_act_72} {VP_act_neg_73}did not mimic{/VP_act_neg_73} {NP_74}the enzymic activity{/NP_74} {JP_75}responsible{/JP_75} for {NP_76}<B>58K</B> phosphorylation{/NP_76} in {NP_77}vivo{/NP_77} .
+
+NORM=58k
+SYNONYM=58K
+
+
+{NP_1}PMID{/NP_1} - {CP_2}17935722{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}<pp>Phosphopeptide</pp> elution times{/NP_5} in {NP_6}reversed-phase liquid chromatography{/NP_6} .
+
+OUTPUT 0
+PTM = ({NP_PP_9};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_9}<pp>corresponding phosphopeptides</pp>{/NP_PP_9})
+
+{NP_7}Elution time shifts{/NP_7} between {NP_PP_8}33 different <Bppp>peptides</Bppp>{/NP_PP_8} and {NP_PP_9}their <pp>corresponding phosphopeptides</pp>{/NP_PP_9} {VP_act_10}ranging{/VP_act_10} from {NP_PP_11}4 <Bppp>amino acid residues</Bppp>{/NP_PP_11} to {NP_PP_12}35 <Bppp>amino acids</Bppp>{/NP_PP_12} in {NP_13}length{/NP_13} {VP_pass_14}were systematically investigated{/VP_pass_14} {VP_act_15}using{/VP_act_15} {NP_16}<B>high-resolution reversed-phase liquid chromatography ( <p>RPLC</p> )- tandem mass spectrometry ( MS/MS )</B> analysis{/NP_16} with {NP_P_17}<p>trifluoroacetic acid</p>{/NP_P_17} as {NP_18}the ion pairing agent{/NP_18} .
+
+{NP_19}Observed <Bppp>peptide</Bppp> elution time shifts{/NP_19} for {NP_20}a single phosphorylation{/NP_20} {VP_act_21}ranged{/VP_act_21} from {NP_22}-5.28 min (for pYVPML){/NP_22} to {NP_23}+0.59 min{/NP_23} ( for {NP_B_24}<B>HRDpSGLLDSLGR</B>{/NP_B_24} ) .
+
+{NP_PP_25}<Bppp>Peptides</Bppp>{/NP_PP_25} {VP_act_26}containing{/VP_act_26} {NP_PP_27}a <pp>phosphotyrosine residue</pp>{/NP_PP_27} {VP_act_28}displayed{/VP_act_28} a {VP_pass_29}significant decrease{/VP_pass_29} in {NP_30}elution time{/NP_30} {VP_act_31}following{/VP_act_31} {NP_32}phosphorylation{/NP_32} {VP_act_33}compared{/VP_act_33} to {NP_PP_34}their similar-sized <Bppp>peptides</Bppp>{/NP_PP_34} with {NP_PP_35}<pp>phosphoserine</pp> or <pp>phosphothreonine residues</pp>{/NP_PP_35} .
+
+OUTPUT 5
+PTM = ({NP_36};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_36}<Bppp>peptide</Bppp>{/NP_36})
+
+While {NP_36}<Bppp>peptide</Bppp> phosphorylation{/NP_36} {VP_act_37}generally led{/VP_act_37} to a {VP_pass_38}decrease{/VP_pass_38} in {NP_39}the observed elution time{/NP_39} , {NP_PP_40}five <Bppp>peptides</Bppp>{/NP_PP_40} {VP_act_41}displayed{/VP_act_41} {NP_42}increased elution times{/NP_42} as {NP_43}a result{/NP_43} of {NP_44}phosphorylation{/NP_44} .
+
+For {NP_PP_45}large <Bppp>peptides</Bppp>{/NP_PP_45} ( {NP_46}&gt;{/NP_46} or {NP_PP_47}=18 <Bppp>amino acids</Bppp>{/NP_PP_47} ) , {NP_48}the elution time shifts{/NP_48} {JP_49}due{/JP_49} {VP_act_50}to single{/VP_act_50} {NP_51}phosphorylation{/NP_51} {VP_pass_52}were limited{/VP_pass_52} ( {VP_act_53}ranging{/VP_act_53} between {NP_54}-0.48{/NP_54} and {NP_55}+0.03 min{/NP_55} ) , while {NP_56}the elution time shifts{/NP_56} for {NP_PP_57}small <Bppp>peptides</Bppp>{/NP_PP_57} ( <{NP_PP_58}18 <Bppp>amino acids</Bppp>{/NP_PP_58} ) {VP_pass_59}were characterized{/VP_pass_59} by {NP_60}a larger deviation{/NP_60} ( {VP_act_61}ranging{/VP_act_61} between {NP_62}-5.28{/NP_62} and {NP_63}+0.59 min{/NP_63} ) .
+
+{NP_64}The predictive capability{/NP_64} for {NP_65}the observed <p>RPLC</p> elution time change{/NP_65} {JP_66}due{/JP_66} to {NP_67}phosphorylation{/NP_67} {VP_pass_68}has been suggested{/VP_pass_68} , {NP_69}which{/NP_69} {VP_pass_70}will aid{/VP_pass_70} in {VP_act_71}assigning{/VP_act_71} {NP_72}<pp>confident phosphopeptide</pp> identifications{/NP_72} and {NP_73}their subsequent confirmation{/NP_73} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}17962309{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_C_5}<c>Phospho.ELM</c>{/NP_C_5} :
+
+{NP_6}a database{/NP_6} of {NP_7}phosphorylation sites--update 2008{/NP_7} .
+
+OUTPUT 1
+PTM = ({NP_PP_11};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_11}<Bppp>phosphorylation sites</Bppp>{/NP_PP_11})
+
+{NP_C_8}<c>Phospho.ELM</c>{/NP_C_8} {VP_act_9}is{/VP_act_9} {NP_10}a manually curated database{/NP_10} of {NP_PP_11}eukaryotic <Bppp>phosphorylation sites</Bppp>{/NP_PP_11} .
+
+{NP_12}The resource{/NP_12} {VP_act_13}includes{/VP_act_13} {NP_14}data{/NP_14} {VP_act_15}collected{/VP_act_15} from {NP_16}published literature{/NP_16} as well as {NP_17}high-throughput data sets{/NP_17} .
+
+OUTPUT 2
+PTM = ({NP_PP_23};phospho-<pp>protein sequences</pp>)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_23}<pp>protein sequences</pp>{/NP_PP_23})
+
+{NP_18}The current release{/NP_18} of {NP_C_19}<c>Phospho.ELM</c>{/NP_C_19} ( {NP_20}version 7.0{/NP_20} , {NP_B_21}<B>July 2007</B>{/NP_B_21} ) {VP_act_22}contains{/VP_act_22} {NP_PP_23}4078 phospho-<pp>protein sequences</pp>{/NP_PP_23} {VP_act_24}covering{/VP_act_24} {NP_PP_25}12 025 phospho-<pp>serine</pp>{/NP_PP_25} , {NP_PP_26}2362 phospho-<pp>threonine</pp>{/NP_PP_26} and {NP_PP_27}2083 phospho-<pp><B>tyrosine</B> sites</pp>{/NP_PP_27} .
+
+{NP_28}The entries{/NP_28} {VP_act_29}provide{/VP_act_29} {NP_30}information{/NP_30} about {NP_P_31}the phosphorylated <Bppf>proteins</Bppf>{/NP_P_31} and {NP_32}the exact position{/NP_32} of {NP_33}known phosphorylated instances{/NP_33} , {NP_P_34}the <Bppf>kinases</Bppf>{/NP_P_34} {JP_35}responsible{/JP_35} for {NP_36}the modification ( where known ) and links{/NP_36} {VP_act_37}to bibliographic{/VP_act_37} {NP_38}references{/NP_38} .
+
+{NP_39}The database entries{/NP_39} {VP_act_40}have{/VP_act_40} {NP_41}hyperlinks{/NP_41} to {NP_42}easily access further information{/NP_42} from {NP_B_43}<B>UniProt</B>{/NP_B_43} , {NP_B_44}<B>PubMed</B>{/NP_B_44} , {NP_B_45}<B>SMART</B>{/NP_B_45} , {NP_B_46}<B>ELM</B>{/NP_B_46} , {NP_P_47}<p>MSD</p>{/NP_P_47} as well as {NP_48}links{/NP_48} to {NP_P_49}the <p>protein interaction databases MINT</p> and <p>STRING</p>{/NP_P_49} .
+
+OUTPUT 7
+PTM = ({NP_PP_63};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_63}<Bppp>peptides</Bppp>{/NP_PP_63})
+
+{NP_50}A new <p>BLAST</p> search tool{/NP_50} , {JP_51}complementary{/JP_51} to {NP_52}retrieval{/NP_52} by {NP_53}keyword{/NP_53} and {NP_54}<B>UniProt</B> accession number{/NP_54} , {VP_act_55}allows{/VP_act_55} {NP_56}users{/NP_56} {VP_act_57}to submit{/VP_act_57} {NP_58}a <Bppf>protein</Bppf> query{/NP_58} ( by {NP_59}<pp>sequence</pp> or <B>UniProt</B> accession{/NP_59} ) {VP_act_60}to search{/VP_act_60} against {NP_61}the curated data{/NP_61} {VP_act_62}set{/VP_act_62} of {NP_PP_63}phosphorylated <Bppp>peptides</Bppp>{/NP_PP_63} .
+
+{NP_C_64}<c>Phospho.ELM</c>{/NP_C_64} {VP_pass_65}is available{/VP_pass_65} on {NP_66}line{/NP_66} at : {NP_C_67}<c>http://phospho.elm.eu.org</c>{/NP_C_67} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}2472754{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Thin-layer chromatography{/NP_5} {VP_act_6}can resolve{/VP_act_6} {NP_PP_7}<pp>phosphotyrosine</pp> , <pp>phosphoserine</pp> , and <pp>phosphothreonine</pp>{/NP_PP_7} in {NP_8}a <Bppf>protein</Bppf> hydrolyzate{/NP_8} .
+
+{NP_9}A solution{/NP_9} of {NP_C_10}<p>propionic acid</p> , 1 <c>M ammonium hydroxide</c> , and <c>isopropyl alcohol</c>{/NP_C_10} ( {NP_11}45/17.5/17.5{/NP_11} , {NP_12}v/v{/NP_12} ) {VP_pass_13}was{/VP_pass_13} the {JP_14}ascending solvent{/JP_14} in {NP_15}the separation{/NP_15} of {NP_PP_16}<pp>phosphotyrosine</pp> , <pp>phosphothreonine</pp> , and <pp>phosphoserine</pp>{/NP_PP_16} by {NP_17}thin-layer chromatography{/NP_17} .
+
+{NP_18}The immobile phase{/NP_18} {VP_pass_19}was{/VP_pass_19} {NP_C_20}<c>cellulose</c>{/NP_C_20} .
+
+{NP_21}The relative migrations{/NP_21} {VP_pass_22}were{/VP_pass_22} {NP_23}0.44{/NP_23} , {NP_24}0.38{/NP_24} , and {NP_25}0.2{/NP_25} , {AV_26}respectively{/AV_26} .
+
+{NP_27}A previously described thin-layer system{/NP_27} {VP_act_28}consisting{/VP_act_28} of {NP_P_29}<p>isobutyric acid</p>{/NP_P_29} and {NP_C_30}0.5 <c>M ammonium hydroxide</c>{/NP_C_30} ( {NP_31}50/30{/NP_31} , {NP_32}v/v{/NP_32} ) {VP_act_33}gave{/VP_act_33} {NP_34}very similar relative migrations{/NP_34} .
+
+OUTPUT 2
+PTM = ({NP_PP_42};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_42}<Bppp>residues</Bppp>{/NP_PP_42})
+
+OUTPUT 3
+PTM = ({VP_act_49};phosphorylated)
+Kinase = ({NP_P_48}<p>insulin receptor</p>{/NP_P_48};-)
+Substrate = ({NP_P_50}<p>histone H2B</p>{/NP_P_50};-)
+Site = (-;-;UNK)
+
+OUTPUT 4
+PTM = ({VP_act_53};phosphorylated)
+Kinase = ({NP_P_48}<p>insulin receptor</p>{/NP_P_48};-)
+Substrate = ({NP_P_54}<p>90000-Da protein</p>{/NP_P_54};-)
+Site = (-;-;UNK)
+
+{VP_act_35}To determine{/VP_act_35} {NP_36}the usefulness{/NP_36} of {NP_37}thin-layer chromatography{/NP_37} in {NP_38}<c>phosphoamino acid</c> analysis{/NP_38} , {NP_39}the <p>propionic acid/ammonium hydroxide/isopropyl alcohol</p> solution{/NP_39} {VP_pass_40}was used{/VP_pass_40} {VP_act_41}to characterize{/VP_act_41} {NP_PP_42}phosphorylated <Bppp>residues</Bppp>{/NP_PP_42} in {NP_P_43}a plasma <Bppf>membrane protein</Bppf>{/NP_P_43} {NP_44}which{/NP_44} {VP_act_45}is{/VP_act_45} {NP_P_46}a <Bppf>substrate</Bppf>{/NP_P_46} for {NP_P_47}the <p>insulin receptor kinase</p>{/NP_P_47} , in {NP_P_48}<p>insulin receptor</p>{/NP_P_48} {VP_act_49}phosphorylated{/VP_act_49} {NP_P_50}<p>histone H2B</p>{/NP_P_50} , and in {NP_51}an{/NP_51} in {NP_52}vivo{/NP_52} {VP_act_53}phosphorylated{/VP_act_53} {NP_P_54}<p>90000-Da protein</p>{/NP_P_54} from {NP_S_55}<S>IM9 cells</S>{/NP_S_55} .
+
+{NP_P_56}<p>32P-labeled proteins</p>{/NP_P_56} {VP_pass_57}were separated{/VP_pass_57} by {NP_58}<c>dodecyl sulfate-gel</c> electrophoresis{/NP_58} , {VP_act_59}digested{/VP_act_59} with {NP_B_60}<B>trypsin</B>{/NP_B_60} , and {AV_61}then{/AV_61} {VP_act_62}hydrolyzed{/VP_act_62} with {NP_P_63}6 <p>N HCl</p>{/NP_P_63} , {NP_64}2 h{/NP_64} , {NP_65}110 degrees C{/NP_65} .
+
+{VP_act_66}Following{/VP_act_66} {NP_67}thin-layer chromatography{/NP_67} of {NP_68}the hydrolyzates and autoradiography{/NP_68} , {NP_PP_69}<pp>phosphotyrosine</pp>{/NP_PP_69} {VP_pass_70}was detected{/VP_pass_70} in {NP_P_71}<Bppf><p>insulin receptor</p> substrates</Bppf>{/NP_P_71} , and {NP_PP_72}<pp>phosphoserine</pp>{/NP_PP_72} and {NP_PP_73}<pp>phosphothreonine</pp>{/NP_PP_73} {VP_pass_74}were found{/VP_pass_74} in {NP_P_75}the in vivo-phosphorylated <Bppf>protein</Bppf>{/NP_P_75} .
+
+{NP_76}This study{/NP_76} {VP_act_77}supports{/VP_act_77} {NP_78}previous reports{/NP_78} about {NP_79}the practicality{/NP_79} of {NP_80}thin-layer chromatography{/NP_80} in {NP_81}<c>phosphoamino acid</c> analysis{/NP_81} and {NP_82}it{/NP_82} {VP_act_83}demonstrates{/VP_act_83} that {NP_P_84}a <p>propionic acid</p>{/NP_P_84} , {NP_C_85}<c>ammonium hydroxide</c>{/NP_C_85} , {NP_86}isoprophyl alcohol solution{/NP_86} {VP_act_87}may be{/VP_act_87} {NP_88}a useful ascending solvent mixture{/NP_88} for {NP_89}this purpose{/NP_89} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}7787767{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Dephosphorylation{/NP_5} of {NP_PP_6}abnormal <Bppp>sites</Bppp>{/NP_PP_6} of {NP_P_7}<p>tau factor</p>{/NP_P_7} by {NP_P_8}<p>protein phosphatases</p>{/NP_P_8} and {NP_9}its implication{/NP_9} for {NP_10}<B>Alzheimer</B> 's disease{/NP_10} .
+
+OUTPUT 1
+PTM = ({NP_P_11};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_12}<p>tau factor</p>{/NP_P_12};-)
+Site = (-;-;UNK)
+
+{NP_P_11}The abnormally phosphorylated <Bppf>forms</Bppf>{/NP_P_11} of {NP_P_12}<p>tau factor</p>{/NP_P_12} {VP_pass_13}are{/VP_pass_13} {NP_14}major constituents{/NP_14} of {NP_15}neurofibrillary tangles{/NP_15} in {NP_16}<B>Alzheimer</B> 's disease brain{/NP_16} .
+
+OUTPUT 2
+PTM = ({NP_PP_23};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_23}<Bppp>phosphorylation sites</Bppp>{/NP_PP_23})
+
+OUTPUT 3
+PTM = ({VP_pass_28};phosphorylated)
+Kinase = ({NP_P_29}<p>type protein kinases</p>{/NP_P_29};-)
+Substrate = (-;-)
+Site = (-;-;UNK)
+
+In {NP_17}order{/NP_17} {VP_act_18}to investigate{/VP_act_18} {NP_P_19}<p>protein phosphatases</p>{/NP_P_19} {NP_20}which{/NP_20} {VP_pass_21}are related{/VP_pass_21} to {NP_22}dephosphorylation{/NP_22} of {NP_PP_23}abnormal <Bppp>phosphorylation sites</Bppp>{/NP_PP_23} , {NP_24}we{/NP_24} {VP_act_25}examined{/VP_act_25} {NP_26}the dephosphorylation{/NP_26} of {NP_P_27}<p>tau factor</p>{/NP_P_27} {VP_pass_28}phosphorylated{/VP_pass_28} by {NP_P_29}three proline -directed <p>type protein kinases</p>{/NP_P_29} .
+
+OUTPUT 4
+PTM = ({VP_pass_31};phosphorylated)
+Kinase = ({NP_P_32}<p>cdc2 kinase</p>{/NP_P_32};-)
+({NP_P_32}<p>tau protein kinase II</p>{/NP_P_32};-)
+Substrate = ({NP_P_30}<p>Tau factor</p>{/NP_P_30};-)
+Site = (-;-;UNK)
+
+{NP_P_30}<p>Tau factor</p>{/NP_P_30} {VP_pass_31}phosphorylated{/VP_pass_31} by {NP_P_32}<p>cdc2 kinase</p> and <p>tau protein kinase II</p>{/NP_P_32} {VP_pass_33}was dephosphorylated{/VP_pass_33} by {NP_P_34}the <Bppf>holoenzyme</Bppf>{/NP_P_34} of {NP_P_35}<p>protein phosphatase 2A</p> and <p>calcineurin</p>{/NP_P_35} , while either {NP_P_36}the catalytic <Bppf>subunit</Bppf>{/NP_P_36} of {NP_P_37}<p>protein phosphatase 2A</p> or <p>protein phosphatase 2C</p>{/NP_P_37} {VP_act_neg_38}could not catalyze{/VP_act_neg_38} {NP_39}the dephosphorylation{/NP_39} .
+
+OUTPUT 5
+PTM = ({VP_pass_44};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_43}<p>tau factors</p>{/NP_P_43};-)
+Site = (-;-;UNK)
+
+From {NP_40}the kinetic analysis{/NP_40} , {NP_41}we{/NP_41} {VP_act_42}concluded{/VP_act_42} that {NP_P_43}<p>tau factors</p>{/NP_P_43} {VP_pass_44}phosphorylated{/VP_pass_44} by {NP_P_45}the <Bppf>protein kinases</Bppf>{/NP_P_45} {VP_act_46}serve{/VP_act_46} as {NP_P_47}good <Bppf>substrates</Bppf>{/NP_P_47} for {NP_P_48}<p>protein phosphatase 2A</p> and <p>calcineurin</p>{/NP_P_48} .
+
+OUTPUT 6
+PTM = ({VP_pass_51};phosphorylated)
+Kinase = ({NP_P_52}<p>glycogen synthase kinase 3 alpha</p>{/NP_P_52};-)
+Substrate = ({NP_P_50}<p>tau factor</p>{/NP_P_50};-)
+Site = (-;-;UNK)
+
+On {NP_49}the other hand{/NP_49} , {NP_P_50}<p>tau factor</p>{/NP_P_50} {VP_pass_51}phosphorylated{/VP_pass_51} by {NP_P_52}<p>glycogen synthase kinase 3 alpha</p>{/NP_P_52} {VP_pass_53}was dephosphorylated{/VP_pass_53} by {NP_P_54}the catalytic <Bppf>subunit</Bppf>{/NP_P_54} of {NP_P_55}<p>protein phosphatases 2A</p>{/NP_P_55} as well as {NP_P_56}the <Bppf>holoenzyme</Bppf>{/NP_P_56} of {NP_P_57}<p>protein phosphatase 2A</p> and <p>calcineurin</p>{/NP_P_57} .
+
+OUTPUT 7
+PTM = ({NP_PP_65};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_66}<p>tau factor</p>{/NP_P_66};-)
+Site = (-;-;{NP_PP_65}<Bppp>phosphorylation sites</Bppp>{/NP_PP_65})
+({NP_PP_60}199{/NP_PP_60};{NP_PP_60}Ser{/NP_PP_60};UNK)
+({NP_PP_60}202{/NP_PP_60};{NP_PP_60}Ser{/NP_PP_60};UNK)
+({NP_PP_60}396{/NP_PP_60};{NP_PP_60}Ser{/NP_PP_60};UNK)
+
+{NP_58}It{/NP_58} {VP_pass_59}has been reported{/VP_pass_59} that {NP_PP_60}<pp>serines 199 , 202 and 396</pp>{/NP_PP_60} {VP_act_61}according{/VP_act_61} to {NP_62}the numbering{/NP_62} of {NP_P_63}the longest <s>human</s> <Bppf>tau isoform</Bppf>{/NP_P_63} {VP_pass_64}are{/VP_pass_64} among {NP_PP_65}the major abnormal <Bppp>phosphorylation sites</Bppp>{/NP_PP_65} of {NP_P_66}<p>tau factor</p>{/NP_P_66} .
+
+OUTPUT 8
+PTM = ({NP_PP_69};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_69}<pp>phosphopeptides</pp>{/NP_PP_69})
+
+OUTPUT 11
+PTM = ({NP_PP_77};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_77}<pp>phosphopeptides</pp>{/NP_PP_77})
+
+{NP_67}We{/NP_67} {VP_act_68}synthesized{/VP_act_68} {NP_PP_69}two <pp>phosphopeptides</pp>{/NP_PP_69} {NP_70}which{/NP_70} {VP_act_71}contained{/VP_act_71} {NP_PP_72}<pp>phosphoserines 199 and 202</pp>{/NP_PP_72} or {NP_PP_73}<pp>phosphoserine 396</pp>{/NP_PP_73} and {VP_act_74}prepared{/VP_act_74} {NP_P_75}the <Bppf>polyclonal antibodies</Bppf>{/NP_P_75} {JP_76}specific{/JP_76} for {NP_PP_77}the <pp>phosphopeptides</pp>{/NP_PP_77} .
+
+{VP_act_78}Using{/VP_act_78} {NP_P_79}these <Bppf>antibodies</Bppf>{/NP_P_79} , {NP_80}we{/NP_80} {VP_act_81}confirmed{/VP_act_81} that {NP_P_82}the <Bppf>holoenzyme</Bppf>{/NP_P_82} of {NP_P_83}<p>protein phosphatase 2A</p> and <p>calcineurin</p>{/NP_P_83} {VP_act_84}could dephosphorylate{/VP_act_84} {NP_PP_85}<pp>phosphoserines 199 , 202 and 396</pp>{/NP_PP_85} in {NP_P_86}<p>tau factor</p>{/NP_P_86} .
+
+{NP_P_87}The catalytic <Bppf>subunit</Bppf>{/NP_P_87} of {NP_P_88}<p>protein phosphatase 2A</p>{/NP_P_88} {VP_act_89}could dephosphorylate{/VP_act_89} {NP_PP_90}<pp>phosphoserine 396</pp>{/NP_PP_90} but not {NP_PP_91}<pp>phosphoserines 199 and 202</pp>{/NP_PP_91} .
+
+{NP_92}Neurofibrillary tangles{/NP_92} in {NP_93}<B>Alzheimer</B> 's disease brain{/NP_93} {VP_pass_94}were immunostained{/VP_pass_94} with {NP_P_95}both <Bppf>antibodies</Bppf>{/NP_P_95} but {NP_96}the normal neurons{/NP_96} in {NP_97}the normal aged brains{/NP_97} {VP_pass_neg_98}were not{/VP_pass_neg_98} .
+
+OUTPUT 15
+PTM = ({NP_PP_104};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_105}<p>tau factor</p>{/NP_P_105};-)
+Site = (-;-;{NP_PP_104}<Bppp>phosphorylation sites</Bppp>{/NP_PP_104})
+({NP_PP_107}396{/NP_PP_107};{NP_PP_107}Ser{/NP_PP_107};UNK)
+({NP_PP_109}199{/NP_PP_109};{NP_PP_109}Ser{/NP_PP_109};UNK)
+({NP_PP_109}202{/NP_PP_109};{NP_PP_109}Ser{/NP_PP_109};UNK)
+
+{NP_99}The results{/NP_99} {VP_act_100}suggest{/VP_act_100} that {NP_P_101}<p>protein phosphatase 2A</p> and <p>calcineurin</p>{/NP_P_101} {VP_pass_102}can be involved{/VP_pass_102} in {NP_103}the dephosphorylation{/NP_103} of {NP_PP_104}abnormal <Bppp>phosphorylation sites</Bppp>{/NP_PP_104} in {NP_P_105}<p>tau factor</p>{/NP_P_105} and that {NP_106}the dephosphorylation{/NP_106} of {NP_PP_107}<pp>phosphoserine 396</pp>{/NP_PP_107} {VP_pass_108}is differently regulated{/VP_pass_108} from {NP_PP_109}<pp>phosphoserines 199 and 202</pp>{/NP_PP_109} .
+
+NORM=tau factor
+SYNONYM=Tau factor
+SYNONYM=tau factor
+SYNONYM=tau factors
+
+
+{NP_1}PMID{/NP_1} - {CP_2}8922284{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_C_5}<c>Phosphoamino acids</c>{/NP_C_5} in {NP_P_6}proteasome <Bppf>subunits</Bppf>{/NP_P_6} .
+
+{NP_7}Proteasomes{/NP_7} , {NP_8}the major catalysts{/NP_8} of {NP_9}the non-lysosomal proteolytic pathway{/NP_9} in {NP_10}eukaryotic <Bpcl>cells</Bpcl>{/NP_10} , {VP_pass_11}were analyzed{/VP_pass_11} for {NP_12}their content{/NP_12} of {NP_C_13}<c>phosphoamino acids</c>{/NP_C_13} {VP_act_14}using{/VP_act_14} {NP_15}<c>polyacrylamide</c> gel electrophoresis{/NP_15} and {NP_16}subsequent detection{/NP_16} on {NP_17}Western blots{/NP_17} by {NP_P_18}<p>phosphoamino acid antibodies</p>{/NP_P_18} .
+
+{NP_19}No specific binding{/NP_19} {VP_act_20}to proteasome{/VP_act_20} {NP_P_21}<Bppf>subunits</Bppf>{/NP_P_21} {VP_pass_22}was observed{/VP_pass_22} with {NP_P_23}<pp>phosphoserine</pp> or <p>phosphothreonine antibodies</p>{/NP_P_23} , whereas {NP_P_24}<p>phosphotyrosine antibodies</p>{/NP_P_24} {VP_pass_25}were bound{/VP_pass_25} by {NP_P_26}a single proteasome <Bppf>subunit</Bppf>{/NP_P_26} , {NP_27}which{/NP_27} {VP_pass_28}was identified{/VP_pass_28} in {NP_29}<s>rat</s>{/NP_29} as well as in {NP_30}<s>human</s> proteasomes{/NP_30} as {NP_P_31}<p>subunit C7-1</p>{/NP_P_31} .
+
+Since {NP_32}dephosphorylation{/NP_32} of {NP_P_33}the <Bppf>subunit</Bppf>{/NP_P_33} by {NP_P_34}<p>phosphatases</p>{/NP_P_34} {VP_pass_neg_35}was not possible{/VP_pass_neg_35} , {NP_36}analysis{/NP_36} of {NP_37}<c>phosphoamino acid</c> content{/NP_37} of {NP_P_38}all proteasome <Bppf>subunits</Bppf>{/NP_P_38} {VP_pass_39}was performed{/VP_pass_39} {VP_act_40}using{/VP_act_40} {NP_41}another method{/NP_41} .
+
+{NP_P_42}All proteasome <Bppf>subunits</Bppf>{/NP_P_42} {VP_pass_43}were isolated{/VP_pass_43} from {NP_C_44}<c>2D-polyacrylamide</c>{/NP_C_44} {VP_act_45}gels{/VP_act_45} and {VP_act_46}subjected{/VP_act_46} to {NP_47}partial acid hydrolysis{/NP_47} .
+
+{NP_C_48}<c>Phosphoamino acids</c>{/NP_C_48} {VP_pass_49}were subsequently detected{/VP_pass_49} by {NP_50}capillary electrophoresis{/NP_50} after {NP_51}their derivatization{/NP_51} with {NP_C_52}<c>phenylisothiocyanate</c>{/NP_C_52} .
+
+OUTPUT 3
+PTM = ({NP_PP_55};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_56}<p>subunit C7-1</p>{/NP_P_56};-)
+Site = (-;-;{NP_PP_55}<Bppp>amino acid</Bppp>{/NP_PP_55})
+
+OUTPUT 5
+PTM = ({NP_PP_61};phosphoserine)
+Kinase = (-;-)
+Substrate = ({NP_P_63}<p>C8</p>{/NP_P_63};-)
+Site = (-;{NP_PP_61}Ser{/NP_PP_61};UNK)
+
+OUTPUT 6
+PTM = ({NP_PP_61};phosphoserine)
+Kinase = (-;-)
+Substrate = ({NP_P_63}<p>C9</p>{/NP_P_63};-)
+Site = (-;{NP_PP_61}Ser{/NP_PP_61};UNK)
+
+OUTPUT 7
+PTM = ({NP_PP_61};phosphoserine)
+Kinase = (-;-)
+Substrate = ({NP_P_63}<p>C5</p>{/NP_P_63};-)
+Site = (-;{NP_PP_61}Ser{/NP_PP_61};UNK)
+
+OUTPUT 8
+PTM = ({NP_PP_61};phosphoserine)
+Kinase = (-;-)
+Substrate = ({NP_P_63}<p>subunits zeta</p>{/NP_P_63};-)
+Site = (-;{NP_PP_61}Ser{/NP_PP_61};UNK)
+
+{NP_53}This analysis{/NP_53} {VP_act_54}revealed{/VP_act_54} {NP_PP_55}no phosphorylated <Bppp>amino acid</Bppp>{/NP_PP_55} in {NP_P_56}<p>subunit C7-1</p>{/NP_P_56} , {AV_57}however{/AV_57} , {NP_P_58}<p>subunit C3</p>{/NP_P_58} {VP_act_59}contained{/VP_act_59} {NP_PP_60}<pp>phosphotyrosine</pp> and <pp>phosphothreonine</pp>{/NP_PP_60} , and {NP_PP_61}<pp>phosphoserine</pp>{/NP_PP_61} {VP_pass_62}was detected{/VP_pass_62} in {NP_P_63}<p>subunits zeta</p> , <p>C5</p> , <p>C8</p> and <p>C9</p>{/NP_P_63} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}2545474{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Temporal changes{/NP_5} in {NP_6}<p>phosphoamino acid phosphatase</p> activities{/NP_6} in {NP_P_7}<s>murine</s> erythroleukaemic <p>cells. 1</p>{/NP_P_7} .
+
+{NP_8}The activities{/NP_8} of {NP_P_9}<pp>phosphotyrosine</pp> , <pp>phosphothreonine</pp> and <p>phosphoserine phosphatases</p>{/NP_P_9} {VP_pass_10}were measured{/VP_pass_10} at {NP_11}various time periods{/NP_11} in {NP_P_12}<p>Friend murine erythroleukaemic ( MEL ) cells. 2</p>{/NP_P_12} .
+
+{NP_13}Effects{/NP_13} of {NP_C_14}<c>DMSO ( dimethyl sulphoxide )</c> and <c>HMBA ( hexamethylene bisacetamide )</c>{/NP_C_14} , {VP_act_15}inducers{/VP_act_15} of {NP_16}differentiation{/NP_16} , {VP_pass_17}were{/VP_pass_17} {NP_18}examined. 3{/NP_18} .
+
+{NP_19}The activities{/NP_19} of {NP_P_20}all three <Bppf>enzymes</Bppf>{/NP_P_20} {VP_act_21}showed{/VP_act_21} {NP_22}cyclic variation{/NP_22} when {VP_pass_23}measured{/VP_pass_23} on {NP_24}a daily basis{/NP_24} over {NP_25}a period{/NP_25} of {NP_26}several days{/NP_26} ; {NP_27}this{/NP_27} {VP_pass_28}was also{/VP_pass_28} {NP_29}the case{/NP_29} when {NP_P_30}<p>phosphothreonine phosphatase</p>{/NP_P_30} {VP_pass_31}was determined{/VP_pass_31} in {NP_32}<Bpcl>cells</Bpcl>{/NP_32} {VP_act_33}treated{/VP_act_33} with {NP_B_34}<B>DMSO</B> or <B>HMBA</B>{/NP_B_34} and when {NP_P_35}<p>phosphoserine phosphatase</p>{/NP_P_35} {VP_pass_36}was assayed{/VP_pass_36} after {NP_37}stimulation{/NP_37} of {NP_38}the <Bpcl>cells</Bpcl>{/NP_38} with {NP_B_39}<B>HMBA. 4</B>{/NP_B_39} .
+
+{NP_40}Evidence{/NP_40} for {NP_41}rhythmic variation{/NP_41} in {NP_42}<p>phosphotyrosine phosphatase</p> activities{/NP_42} {VP_pass_43}was also obtained{/VP_pass_43} when {NP_44}the activities{/NP_44} {VP_pass_45}were determined{/VP_pass_45} at {NP_46}hourly intervals{/NP_46} both in {NP_47}control <Bpcl>cells</Bpcl>{/NP_47} and those {JP_48}treated{/JP_48} with {NP_B_49}<B>HMBA. 5</B>{/NP_B_49} .
+
+{NP_50}The time -dependent changes{/NP_50} {VP_act_51}observed{/VP_act_51} {VP_pass_52}could be significant{/VP_pass_52} in {NP_53}that control{/NP_53} of {NP_54}dephosphorylation{/NP_54} {VP_pass_55}may possibly be achieved{/VP_pass_55} by {VP_act_56}altering{/VP_act_56} {NP_57}the rhythms{/NP_57} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}16240095{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_6};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_6}<Bppp>amino acids</Bppp>{/NP_PP_6})
+
+{NP_4}AB{/NP_4} - {NP_5}<B>AMBER</B> force-field parameters{/NP_5} for {NP_PP_6}phosphorylated <Bppp>amino acids</Bppp>{/NP_PP_6} in {NP_7}different protonation states{/NP_7} :
+
+{NP_PP_8}<pp>phosphoserine</pp> , <pp>phosphothreonine</pp> , <pp>phosphotyrosine</pp> , and <pp>phosphohistidine</pp>{/NP_PP_8} .
+
+{NP_9}We{/NP_9} {VP_act_10}report{/VP_act_10} a {JP_11}consistent set{/JP_11} of {NP_12}<B>AMBER</B> force-field parameters{/NP_12} for {NP_PP_13}the most common phosphorylated <pp>amino acids</pp> , <pp>phosphoserine</pp> , <pp>phosphothreonine</pp> , <pp>phosphotyrosine</pp> , and <pp>phosphohistidine</pp>{/NP_PP_13} in {NP_14}different protonation states{/NP_14} .
+
+{NP_15}The calculation{/NP_15} of {NP_16}atomic charges{/NP_16} {VP_act_17}followed{/VP_act_17} {NP_18}the original restrained electrostatic potential fitting procedure{/NP_18} {VP_act_19}used{/VP_act_19} {VP_act_20}to determine{/VP_act_20} {NP_21}the charges{/NP_21} for {NP_22}the <B>parm94/99</B> parameter{/NP_22} {VP_act_23}set{/VP_act_23} , {VP_act_24}taking{/VP_act_24} {JP_25}alpha-helical{/JP_25} and {NP_26}<Bppp>beta- strand</Bppp> conformations{/NP_26} of {NP_27}the <pp>corresponding ACE-/NME-capped model peptide</pp> backbone{/NP_27} into {VP_act_28}account{/VP_act_28} .
+
+{NP_29}Missing force-field parameters{/NP_29} {VP_pass_30}were taken{/VP_pass_30} {AV_31}directly{/AV_31} from {NP_B_32}the <B>general AMBER force field ( gaff )</B>{/NP_B_32} and {NP_33}the <B>parm99</B> data{/NP_33} {VP_act_34}set{/VP_act_34} with {NP_35}minor modifications{/NP_35} , or {VP_pass_36}were newly generated{/VP_pass_36} {VP_pass_37}based{/VP_pass_37} on {NP_38}ab initio calculations{/NP_38} for {NP_39}model systems{/NP_39} .
+
+{NP_40}Final parameters{/NP_40} {VP_pass_41}were validated{/VP_pass_41} by {NP_42}geometry optimizations{/NP_42} and {NP_43}molecular-dynamics simulations{/NP_43} .
+
+OUTPUT 3
+PTM = ({NP_PP_45};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_45}<Bppp>amino acids</Bppp>{/NP_PP_45})
+
+{NP_44}Template libraries{/NP_44} for {NP_PP_45}the phosphorylated <Bppp>amino acids</Bppp>{/NP_PP_45} in {NP_46}<B>Leap</B> format{/NP_46} and {NP_47}corresponding frcmod parameter files{/NP_47} {VP_pass_48}are made{/VP_pass_48} {NP_B_49}available. <B>[Figure</B>{/NP_B_49} : {VP_act_50}see{/VP_act_50} {NP_51}text]{/NP_51} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}18522436{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_6};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_6}<pp>phosphopeptides</pp>{/NP_PP_6})
+
+{NP_4}AB{/NP_4} - {NP_5}Capture{/NP_5} of {NP_PP_6}<pp>phosphopeptides</pp>{/NP_PP_6} {VP_act_7}using{/VP_act_7} {NP_8}<c>alpha-zirconium phosphate</c> nanoplatelets{/NP_8} .
+
+OUTPUT 1
+PTM = ({NP_PP_12};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_12}<pp>phosphopeptides</pp>{/NP_PP_12})
+
+{NP_C_9}<c>Alpha-zirconium phosphate nanoplatelets ( alpha-ZrPN )</c>{/NP_C_9} {VP_pass_10}were studied{/VP_pass_10} as {NP_11}a binding agent{/NP_11} for {NP_PP_12}<pp>phosphopeptides</pp>{/NP_PP_12} .
+
+{NP_13}Nanoplatelets{/NP_13} of {NP_G_14}<c>alpha-zirconium phosphate</c>{/NP_G_14} {VP_pass_15}were incubated{/VP_pass_15} {JP_16}overnight{/JP_16} with {NP_C_17}<c>zirconium oxychloride</c>{/NP_C_17} , {VP_pass_18}followed{/VP_pass_18} by {NP_19}centrifugation{/NP_19} , and {VP_pass_20}washed{/VP_pass_20} {AV_21}twice{/AV_21} with {NP_22}water{/NP_22} {VP_pass_23}followed{/VP_pass_23} by {NP_24}an aqueous solution{/NP_24} of {NP_C_25}80% <c>acetonitrile</c>{/NP_C_25} {VP_act_26}to form{/VP_act_26} {NP_27}the binding agent{/NP_27} .
+
+{NP_C_28}<c>Alpha-ZrPN</c>{/NP_C_28} {VP_pass_29}were able specifically{/VP_pass_29} {VP_act_30}to capture{/VP_act_30} {NP_PP_31}<Bppp>phosphoserine-containing peptides</Bppp>{/NP_PP_31} from {NP_32}a tryptic digest{/NP_32} of {NP_33}a <Bppp>complex peptide</Bppp> mixture{/NP_33} in {NP_34}which{/NP_34} {NP_35}its abundance{/NP_35} {VP_pass_36}was{/VP_pass_36} {NP_37}only 0.05%{/NP_37} .
+
+{NP_C_38}<c>Alpha-ZrPN</c>{/NP_C_38} {VP_act_39}also bound{/VP_act_39} {NP_PP_40}<Bppp>peptides</Bppp>{/NP_PP_40} {VP_act_41}containing{/VP_act_41} {NP_PP_42}<pp>phosphothreonine</pp> and <pp>phosphotyrosine</pp>{/NP_PP_42} .
+
+OUTPUT 4
+PTM = ({NP_PP_45};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_45}<pp>phosphopeptides</pp>{/NP_PP_45})
+
+{NP_43}The limit{/NP_43} of {NP_44}detection{/NP_44} for {NP_PP_45}<pp>phosphopeptides</pp>{/NP_PP_45} {VP_act_46}is{/VP_act_46} {NP_47}approximately 2 fmol{/NP_47} , {VP_pass_48}based{/VP_pass_48} on {VP_act_49}using{/VP_act_49} {NP_50}matrix-assisted laser desorption/ionization mass spectrometry{/NP_50} .
+
+OUTPUT 5
+PTM = ({NP_PP_58};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_58}<pp>phosphopeptides</pp>{/NP_PP_58})
+
+OUTPUT 7
+PTM = ({NP_PP_61};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_61}<pp>phosphopeptides</pp>{/NP_PP_61})
+
+{NP_C_51}<c>Alpha-ZrPN</c>{/NP_C_51} {VP_pass_52}were applied{/VP_pass_52} for {NP_53}the analysis{/NP_53} of {NP_54}tryptic digests{/NP_54} of {NP_C_55}<s>mouse</s> liver and <c>leukemia cell phosphoproteomes</c>{/NP_C_55} and {VP_pass_56}succeeded{/VP_pass_56} in {VP_act_57}identifying{/VP_act_57} {NP_PP_58}158 <pp>phosphopeptides</pp> ( 209 <Bppp>phosphorylation sites</Bppp> ){/NP_PP_58} from {NP_P_59}101 <p>phosphoproteins</p>{/NP_P_59} in {NP_60}<s>mouse</s> liver lysate{/NP_60} and {NP_PP_61}78 <pp>phosphopeptides</pp> ( 104 <Bppp>phosphorylation sites</Bppp> ){/NP_PP_61} from {NP_P_62}59 <p>phosphoproteins</p>{/NP_P_62} in {NP_63}<Bpcl>leukemia cell</Bpcl> extract{/NP_63} .
+
+OUTPUT 9
+PTM = ({NP_PP_68};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_68}<pp>phosphopeptides</pp>{/NP_PP_68})
+
+OUTPUT 10
+PTM = ({NP_PP_75};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_75}<pp>phosphopeptides</pp>{/NP_PP_75})
+
+For {NP_64}these two tryptic digests{/NP_64} , {NP_65}the <c>alpha-ZrPN</c> approach{/NP_65} {VP_pass_66}is able{/VP_pass_66} {VP_act_67}to capture{/VP_act_67} {NP_PP_68}more <pp>phosphopeptides</pp>{/NP_PP_68} than that {VP_act_69}obtained{/VP_act_69} from {NP_B_70}<B>TiO2 particles</B>{/NP_B_70} or from {NP_71}<p>Fe(3+)- IMAC</p> beads{/NP_71} , but {NP_72}each method{/NP_72} {VP_pass_73}is able{/VP_pass_73} {VP_act_74}to bind{/VP_act_74} {NP_PP_75}some <pp>phosphopeptides</pp>{/NP_PP_75} that {NP_76}the others{/NP_76} {VP_act_neg_77}do not{/VP_act_neg_77} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}6292479{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({VP_pass_6};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_B_5}<B>T antigen</B>{/NP_B_5};-)
+Site = (-;-;{NP_PP_7}<Bppp>sites</Bppp>{/NP_PP_7})
+
+{NP_4}AB{/NP_4} - {NP_B_5}<s>Simian virus 40</s> large <B>T antigen</B>{/NP_B_5} {VP_pass_6}is phosphorylated{/VP_pass_6} at {NP_PP_7}multiple <Bppp>sites</Bppp>{/NP_PP_7} {VP_pass_8}clustered{/VP_pass_8} in {NP_PP_9}two <Bppp>separate regions</Bppp>{/NP_PP_9} .
+
+OUTPUT 1
+PTM = ({NP_PP_10};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_10}<Bppp>phosphorylation sites</Bppp>{/NP_PP_10})
+
+{NP_PP_10}The <Bppp>phosphorylation sites</Bppp>{/NP_PP_10} of {NP_B_11}<s>simian virus 40</s> large <B>T antigen</B>{/NP_B_11} {VP_pass_12}were determined{/VP_pass_12} within {NP_13}the primary <Bpf>structure</Bpf>{/NP_13} of {NP_P_14}the <Bppf>molecule</Bppf>{/NP_P_14} .
+
+OUTPUT 2
+PTM = ({NP_PP_19};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_19}<pp>phosphopeptides</pp>{/NP_PP_19})
+
+{NP_15}Exhaustive digestion{/NP_15} of {NP_B_16}( 32 ) <B>P-labeled</B> large <B>T antigen</B>{/NP_B_16} with {NP_B_17}<B>trypsin</B>{/NP_B_17} {VP_act_18}generated{/VP_act_18} {NP_PP_19}six major <pp>phosphopeptides</pp>{/NP_PP_19} {NP_20}which{/NP_20} {VP_pass_21}could be separated{/VP_pass_21} in {NP_22}a newly developed <c>isobutyric</c> acid -containing chromatography system{/NP_22} .
+
+By {NP_23}partial tryptic digestion{/NP_23} , {NP_B_24}large <B>T antigen</B>{/NP_B_24} {VP_pass_25}was cleaved{/VP_pass_25} into {NP_26}an amino{/NP_26} - {NP_PP_27}<Bppp>terminal fragment</Bppp>{/NP_PP_27} of {NP_28}17,000 daltons{/NP_28} and {VP_act_29}overlapping{/VP_act_29} {NP_PP_30}<Bppp>fragments</Bppp>{/NP_PP_30} from {NP_PP_31}the <Bppp>carboxy-terminal region</Bppp>{/NP_PP_31} {VP_act_32}ranging{/VP_act_32} in {NP_33}size{/NP_33} between {NP_34}71,000{/NP_34} and {NP_35}13,000 daltons{/NP_35} .
+
+OUTPUT 3
+PTM = ({NP_PP_37};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_37}<pp>phosphopeptides</pp>{/NP_PP_37})
+
+{NP_36}The location{/NP_36} of {NP_PP_37}the <pp>phosphopeptides</pp>{/NP_PP_37} {VP_pass_38}was then determined{/VP_pass_38} by {NP_39}fingerprint analyses{/NP_39} of {NP_PP_40}individual <Bppp>fragments</Bppp>{/NP_PP_40} .
+
+{NP_41}Their physical properties{/NP_41} {VP_pass_42}were analyzed{/VP_pass_42} by {NP_43}sizing{/NP_43} on {NP_C_44}<c>polyacrylamide</c>{/NP_C_44} {VP_act_45}gels{/VP_act_45} and by {NP_46}sequential digestion and <Bppp>peptide</Bppp> mapping{/NP_46} ; {NP_47}their <Bppp>amino acid</Bppp> composition{/NP_47} {VP_pass_48}was determined{/VP_pass_48} by {NP_49}differential labeling{/NP_49} with {NP_PP_50}various <Bppp>amino acids</Bppp>{/NP_PP_50} .
+
+OUTPUT 4
+PTM = ({NP_PP_55};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_55}<pp>phosphopeptide (phosphopeptide 3)</pp>{/NP_PP_55})
+
+{NP_51}The amino{/NP_51} - {NP_PP_52}<pp><pp>terminal 17,000-dalton</pp> fragment</pp>{/NP_PP_52} {VP_act_53}gave{/VP_act_53} {NP_54}rise{/NP_54} to {NP_PP_55}only one <pp>phosphopeptide (phosphopeptide 3)</pp>{/NP_PP_55} {NP_56}that{/NP_56} {VP_act_57}contained{/VP_act_57} {NP_58}half{/NP_58} of {NP_59}the <c>phosphate</c> label{/NP_59} {VP_pass_60}incorporated{/VP_pass_60} into {NP_B_61}large <B>T antigen</B>{/NP_B_61} .
+
+{NP_62}It{/NP_62} {VP_act_63}contained{/VP_act_63} {NP_PP_64}<pp>phosphoserine</pp> and <pp><B>phosphothreonine</B> sites</pp>{/NP_PP_64} , {NP_65}all of which{/NP_65} {VP_pass_66}were clustered{/VP_pass_66} within {NP_PP_67}a small <Bppp>segment</Bppp>{/NP_PP_67} between {NP_PP_68}<pp>Cys(105)</pp> and <pp>Lys(127)</pp>{/NP_PP_68} .
+
+{NP_PP_69}This <Bppp>segment</Bppp>{/NP_PP_69} {VP_act_70}contained{/VP_act_70} {NP_PP_71}five <pp>serines</pp>{/NP_PP_71} and {NP_PP_72}two <pp>threonines</pp>{/NP_PP_72} .
+
+OUTPUT 6
+PTM = ({NP_PP_75};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_75}<Bppp>residues</Bppp>{/NP_PP_75})
+({NP_PP_73}106{/NP_PP_73};{NP_PP_73}Ser{/NP_PP_73};UNK)
+({NP_PP_73}123{/NP_PP_73};{NP_PP_73}Ser{/NP_PP_73};UNK)
+({NP_PP_73}124{/NP_PP_73};{NP_PP_73}Thr{/NP_PP_73};UNK)
+
+OUTPUT 7
+PTM = ({VP_pass_79};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = ({NP_PP_78}111{/NP_PP_78};{NP_PP_78}Ser{/NP_PP_78};UNK)
+({NP_PP_78}112{/NP_PP_78};{NP_PP_78}Ser{/NP_PP_78};UNK)
+
+Among these , {NP_PP_73}<pp>Ser(106)</pp> , <pp>Ser(123)</pp> , and <pp>Thr(124)</pp>{/NP_PP_73} {VP_pass_74}were identified{/VP_pass_74} as {NP_PP_75}phosphorylated <Bppp>residues</Bppp>{/NP_PP_75} ; in {NP_76}addition{/NP_76} , either {NP_77}one or both{/NP_77} of {NP_PP_78}<pp>Ser(111)</pp> and <pp>Ser(112)</pp>{/NP_PP_78} {VP_pass_79}were phosphorylated{/VP_pass_79} .
+
+{NP_PP_80}The neighboring <pp>residues</pp> , <pp>Ser(123)</pp> and <pp>Thr(124)</pp>{/NP_PP_80} , {VP_pass_81}were found{/VP_pass_81} in {NP_82}three different phosphorylation states{/NP_82} in that {NP_PP_83}either <pp>Ser(123)</pp> or <pp>Thr(124)</pp>{/NP_PP_83} or both {VP_pass_84}were phosphorylated{/VP_pass_84} .
+
+OUTPUT 10
+PTM = ({NP_PP_85};Phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_85}<pp>Phosphopeptides 1 , 2 , 4 , 5 , and 6</pp>{/NP_PP_85})
+
+{NP_PP_85}<pp>Phosphopeptides 1 , 2 , 4 , 5 , and 6</pp>{/NP_PP_85} {VP_pass_86}were{/VP_pass_86} all {JP_87}derived{/JP_87} from {NP_PP_88}a single <Bppp>fragment</Bppp>{/NP_PP_88} {VP_act_89}extending{/VP_act_89} {NP_90}26,000 daltons{/NP_90} {AV_91}upstream{/AV_91} from {NP_PP_92}the <pp>carboxy terminus</pp>{/NP_PP_92} of {NP_B_93}large <B>T antigen</B>{/NP_B_93} .
+
+OUTPUT 11
+PTM = ({NP_PP_94};Phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_94}<pp>Phosphopeptide 6</pp>{/NP_PP_94})
+
+OUTPUT 13
+PTM = ({VP_pass_97};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = ({NP_PP_98}701{/NP_PP_98};{NP_PP_98}Thr{/NP_PP_98};UNK)
+
+{NP_PP_94}<pp>Phosphopeptide 6</pp>{/NP_PP_94} {VP_pass_95}was identical{/VP_pass_95} with {NP_PP_96}the previously determined <pp>phosphothreonine peptide</pp>{/NP_PP_96} {VP_pass_97}phosphorylated{/VP_pass_97} at {NP_PP_98}<pp>Thr(701)</pp>{/NP_PP_98} .
+
+OUTPUT 14
+PTM = ({NP_PP_99};Phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_99}<pp>Phosphopeptides 1 , 2 , 4 , and 5</pp>{/NP_PP_99})
+
+{NP_PP_99}<pp>Phosphopeptides 1 , 2 , 4 , and 5</pp>{/NP_PP_99} {VP_act_100}contained{/VP_act_100} {NP_G_101}only serine-bound <c>phosphate</c>{/NP_G_101} .
+
+OUTPUT 15
+PTM = ({NP_PP_102};Phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_102}<pp>Phosphopeptides 1 , 2 , and 4</pp>{/NP_PP_102})
+(-;-;{NP_PP_104}overlapping <Bppp>peptides</Bppp>{/NP_PP_104})
+
+OUTPUT 16
+PTM = ({VP_pass_106};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = ({NP_PP_107}639{/NP_PP_107};{NP_PP_107}Ser{/NP_PP_107};UNK)
+
+{NP_PP_102}<pp>Phosphopeptides 1 , 2 , and 4</pp>{/NP_PP_102} {VP_act_103}represented{/VP_act_103} {NP_PP_104}overlapping <Bppp>peptides</Bppp>{/NP_PP_104} , {NP_105}all of which{/NP_105} {VP_pass_106}were phosphorylated{/VP_pass_106} at {NP_PP_107}<pp>Ser(639)</pp>{/NP_PP_107} {VP_act_108}located{/VP_act_108} {JP_109}next{/JP_109} to {NP_110}a cluster{/NP_110} of {NP_PP_111}six acidic <Bppp>residues</Bppp>{/NP_PP_111} .
+
+OUTPUT 17
+PTM = ({NP_PP_112};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_112}<pp>phosphopeptide 5</pp>{/NP_PP_112})
+
+In {NP_PP_112}<pp>phosphopeptide 5</pp>{/NP_PP_112} , {NP_PP_113}a large <Bppp>peptide</Bppp>{/NP_PP_113} {VP_act_114}ranging{/VP_act_114} from {NP_PP_115}<pp>Asn(653)</pp>{/NP_PP_115} to {NP_PP_116}<pp>Arg(691)</pp>{/NP_PP_116} , {JP_117}atleast{/JP_117} {CP_118}two{/CP_118} of {NP_PP_119}seven <pp>serines</pp>{/NP_PP_119} {VP_pass_120}were phosphorylated{/VP_pass_120} .
+
+OUTPUT 19
+PTM = ({NP_PP_124};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_124}<Bppp>phosphorylation sites</Bppp>{/NP_PP_124})
+
+{AV_121}Thus{/AV_121} , {NP_B_122}large <B>T antigen</B>{/NP_B_122} {VP_act_123}contains{/VP_act_123} {NP_PP_124}atleast eight <Bppp>phosphorylation sites</Bppp>{/NP_PP_124} .
+
+{NP_125}Their clustering{/NP_125} within {NP_PP_126}two <Bppp>separate regions</Bppp>{/NP_PP_126} {VP_act_127}might correlate{/VP_act_127} with {NP_PP_128}structural and functional <Bppp>domains</Bppp>{/NP_PP_128} of {NP_P_129}this <Bppf>protein</Bppf>{/NP_P_129} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}30414067{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_B_5}Free <B>Radical-Initiated Peptide Sequencing Mass Spectrometry</B>{/NP_B_5} for {NP_B_6}<B>Phosphopeptide Post-translational Modification Analysis</B>{/NP_B_6} .
+
+{NP_PP_7}<pp>Free radical-initiated peptide sequencing mass spectrometry ( FRIPS MS )</pp>{/NP_PP_7} {VP_pass_8}was employed{/VP_pass_8} {VP_act_9}to analyze{/VP_act_9} {NP_10}a number{/NP_10} of {NP_11}representative{/NP_11} {VP_act_12}singly or doubly protonated{/VP_act_12} {NP_PP_13}<pp>phosphopeptides</pp> ( <pp>phosphoserine</pp> and <pp>phosphotyrosine peptides</pp> ){/NP_PP_13} in {NP_14}positive ion mode{/NP_14} .
+
+OUTPUT 2
+PTM = ({NP_PP_24};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_24}<Bppp>site</Bppp>{/NP_PP_24})
+
+In {NP_15}contrast{/NP_15} to {NP_16}<B>collision-activated dissociation ( CAD )</B> results{/NP_16} , {NP_17}a loss{/NP_17} of {NP_G_18}a <c>phosphate group</c>{/NP_G_18} {VP_act_19}occurred{/VP_act_19} to {NP_20}a limited degree{/NP_20} for {NP_PP_21}both <pp>phosphoserine</pp> and <pp>phosphotyrosine peptides</pp>{/NP_PP_21} , and {AV_22}thus{/AV_22} , {NP_23}localization{/NP_23} of {NP_PP_24}a phosphorylated <Bppp>site</Bppp>{/NP_PP_24} {VP_pass_25}was readily achieved{/VP_pass_25} .
+
+{VP_act_26}Considering{/VP_act_26} that {NP_B_27}<B>FRIPS MS</B>{/NP_B_27} {VP_act_28}supplies{/VP_act_28} {NP_29}a substantial amount{/NP_29} of {NP_30}collisional energy{/NP_30} to {NP_PP_31}<Bppp>peptides</Bppp>{/NP_PP_31} , {NP_32}this result{/NP_32} {VP_pass_33}was quite unexpected{/VP_pass_33} because {NP_G_34}a labile <c>phosphate group</c>{/NP_G_34} {VP_pass_35}was conserved{/VP_pass_35} .
+
+OUTPUT 3
+PTM = ({NP_PP_52};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_52}<pp>phosphopeptides</pp>{/NP_PP_52})
+
+{NP_36}Analysis{/NP_36} of {NP_PP_37}the resulting <Bppp>peptide fragments</Bppp>{/NP_PP_37} {VP_act_38}revealed{/VP_act_38} {NP_39}the extensive production{/NP_39} of {JP_40}a-{/JP_40} , {JP_41}c-{/JP_41} , {JP_42}x-{/JP_42} , and {NP_PP_43}<Bppp>z-type fragments</Bppp>{/NP_PP_43} ( with {NP_44}some minor b{/NP_44} - and {NP_PP_45}<Bppp>y-type fragments</Bppp>{/NP_PP_45} ) , {VP_act_46}suggesting{/VP_act_46} that {NP_47}<Bppp><Bpcf>radical</Bpcf> -driven peptide</Bppp> fragmentation{/NP_47} {VP_pass_48}was{/VP_pass_48} {NP_49}the primary mechanism{/NP_49} {VP_pass_50}involved{/VP_pass_50} in {NP_B_51}the <B>FRIPS MS</B>{/NP_B_51} of {NP_PP_52}<pp>phosphopeptides</pp>{/NP_PP_52} .
+
+{NP_53}Results{/NP_53} of {NP_54}this study{/NP_54} {VP_act_55}clearly indicate{/VP_act_55} that {NP_B_56}<B>FRIPS MS</B>{/NP_B_56} {VP_act_57}is{/VP_act_57} {NP_58}a promising tool{/NP_58} for {NP_59}the characterization{/NP_59} of {NP_60}<B>post-translational</B> modifications{/NP_60} {JP_61}such{/JP_61} as {NP_62}phosphorylation{/NP_62} .
+
+{NP_B_63}Graphical <B>Abstract</B>{/NP_B_63} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}6194716{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}<c>Polyamide</c> thin-layer chromatography{/NP_5} of {NP_PP_6}phosphorylated <pp>tyrosine</pp> , <pp>threonine</pp> , and <pp>serine</pp>{/NP_PP_6} .
+
+{NP_7}One-dimensional thin-layer chromatography{/NP_7} on {NP_8}<c>polyamide</c> plates{/NP_8} {VP_act_9}offers{/VP_act_9} {NP_10}an easy and rapid identification{/NP_10} of {NP_PP_11}<pp>O-phosphotyrosine</pp>{/NP_PP_11} .
+
+{NP_12}The thin-layer plate{/NP_12} {VP_pass_13}is developed{/VP_pass_13} for {NP_14}30 min{/NP_14} in {NP_P_15}5% <p>propionic acid</p>{/NP_P_15} {VP_act_16}containing{/VP_act_16} {NP_C_17}0.013%-0.025% <c>sodium dodecyl sulfate</c>{/NP_C_17} .
+
+{NP_PP_18}<pp>O-Phosphotyrosine</pp>{/NP_PP_18} , with {NP_B_19}<B>Rf</B>{/NP_B_19} = {NP_20}0.54{/NP_20} , {VP_pass_21}can be well separated{/VP_pass_21} from {NP_PP_22}<pp>O-phosphothreonine</pp> and <pp>O-phosphoserine</pp>{/NP_PP_22} , {NP_23}which{/NP_23} {VP_pass_24}comigrate{/VP_pass_24} at {NP_B_25}<B>Rf</B>{/NP_B_25} = {NP_26}0.72{/NP_26} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}19890956{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Ultraviolet photodissociation{/NP_5} at {NP_6}266 nm{/NP_6} of {NP_7}phosphorylated <Bppp>peptide</Bppp> cations{/NP_7} .
+
+{NP_8}Ultraviolet ( UV ) photodissociation ( PD ) experiments{/NP_8} {VP_act_9}using{/VP_act_9} {NP_10}266 nm light{/NP_10} {VP_pass_11}were performed{/VP_pass_11} for {NP_12}a series{/NP_12} of {NP_13}<pp>phosphopeptide</pp> cations{/NP_13} in {NP_B_14}a <B>Fourier</B>{/NP_B_14} {VP_act_15}transform{/VP_act_15} {NP_16}mass spectrometer{/NP_16} .
+
+{NP_17}The objective{/NP_17} of {NP_18}the experiments{/NP_18} {VP_pass_19}was{/VP_pass_19} {VP_act_20}to determine{/VP_act_20} whether {NP_21}266 nm UV irradiation{/NP_21} on {NP_22}the <pp>phosphopeptide</pp> cations{/NP_22} {VP_act_23}would induce{/VP_act_23} {NP_24}unique <Bppp>peptide</Bppp> backbone dissociation{/NP_24} .
+
+OUTPUT 0
+PTM = ({NP_PP_32};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_32}<pp>phosphopeptides</pp>{/NP_PP_32})
+
+In {NP_25}addition{/NP_25} , {NP_26}the general behavior{/NP_26} of {NP_27}the <c>phosphate</c> loss{/NP_27} ( {NP_28}-80{/NP_28} or {NP_B_29}-98 <B>Da</B>{/NP_B_29} ) {VP_pass_30}was monitored{/VP_pass_30} , {AV_31}particularly{/AV_31} for {NP_PP_32}those <pp>phosphopeptides</pp>{/NP_PP_32} with {NP_PP_33}a <pp>phosphotyrosine residue</pp>{/NP_PP_33} that {NP_34}itself{/NP_34} {VP_act_35}is{/VP_act_35} {NP_36}a UV chromophore{/NP_36} .
+
+OUTPUT 2
+PTM = ({NP_PP_37};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_37}<pp>phosphopeptides</pp>{/NP_PP_37})
+
+For {NP_PP_37}<pp>phosphopeptides</pp>{/NP_PP_37} with {NP_38}a UV chromophore{/NP_38} , {NP_39}their photodissociation behavior{/NP_39} {VP_pass_40}was very similar{/VP_pass_40} to that of {NP_B_41}low-energy <B>LONGTOKEN</B>{/NP_B_41} , with {NP_42}a few exceptions{/NP_42} .
+
+For {NP_43}example{/NP_43} , {NP_44}b{/NP_44} - and {NP_PP_45}<Bppp><Bppp>y-type peptide</Bppp> backbone fragments</Bppp>{/NP_PP_45} {VP_pass_46}were prevalent{/VP_pass_46} , and {NP_47}their dephosphorylation behavior{/NP_47} {VP_pass_48}was consistent{/VP_pass_48} with that of {NP_49}the <p>SORI-CAD</p> results{/NP_49} .
+
+For {NP_PP_50}<pp>phosphoserine peptides</pp>{/NP_PP_50} , {NP_51}the loss{/NP_51} of {NP_G_52}a <c>phosphate group</c>{/NP_G_52} {VP_pass_53}was always observed{/VP_pass_53} .
+
+On {NP_54}the other hand{/NP_54} , for {NP_PP_55}<pp>phosphotyrosine peptides</pp>{/NP_PP_55} , {NP_56}the <c>phosphate</c> loss{/NP_56} {VP_pass_57}was found{/VP_pass_57} {VP_pass_58}to be dependent{/VP_pass_58} on {NP_59}the presence{/NP_59} of {NP_C_60}a basic <c>amino group</c>{/NP_C_60} in {NP_PP_61}the <Bppp>sequence</Bppp>{/NP_PP_61} and {NP_62}the charge state{/NP_62} of {NP_63}the <Bpf>precursor</Bpf> ions{/NP_63} , in {NP_64}agreement{/NP_64} with {NP_65}the <p>CAD</p> results{/NP_65} in {NP_66}the literature{/NP_66} .
+
+{AV_67}However{/AV_67} , {NP_68}<c>hydrogen</c> atom loss{/NP_68} or {NP_69}aromatic side <Bppp>chain</Bppp> loss{/NP_69} , {NP_70}which{/NP_70} {VP_pass_71}is known{/VP_pass_71} {VP_pass_72}to be{/VP_pass_72} {NP_73}the excited state specific fragmentation pathway{/NP_73} , {VP_pass_74}was rarely observed{/VP_pass_74} in {NP_75}our 266 nm UV PD experiments{/NP_75} , in {NP_76}contrast{/NP_76} to {NP_77}the previous UV PD literature{/NP_77} ( {AV_78}particularly{/AV_78} at {NP_79}220 nm{/NP_79} ) .
+
+{NP_80}The mechanism{/NP_80} for {NP_81}these observations{/NP_81} {VP_pass_82}is described{/VP_pass_82} in {NP_83}terms{/NP_83} of {NP_84}dominant internal conversion{/NP_84} {VP_pass_85}followed{/VP_pass_85} by {NP_B_86}<B>intramolecular vibrational energy redistribution ( IVR )</B>{/NP_B_86} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}25890253{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Evaluation{/NP_5} of {NP_P_6}different phospho-<p>tyrosine antibodies</p>{/NP_P_6} for {NP_C_7}label-free <c>phosphoproteomics</c>{/NP_C_7} .
+
+{NP_8}BACKGROUND{/NP_8} : {NP_9}Mass spectrometry{/NP_9} {VP_act_10}based{/VP_act_10} {NP_C_11}<c>phosphoproteomics</c>{/NP_C_11} {VP_act_12}emerged{/VP_act_12} as {NP_13}advantageous approach{/NP_13} for {NP_14}the analysis{/NP_14} of {NP_15}<pp>tyrosine</pp> phosphorylation{/NP_15} on {NP_16}<Bppf>proteins</Bppf> and <Bppf>tyrosine kinase</Bppf> signaling{/NP_16} .
+
+{NP_17}Immunoaffinity purification{/NP_17} {VP_pass_18}is required{/VP_pass_18} for {NP_19}comprehensive analysis{/NP_19} .
+
+{AV_20}Here{/AV_20} {NP_21}we{/NP_21} {VP_act_22}compared{/VP_act_22} {NP_23}the performance{/NP_23} of {NP_P_24}two <Bppf>antibodies</Bppf>{/NP_P_24} for {NP_C_25}label-free <c>phosphotyrosine-based phosphoproteomics</c>{/NP_C_25} .
+
+{NP_26}METHODS{/NP_26} : {NP_27}<pp>Phosphopeptide</pp> immunoprecipitation{/NP_27} of {NP_28}six technical replicates{/NP_28} {JP_29}corresponding{/JP_29} to {NP_P_30}<p>10mg protein</p>{/NP_P_30} from {NP_S_31}<S>HCT116 cells</S>{/NP_S_31} {VP_pass_32}was performed{/VP_pass_32} {VP_act_33}using{/VP_act_33} {NP_34}agarose{/NP_34} {JP_35}bead-coupled{/JP_35} {NP_36}<p>phosphotyrosine antibodies</p> P-<pp>Tyr-1000</pp> ( N{/NP_36} = 3 ) and {NP_37}4G10 ( N{/NP_37} = 3 ) .
+
+{NP_C_38}<c>NanoLC-MS/MS</c>{/NP_C_38} {VP_pass_39}was performed{/VP_pass_39} {VP_act_40}using{/VP_act_40} {NP_41}a <B>Q Exactive</B> mass spectrometer{/NP_41} .
+
+OUTPUT 4
+PTM = ({NP_45};phosphoproteins)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_46}<pp>phosphopeptides</pp>{/NP_PP_46})
+
+OUTPUT 5
+PTM = ({NP_PP_46};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_46}<pp>phosphopeptides</pp>{/NP_PP_46})
+
+For {NP_42}relative quantitation{/NP_42} of {NP_43}<Bppf>protein</Bppf> phosphorylation{/NP_43} , {NP_44}spectral counts{/NP_44} of {NP_45}<p>phosphoproteins</p> and <c>ion</c> intensities{/NP_45} of {NP_PP_46}<pp>phosphopeptides</pp>{/NP_PP_46} {VP_pass_47}were determined{/VP_pass_47} {VP_act_48}using{/VP_act_48} {NP_B_49}<B>MaxQuant</B>{/NP_B_49} .
+
+OUTPUT 6
+PTM = ({NP_PP_55};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_55}<pp>phosphopeptides</pp>{/NP_PP_55})
+
+{NP_50}RESULTS{/NP_50} : From {NP_51}the 3 samples{/NP_51} {VP_act_52}incubated{/VP_act_52} with {NP_PP_53}<B>P</B>-<pp>Tyr-1000</pp>{/NP_PP_53} {NP_54}a total{/NP_54} of {NP_PP_55}689 <pp>phosphopeptides</pp>{/NP_PP_55} {VP_pass_56}were identified{/VP_pass_56} with {NP_57}60% <B>ID</B> reproducibility{/NP_57} .
+
+{NP_58}The <pp>phosphopeptide</pp> capture{/NP_58} {VP_act_59}using{/VP_act_59} {NP_B_60}<B>4G10</B>{/NP_B_60} {VP_pass_61}resulted{/VP_pass_61} in {NP_62}a total{/NP_62} of {CP_63}421{/CP_63} at {NP_64}46% <B>ID</B> reproducibility{/NP_64} .
+
+{NP_PP_65}The <B>P</B>-<pp>Tyr-1000</pp>{/NP_PP_65} {VP_pass_66}was applied{/VP_pass_66} to {NP_P_67}<p>EGFR</p>{/NP_P_67} {VP_act_68}mutated{/VP_act_68} {NP_S_69}<S>U87 cells</S>{/NP_S_69} .
+
+OUTPUT 7
+PTM = ({NP_72};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_72}<p>EGFR</p>{/NP_72};-)
+Site = (-;-;UNK)
+
+{NP_70}Erlotinib{/NP_70} {VP_act_71}reduced{/VP_act_71} {NP_72}<p>EGFR</p> phosphorylation{/NP_72} with {CP_73}59%{/CP_73} at {NP_B_74}<B>y978</B> , <B>y1125</B> , <B>y1138</B> , <B>y1172</B> , and <B>y1197</B>{/NP_B_74} .
+
+OUTPUT 8
+PTM = ({NP_77};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_78}<p>MAPK1</p>{/NP_P_78};-)
+Site = (-;-;UNK)
+
+OUTPUT 9
+PTM = ({NP_77};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_78}<p>EPHA2</p>{/NP_P_78};-)
+Site = (-;-;UNK)
+
+OUTPUT 10
+PTM = ({NP_77};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_78}<p>DYRK1A</p>{/NP_P_78};-)
+Site = (-;-;UNK)
+
+OUTPUT 11
+PTM = ({NP_77};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_78}<p>FYN</p>{/NP_P_78};-)
+Site = (-;-;UNK)
+
+OUTPUT 12
+PTM = ({NP_77};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_78}<p>PTK2</p>{/NP_P_78};-)
+Site = (-;-;UNK)
+
+{NP_75}<p>EGFR</p> inhibition{/NP_75} {VP_pass_76}was accompanied{/VP_pass_76} by {NP_77}enhanced phosphorylation{/NP_77} of {NP_P_78}<p>FYN</p> , <pp>MET</pp> , <p>PTK2</p> , <p>DYRK1A</p> , <p>MAPK1</p> and <p>EPHA2</p>{/NP_P_78} .
+
+{NP_79}CONCLUSION{/NP_79} : {NP_P_80}The <p><B>P</B>-<pp>Tyr-1000</pp> <pp>phosphotyrosine</pp> antibody</p>{/NP_P_80} {VP_act_81}performs{/VP_act_81} {AV_82}superiorly{/AV_82} when {VP_act_83}compared{/VP_act_83} to {NP_P_84}<p>4G10 antibody</p>{/NP_P_84} for {NP_C_85}label-free <c>phosphotyrosine-based phosphoproteomics</c>{/NP_C_85} .
+
+{NP_86}This workflow{/NP_86} {VP_act_87}allows{/VP_act_87} {NP_88}evaluation{/NP_88} of {NP_89}<Bpcf>drug</Bpcf> target phosphorylation{/NP_89} and {VP_act_90}may give{/VP_act_90} {NP_91}insights{/NP_91} in {NP_92}the pharmacodynamic effects{/NP_92} of {NP_P_93}<Bppf>tyrosine kinase inhibitors</Bppf>{/NP_P_93} .
+
+{NP_B_94}<B>CLINICAL SIGNIFICANCE</B>{/NP_B_94} : In {NP_B_95}the past decade multiple <B>tyrosine kinase inhibitors ( TKIs )</B>{/NP_B_95} {VP_pass_96}have been implemented{/VP_pass_96} in {NP_97}standard treatment regimens{/NP_97} for {NP_98}patients{/NP_98} with {NP_99}cancer{/NP_99} .
+
+{AV_100}Unfortunately{/AV_100} {NP_101}the majority{/NP_101} of {NP_102}patients{/NP_102} {VP_act_103}develops{/VP_act_103} {NP_104}resistance{/NP_104} to {NP_105}these <Bpcf>drugs</Bpcf>{/NP_105} .
+
+{NP_106}Reliable tools{/NP_106} for {NP_107}analysis{/NP_107} of {NP_108}pharmacodynamic effects and <Bpcf>drug</Bpcf> resistance mechanisms{/NP_108} {VP_pass_109}are therefore warranted{/VP_pass_109} .
+
+{NP_110}<c>Phosphoproteomic</c> analyses{/NP_110} {VP_act_111}have meanwhile emerged{/VP_act_111} as {NP_112}a sophisticated approach{/NP_112} for {NP_113}the determination{/NP_113} of {NP_114}<Bppf>protein</Bppf> phosphorylation{/NP_114} .
+
+OUTPUT 17
+PTM = ({NP_PP_119};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_78}<p>DYRK1A</p>{/NP_P_78};-)
+({NP_P_78}<p>EPHA2</p>{/NP_P_78};-)
+({NP_P_78}<p>FYN</p>{/NP_P_78};-)
+({NP_P_78}<p>MAPK1</p>{/NP_P_78};-)
+({NP_P_78}<p>PTK2</p>{/NP_P_78};-)
+Site = (-;{NP_PP_119}Tyr{/NP_PP_119};UNK)
+
+{NP_115}These analyses{/NP_115} {VP_pass_116}rely{/VP_pass_116} on {NP_P_117}<Bppf>antibodies</Bppf>{/NP_P_117} for {NP_118}enrichment{/NP_118} of {NP_PP_119}<pp>tyrosine</pp>-phosphorylated <Bppp>peptides</Bppp>{/NP_PP_119} .
+
+OUTPUT 18
+PTM = ({NP_PP_125};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = ({NP_PP_125}1000{/NP_PP_125};{NP_PP_125}Tyr{/NP_PP_125};UNK)
+
+OUTPUT 19
+PTM = ({NP_PP_131};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_131}<pp>phosphopeptides</pp>{/NP_PP_131})
+
+{AV_120}Here{/AV_120} {NP_121}we{/NP_121} {VP_act_122}compared{/VP_act_122} {NP_P_123}two commercially available <p>phosphotyrosine antibodies</p>{/NP_P_123} and {VP_act_124}show{/VP_act_124} that {NP_PP_125}<pp><B>P</B>-<pp>Tyr-1000</pp> yields 64% more phosphopeptides</pp>{/NP_PP_125} than {NP_P_126}<p>4G10 antibody</p>{/NP_P_126} , while {VP_act_127}including{/VP_act_127} {AV_128}almost{/AV_128} {NP_B_129}all <B>4G10</B>{/NP_B_129} {VP_act_130}captured{/VP_act_130} {NP_PP_131}<pp>phosphopeptides</pp>{/NP_PP_131} .
+
+{NP_132}The workflow{/NP_132} {VP_pass_133}can be reproducibly performed{/VP_pass_133} at {NP_134}intermediate <Bppf>protein</Bppf> input levels{/NP_134} of {NP_P_135}<p>10mg</p>{/NP_P_135} .
+
+{AV_136}Furthermore{/AV_136} , {NP_137}application{/NP_137} of {NP_P_138}the <p>P-<pp>Tyr-1000</pp> antibody</p>{/NP_P_138} in {NP_C_139}a standardized <c>phosphoproteomics</c>{/NP_C_139} {VP_act_140}workflow{/VP_act_140} {VP_act_141}allows{/VP_act_141} {NP_142}relative quantitation{/NP_142} of {NP_143}<Bpcf>drug</Bpcf> target inhibition{/NP_143} and {VP_act_144}provides{/VP_act_144} {NP_145}insights{/NP_145} in {NP_146}alternative signaling pathways{/NP_146} in {NP_147}<Bpcl>cancer cells</Bpcl>{/NP_147} .
+
+{NP_148}This article{/NP_148} {VP_act_149}is{/VP_act_149} {NP_150}part{/NP_150} of {NP_B_151}a <B>Special Issue</B>{/NP_B_151} {VP_act_152}entitled{/VP_act_152} : {NP_B_153}<B>HUPO 2014</B>{/NP_B_153} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}10536367{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Regulation{/NP_5} of {NP_6}<p>protein phosphatase</p> activity{/NP_6} by {NP_7}<p>regucalcin</p> localization{/NP_7} in {NP_8}<s>rat</s> liver nuclei{/NP_8} .
+
+{NP_9}The regulatory role{/NP_9} of {NP_P_10}<p>regucalcin</p>{/NP_P_10} on {NP_11}<p>protein phosphatase</p> activity{/NP_11} in {NP_12}isolated <s>rat</s> liver nuclei{/NP_12} {VP_pass_13}was investigated{/VP_pass_13} .
+
+{NP_14}<p>Phosphatase</p> activity{/NP_14} toward {NP_PP_15}<pp>phosphotyrosine</pp> and <pp>phosphoserine</pp>{/NP_PP_15} {VP_pass_16}was significantly increased{/VP_pass_16} by {NP_17}the addition{/NP_17} of {NP_B_18}<B>CaCl(2)</B>{/NP_B_18} ( {CP_19}10 ( -5 ){/CP_19} and {NP_B_20}10 ( -4 ) <B>M</B>{/NP_B_20} ) in {NP_21}the <Bppf>enzyme</Bppf> reaction mixture{/NP_21} .
+
+{NP_C_22}<c>Trifluoperazine</c> ( 25 and 50 microM ){/NP_C_22} , {NP_23}an <Bpcf>antagonist</Bpcf>{/NP_23} of {NP_P_24}<p>calmodulin</p>{/NP_P_24} , {VP_act_25}significantly inhibited{/VP_act_25} {NP_26}<p>protein phosphatase</p> activity{/NP_26} toward {NP_PP_27}<pp>phosphoserine</pp>{/NP_PP_27} , while {NP_28}it{/NP_28} {VP_act_29}had{/VP_act_29} {NP_30}no effect{/NP_30} on {NP_31}the <Bppf>enzyme</Bppf> activity{/NP_31} toward {NP_PP_32}<c>phosphotysine</c> and <pp>phosphothreonine</pp>{/NP_PP_32} .
+
+{NP_C_33}<c>Cyclosporin A</c>{/NP_C_33} ( {NP_B_34}10 ( -6 ) -10 ( -4 ) <B>M</B>{/NP_B_34} ) , {NP_P_35}an <Bppf>inhibitor</Bppf>{/NP_P_35} of {NP_36}<p>Ca(2+)/calmodulin -dependent protein phosphatase</p> activity{/NP_36} toward {NP_PP_37}<pp>phosphoserine</pp>{/NP_PP_37} , but not {NP_PP_38}<pp>phosphotyrosine</pp> and <pp>phosphoserine</pp>{/NP_PP_38} .
+
+{AV_39}Thus{/AV_39} , {NP_P_40}<p>Ca(2+)/calmodulin -dependent phosphatases</p>{/NP_P_40} {VP_pass_41}were present{/VP_pass_41} in {NP_42}liver nuclei{/NP_42} .
+
+{NP_P_43}<p>Regucalcin</p>{/NP_P_43} ( {NP_44}0.25{/NP_44} and {NP_45}0.5 microM{/NP_45} ) {VP_act_46}had{/VP_act_46} {NP_47}an inhibitory effect{/NP_47} on {NP_48}liver nuclear <p>phosphatase</p> activity{/NP_48} toward {NP_PP_49}<pp>phosphotyrosine</pp> , <pp>phosphoserine</pp> , and <pp>phosphothreonine</pp>{/NP_PP_49} .
+
+{NP_50}The presence{/NP_50} of {NP_P_51}<c>anti-regucalcin</c> monoclonal <Bppf>antibody</Bppf> ( 25 and 50 ng/ml ){/NP_P_51} in {NP_52}the <Bppf>enzyme</Bppf> reaction mixture{/NP_52} {VP_act_53}caused{/VP_act_53} {NP_54}a significant elevation{/NP_54} of {NP_55}nuclear <p>phosphatase</p> activity{/NP_55} toward {NP_C_56}<c>three phosphoaminoacids</c>{/NP_C_56} .
+
+{NP_57}An analysis{/NP_57} with {NP_58}<c>sodium sulfate-polyacrylamide gel</c> electrophoresis{/NP_58} {VP_act_59}suggested{/VP_act_59} {NP_60}a possibility{/NP_60} of {NP_61}localization{/NP_61} of {NP_P_62}<p>regucalcin</p>{/NP_P_62} in {NP_63}liver nuclei{/NP_63} .
+
+{AV_64}Moreover{/AV_64} , {NP_P_65}<p>regucalcin</p>{/NP_P_65} {VP_pass_66}was determined{/VP_pass_66} in {NP_67}liver nuclei{/NP_67} {VP_act_68}using{/VP_act_68} {NP_69}<Bppf>enzyme</Bppf> -linked immunoadsorbent assay{/NP_69} .
+
+{NP_70}The present study{/NP_70} {VP_act_71}demonstrates{/VP_act_71} that {NP_P_72}the endogenous <p>regucalcin</p>{/NP_P_72} {VP_act_73}inhibits{/VP_act_73} {NP_74}<p>phosphatase</p> activity{/NP_74} in {NP_75}the liver nuclei{/NP_75} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}3848433{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_7};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_8}<p>insulin receptor</p>{/NP_P_8};-)
+Site = (-;-;{NP_PP_6}<Bppp>sites</Bppp>{/NP_PP_6})
+
+{NP_4}AB{/NP_4} - {NP_5}Differences{/NP_5} in {NP_PP_6}the <Bppp>sites</Bppp>{/NP_PP_6} of {NP_7}phosphorylation{/NP_7} of {NP_P_8}the <p>insulin receptor</p>{/NP_P_8} in {NP_9}vivo and in vitro{/NP_9} .
+
+OUTPUT 1
+PTM = ({NP_10};Phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_11}<p>insulin receptor</p>{/NP_P_11};-)
+Site = (-;-;UNK)
+
+{NP_10}Phosphorylation{/NP_10} of {NP_P_11}the <p>insulin receptor</p>{/NP_P_11} {VP_pass_12}was studied{/VP_pass_12} in {NP_B_13}intact well differentiated hepatoma <Bpcl>cells</Bpcl> (Fao){/NP_B_13} and in a {JP_14}solubilized{/JP_14} and {VP_act_15}partially purified{/VP_act_15} {NP_16}<Bppf>receptor</Bppf> preparation{/NP_16} {VP_act_17}obtained{/VP_act_17} from {NP_18}these <Bpcl>cells</Bpcl>{/NP_18} by {NP_19}affinity chromatography{/NP_19} on {NP_20}<s>wheat</s> germ <p>agglutinin</p> agarose{/NP_20} .
+
+OUTPUT 2
+PTM = ({NP_PP_23};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_25}<p>insulin receptor</p>{/NP_P_25};-)
+Site = (-;-;{NP_PP_23}<Bppp>phosphorylation sites</Bppp>{/NP_PP_23})
+
+{NP_PP_21}Tryptic <Bppp>peptides</Bppp>{/NP_PP_21} {VP_act_22}containing{/VP_act_22} {NP_PP_23}the <Bppp>phosphorylation sites</Bppp>{/NP_PP_23} of {NP_P_24}the <Bppf>beta- subunit</Bppf>{/NP_P_24} of {NP_P_25}the <p>insulin receptor</p>{/NP_P_25} {VP_pass_26}were analyzed{/VP_pass_26} by {NP_27}reverse-phase high performance liquid chromatography{/NP_27} .
+
+{NP_28}<c>Phosphoamino acid</c> content{/NP_28} of {NP_PP_29}these <Bppp>peptides</Bppp>{/NP_PP_29} {VP_pass_30}was determined{/VP_pass_30} by {NP_31}acid hydrolysis{/NP_31} and {NP_32}high voltage electrophoresis{/NP_32} .
+
+OUTPUT 3
+PTM = ({NP_PP_34};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_34}<pp>phosphopeptides</pp>{/NP_PP_34})
+
+{NP_33}Separation{/NP_33} of {NP_PP_34}the <pp>phosphopeptides</pp>{/NP_PP_34} from {NP_S_35}unstimulated <s><S>Fao cells</S></s>{/NP_S_35} {VP_act_36}revealed{/VP_act_36} {JP_37}one major{/JP_37} and {NP_PP_38}two minor <Bppp>phosphoserine-containing peptides</Bppp>{/NP_PP_38} and {NP_PP_39}a single minor <Bppp>phosphothreonine-containing peptide</Bppp>{/NP_PP_39} .
+
+OUTPUT 6
+PTM = ({NP_43};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_45}<p>insulin receptor 3</p>{/NP_P_45};-)
+Site = (-;-;UNK)
+
+{NP_P_40}<p>Insulin</p>{/NP_P_40} ( {NP_B_41}10 ( -7 ) <B>M</B>{/NP_B_41} ) {VP_act_42}increased{/VP_act_42} {NP_43}the phosphorylation{/NP_43} of {NP_P_44}the <Bppf>beta- subunit</Bppf>{/NP_P_44} of {NP_P_45}the <p>insulin receptor 3</p>{/NP_P_45} - to {NP_46}4-fold{/NP_46} in {NP_S_47}the intact <s><S>Fao cell</S></s>{/NP_S_47} .
+
+After {NP_48}<p>insulin</p> stimulation{/NP_48} , {NP_PP_49}two <Bppp>phosphotyrosine-containing peptides</Bppp>{/NP_PP_49} {VP_pass_50}were identified{/VP_pass_50} .
+
+{NP_51}<pp>Tyrosine</pp> phosphorylation{/NP_51} {VP_act_52}reached{/VP_act_52} {NP_53}a steady state{/NP_53} within 20 s after {NP_54}the addition{/NP_54} of {NP_P_55}<p>insulin</p>{/NP_P_55} and {VP_act_56}remained{/VP_act_56} {JP_57}nearly constant{/JP_57} for {NP_58}1 h{/NP_58} .
+
+Under {NP_59}our experimental conditions{/NP_59} , {NP_60}no significant change{/NP_60} in {NP_61}the amount{/NP_61} of {NP_PP_62}<pp>[32P]phosphoserine</pp> or <pp>[32P]phosphothreonine</pp>{/NP_PP_62} {VP_pass_63}associated{/VP_pass_63} with {NP_P_64}the <Bppf>beta- subunit</Bppf>{/NP_P_64} {VP_pass_65}was found{/VP_pass_65} during {NP_66}the initial response{/NP_66} of {NP_67}<Bpcl>cells</Bpcl>{/NP_67} to {NP_P_68}<p>insulin</p>{/NP_P_68} .
+
+When {NP_P_69}the <p>insulin receptor</p>{/NP_P_69} {VP_pass_70}was extracted{/VP_pass_70} from {NP_S_71}the <s><S>Fao cells</S></s>{/NP_S_71} and {VP_act_72}incubated{/VP_act_72} in {NP_73}vitro{/NP_73} with {NP_P_74}<p>[gamma-32P]ATP</p> and <p>Mn2+</p>{/NP_P_74} , {NP_75}very little phosphorylation{/NP_75} {VP_pass_76}occurred{/VP_pass_76} in {NP_77}the absence{/NP_77} of {NP_P_78}<p>insulin</p>{/NP_P_78} .
+
+OUTPUT 12
+PTM = ({NP_PP_92};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_92}<pp>phosphopeptides</pp>{/NP_PP_92})
+
+In {NP_79}this preparation{/NP_79} , {NP_P_80}<p>insulin</p>{/NP_P_80} {VP_act_81}rapidly stimulated{/VP_act_81} {NP_82}autophosphorylation{/NP_82} of {NP_P_83}the <Bppf>receptor</Bppf>{/NP_P_83} on {NP_PP_84}<pp>tyrosine residues</pp>{/NP_PP_84} {AV_85}only{/AV_85} and {NP_86}high performance liquid chromatography analysis{/NP_86} of {NP_P_87}the <Bppf>beta- subunit</Bppf>{/NP_P_87} {VP_pass_88}digested{/VP_pass_88} with {NP_B_89}<B>trypsin</B>{/NP_B_89} {VP_act_90}revealed{/VP_act_90} {JP_91}one minor{/JP_91} and {NP_PP_92}two major <pp>phosphopeptides</pp>{/NP_PP_92} .
+
+{NP_93}The elution position{/NP_93} of {NP_PP_94}the minor <Bppp>peptide</Bppp>{/NP_PP_94} {VP_act_95}corresponded{/VP_act_95} to that of {NP_PP_96}the major <Bppp>phosphotyrosine-containing peptide</Bppp>{/NP_PP_96} {VP_act_97}obtained{/VP_act_97} from {NP_P_98}the <Bppf>beta- subunit</Bppf>{/NP_P_98} of {NP_P_99}the <Bppf>insulin-stimulated receptor</Bppf>{/NP_P_99} {VP_act_100}labeled{/VP_act_100} in {NP_101}vivo{/NP_101} .
+
+OUTPUT 14
+PTM = ({NP_PP_105};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_105}<pp>phosphopeptides</pp>{/NP_PP_105})
+
+In {NP_102}contrast{/NP_102} , {NP_103}the elution position{/NP_103} of {CP_104}one{/CP_104} of {NP_PP_105}the major <pp>phosphopeptides</pp>{/NP_PP_105} {NP_106}that{/NP_106} {VP_act_107}occurred{/VP_act_107} during {NP_108}in vitro phosphorylation{/NP_108} {VP_act_109}corresponded{/VP_act_109} to {NP_PP_110}the minor <Bppp>phosphotyrosine-containing peptide</Bppp>{/NP_PP_110} {VP_pass_111}phosphorylated{/VP_pass_111} in {NP_112}vivo{/NP_112} .
+
+{NP_PP_113}The other major in vitro <Bppp>phosphotyrosine-containing peptide</Bppp>{/NP_PP_113} {VP_pass_neg_114}was not detected{/VP_pass_neg_114} in {NP_115}vivo{/NP_115} .
+
+OUTPUT 19
+PTM = ({NP_118};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_119}<p>insulin receptor</p>{/NP_P_119};-)
+Site = (-;{NP_118}Tyr{/NP_118};UNK)
+
+OUTPUT 21
+PTM = ({NP_PP_132};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_105}the major <pp>phosphopeptides</pp>{/NP_PP_105})
+(-;-;{NP_PP_132}<Bppp>phosphorylation sites</Bppp>{/NP_PP_132})
+
+{NP_116}Our results{/NP_116} {VP_act_117}indicate{/VP_act_117} that : {NP_118}<pp>tyrosine</pp> phosphorylation{/NP_118} of {NP_P_119}the <p>insulin receptor</p>{/NP_P_119} {VP_act_120}occurs{/VP_act_120} {VP_act_121}rapidly following{/VP_act_121} {NP_122}<p>insulin</p> binding{/NP_122} to {NP_123}intact <Bpcl>cells</Bpcl>{/NP_123} ; {NP_124}the level{/NP_124} of {NP_125}<pp>tyrosine</pp> phosphorylation{/NP_125} {VP_act_126}remains{/VP_act_126} {JP_127}constant{/JP_127} for up to {NP_128}1 h{/NP_128} ; {NP_129}the specificity{/NP_129} of {NP_P_130}the <Bppf>receptor kinase</Bppf>{/NP_P_130} or {NP_131}accessibility{/NP_131} of {NP_PP_132}the <Bppp>phosphorylation sites</Bppp>{/NP_PP_132} {VP_pass_133}are{/VP_pass_133} {NP_134}different{/NP_134} in {NP_135}vivo{/NP_135} and {NP_136}in vitro{/NP_136} .
+
+( {VP_act_137}ABSTRACT TRUNCATED{/VP_act_137} AT {NP_138}400 WORDS{/NP_138} )
+
+
+{NP_1}PMID{/NP_1} - {CP_2}10341292{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Inhibitory effect{/NP_5} of {NP_P_6}<p>regucalcin</p>{/NP_P_6} on {NP_7}<p>Ca2+/calmodulin -dependent protein phosphatase</p> activity{/NP_7} in {NP_8}<s>rat</s> brain cytosol{/NP_8} .
+
+{NP_9}The effect{/NP_9} of {NP_P_10}<p>Ca2+ -binding protein regucalcin</p>{/NP_P_10} on {NP_11}neutral <p>phosphatase</p> activity{/NP_11} in {NP_12}<s>rat</s> brain cytosol{/NP_12} {VP_pass_13}was investigated{/VP_pass_13} .
+
+{NP_14}<p>Phosphatase</p> activity{/NP_14} {VP_pass_15}was assayed{/VP_pass_15} in {NP_16}a reaction mixture{/NP_16} {VP_act_17}containing{/VP_act_17} {NP_P_18}the cytosolic <Bppf>protein</Bppf>{/NP_P_18} in {NP_19}the presence{/NP_19} of {NP_PP_20}<pp>phosphotyrosine</pp> , <pp>phosphoserine</pp> , and <pp>phosphothreonine</pp>{/NP_PP_20} .
+
+{NP_21}The presence{/NP_21} of {NP_C_22}<c>calcium chloride</c>{/NP_C_22} ( {CP_23}10 ( -5 ){/CP_23} and {NP_B_24}10 ( -4 ) <B>M</B>{/NP_B_24} ) in {NP_25}the <Bppf>enzyme</Bppf> reaction mixture{/NP_25} {VP_act_26}caused{/VP_act_26} {NP_27}a significant increase{/NP_27} in {NP_28}<p>phosphatase</p> activity{/NP_28} toward {NP_C_29}<c>three phosphoaminoacids</c>{/NP_C_29} .
+
+{NP_30}The <Bppf>enzyme</Bppf> activity{/NP_30} toward {NP_PP_31}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_31} {VP_pass_32}was significantly enhanced{/VP_pass_32} by {NP_33}the addition{/NP_33} of {NP_P_34}<p>calmodulin</p> ( 1 or 5 microg/ml ){/NP_P_34} in {NP_35}the presence{/NP_35} of {NP_C_36}<c>calcium</c>{/NP_C_36} ( {NP_B_37}10 ( -5 ) <B>M</B>{/NP_B_37} ) .
+
+{JP_38}Such{/JP_38} {NP_39}an effect{/NP_39} {VP_pass_neg_40}was not seen{/VP_pass_neg_40} in {NP_41}the presence{/NP_41} of {NP_PP_42}<pp>phosphotyrosine</pp>{/NP_PP_42} .
+
+{NP_C_43}<c>Trifluoperazine</c>{/NP_C_43} ( {NP_B_44}2x10 ( -5 ) <B>M</B>{/NP_B_44} ) , {NP_45}an <Bpcf>antagonist</Bpcf>{/NP_45} of {NP_P_46}<p>calmodulin</p>{/NP_P_46} , {VP_act_47}completely inhibited{/VP_act_47} {NP_C_48}<c>calcium</c>{/NP_C_48} ( {NP_B_49}10 ( -5 ) <B>M</B>{/NP_B_49} ) {NP_50}-increased <p>phosphatase</p> activity{/NP_50} toward {NP_PP_51}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_51} , whereas {NP_52}it{/NP_52} {VP_act_53}had{/VP_act_53} {NP_54}no effect{/NP_54} on {NP_55}the <Bppf>enzyme</Bppf> activity{/NP_55} toward {NP_PP_56}<pp>phosphotyrosine</pp>{/NP_PP_56} .
+
+{NP_P_57}<p>Regucalcin</p>{/NP_P_57} ( {NP_B_58}10 ( -9 ) <B>M</B>{/NP_B_58} ) {VP_act_59}significantly inhibited{/VP_act_59} {NP_60}<p>phosphatase</p> activity{/NP_60} toward {NP_C_61}<c>three phosphoaminoacids</c>{/NP_C_61} without or with {NP_62}<B>Ca2+</B> addition{/NP_62} .
+
+{NP_63}The inhibitory effect{/NP_63} of {NP_P_64}<p>regucalcin</p>{/NP_P_64} ( {NP_65}10 ( -10 ){/NP_65} and {NP_B_66}10 ( -9 ) <B>M</B>{/NP_B_66} ) {VP_pass_67}was also seen{/VP_pass_67} in {NP_68}the presence{/NP_68} of {NP_B_69}<B>Ca2+</B>{/NP_B_69} ( {CP_70}10{/CP_70} ( {NP_P_71}-5 ) M ) and <p>calmodulin</p> ( 5 microg/ml ){/NP_P_71} .
+
+{NP_72}The presence{/NP_72} of {NP_P_73}<c>anti-regucalcin</c> monoclonal <Bppf>antibody</Bppf> ( 20 or 50 ng/ml ){/NP_P_73} in {NP_74}the <Bppf>enzyme</Bppf> reaction mixture{/NP_74} {VP_act_75}caused{/VP_act_75} {NP_76}a significant elevation{/NP_76} of {NP_77}<p>phosphatase</p> activity{/NP_77} toward {NP_C_78}<c>three phosphoaminoacids</c>{/NP_C_78} ; {NP_79}this effect{/NP_79} {VP_pass_80}was completely abolished{/VP_pass_80} by {NP_81}addition{/NP_81} of {NP_P_82}<p>regucalcin</p>{/NP_P_82} ( {NP_B_83}10 ( -9 ) <B>M</B>{/NP_B_83} ) .
+
+{NP_84}The present study{/NP_84} {VP_act_85}suggests{/VP_act_85} that {NP_P_86}the endogenous <p>regucalcin</p>{/NP_P_86} {VP_act_87}has{/VP_act_87} {NP_88}an inhibitory effect{/NP_88} on {NP_89}<p>Ca2+/calmodulin -dependent protein phosphatase</p> activity{/NP_89} in {NP_90}<s>rat</s> brain cytosol{/NP_90} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}6185481{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_6};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_7}<s>rabbit</s> <p>myelin basic protein</p>{/NP_P_7};-)
+Site = (-;-;{NP_PP_6}<Bppp>phosphorylation sites</Bppp>{/NP_PP_6})
+
+{NP_4}AB{/NP_4} - {NP_5}Identification{/NP_5} of {NP_PP_6}multiple in vivo <Bppp>phosphorylation sites</Bppp>{/NP_PP_6} in {NP_P_7}<s>rabbit</s> <p>myelin basic protein</p>{/NP_P_7} .
+
+{NP_P_8}<p>Myelin basic protein</p>{/NP_P_8} of {NP_9}<s>rabbit</s> brain{/NP_9} ( {NP_10}Mr{/NP_10} = {NP_11}18,200{/NP_11} ) {VP_pass_12}was initially freed{/VP_pass_12} of {NP_13}the bulk{/NP_13} of {NP_14}the nonphosphorylated species ( mainly component 1 ){/NP_14} by {NP_15}<B>Cm-cellulose</B> chromatography{/NP_15} at {NP_16}high pH{/NP_16} .
+
+{NP_17}The remainder{/NP_17} of {NP_P_18}the <Bppf>protein</Bppf>{/NP_P_18} {VP_pass_19}was subjected{/VP_pass_19} {VP_act_20}to peptic{/VP_act_20} {NP_21}digestion{/NP_21} at {NP_22}pH 6.00{/NP_22} , {NP_23}which{/NP_23} {VP_act_24}resulted{/VP_act_24} in {JP_25}specific{/JP_25} , {NP_26}essentially complete cleavage{/NP_26} at {NP_PP_27}several bonds ( <pp>Phe-44--Phe-45</pp> , <pp>Phe-87--Phe-88</pp> , Leu-109--<pp>Ser-110</pp> , and <pp>Leu-151--Phe-152</pp> ){/NP_PP_27} and {NP_28}partial cleavage{/NP_28} at {NP_29}the <pp><pp>Tyr-14</pp>--Leu-15</pp> bond{/NP_29} .
+
+{NP_30}Gel filtration{/NP_30} of {NP_31}the digest{/NP_31} through {NP_P_32}<p>Sephadex G-25</p>{/NP_P_32} {VP_act_33}( fine ) yielded{/VP_act_33} {NP_34}three fractions{/NP_34} , {NP_35}the first containing primarily <Bppp>peptides 1-44</Bppp> and 45-87{/NP_35} , {NP_PP_36}the second <Bppp>peptides 15-44</Bppp>{/NP_PP_36} , {CP_37}88-109{/CP_37} , and {NP_38}110-151{/NP_38} , and {NP_39}the third <Bppp>peptides 1-14</Bppp> and 152-168{/NP_39} .
+
+{NP_40}Each fraction{/NP_40} {VP_pass_41}was chromatographed{/VP_pass_41} on {NP_B_42}<B>Cm-cellulose</B>{/NP_B_42} at {NP_43}pH 8.2{/NP_43} , and {NP_44}the resulting subfractions{/NP_44} and {NP_PP_45}partially purified <Bppp>peptides</Bppp>{/NP_PP_45} {VP_pass_46}were analyzed{/VP_pass_46} for {NP_PP_47}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_47} .
+
+{NP_48}Materials{/NP_48} {VP_act_49}containing{/VP_act_49} {NP_50}significant amounts{/NP_50} of {NP_C_51}the <c>phosphoamino acids</c>{/NP_C_51} {VP_pass_52}were subsequently chromatographed{/VP_pass_52} on {NP_B_53}<B>Cm-cellulose</B>{/NP_B_53} at {NP_54}pH 4.65{/NP_54} , and {NP_55}the analyses{/NP_55} for {NP_PP_56}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_56} {VP_pass_57}were repeated{/VP_pass_57} .
+
+OUTPUT 3
+PTM = ({NP_PP_58};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_58}<pp>phosphopeptides</pp>{/NP_PP_58})
+
+{NP_PP_58}The resulting purified peptic <pp>phosphopeptides</pp>{/NP_PP_58} {VP_pass_59}were identified{/VP_pass_59} by {NP_60}<Bppp>amino acid</Bppp> analysis{/NP_60} and {NP_61}tryptic <Bppp>peptide</Bppp> mapping{/NP_61} .
+
+OUTPUT 4
+PTM = ({NP_PP_66};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_66}<pp>phosphopeptides</pp>{/NP_PP_66})
+
+{NP_62}Comparison{/NP_62} of {NP_63}the maps{/NP_63} with those of {NP_64}the unphosphorylated counterparts{/NP_64} {VP_act_65}located{/VP_act_65} {NP_PP_66}the tryptic <pp>phosphopeptides</pp>{/NP_PP_66} .
+
+These {VP_pass_67}were recovered{/VP_pass_67} and {NP_68}their identities{/NP_68} {VP_pass_69}were established{/VP_pass_69} by {NP_70}<Bppp>amino acid</Bppp> analysis{/NP_70} .
+
+OUTPUT 5
+PTM = ({NP_PP_72};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_72}<pp>phosphopeptide</pp>{/NP_PP_72})
+
+In {NP_71}those cases{/NP_71} where {NP_PP_72}the <pp>phosphopeptide</pp>{/NP_PP_72} {VP_act_73}contained{/VP_act_73} {NP_PP_74}2 <pp>Ser residues</pp>{/NP_PP_74} , {NP_75}the position{/NP_75} of {NP_PP_76}the <pp>phosphoserine</pp>{/NP_PP_76} {VP_pass_77}was established{/VP_pass_77} by {NP_78}<p>aminopeptidase M</p> digestion{/NP_78} .
+
+OUTPUT 7
+PTM = ({NP_PP_79};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_79}<Bppp>phosphorylation sites</Bppp>{/NP_PP_79})
+
+{NP_PP_79}Five <Bppp>phosphorylation sites</Bppp>{/NP_PP_79} {VP_pass_80}were found{/VP_pass_80} : {NP_PP_81}<pp>Ser-7</pp> , <pp>Ser-56</pp> , <pp>Thr-96</pp> , <pp>Ser-113</pp> , and <pp>Ser-163</pp>{/NP_PP_81} .
+
+OUTPUT 8
+PTM = ({VP_pass_85};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_8}<p>Myelin basic protein</p>{/NP_P_8};-)
+Site = (-;-;{NP_PP_84}<Bppp>sites</Bppp>{/NP_PP_84})
+({NP_PP_81}113{/NP_PP_81};{NP_PP_81}Ser{/NP_PP_81};UNK)
+({NP_PP_81}163{/NP_PP_81};{NP_PP_81}Ser{/NP_PP_81};UNK)
+({NP_PP_81}56{/NP_PP_81};{NP_PP_81}Ser{/NP_PP_81};UNK)
+({NP_PP_81}7{/NP_PP_81};{NP_PP_81}Ser{/NP_PP_81};UNK)
+({NP_PP_81}96{/NP_PP_81};{NP_PP_81}Thr{/NP_PP_81};UNK)
+
+{AV_82}Only{/AV_82} {NP_83}a small fraction{/NP_83} of {NP_PP_84}these <Bppp>sites</Bppp>{/NP_PP_84} {VP_pass_85}was phosphorylated{/VP_pass_85} in {NP_P_86}the total basic <Bppf>protein</Bppf>{/NP_P_86} , with {NP_87}values{/NP_87} {VP_act_88}ranging{/VP_act_88} from about {NP_PP_89}2 ( <pp>Ser-113</pp> ){/NP_PP_89} to {NP_PP_90}6% ( <pp>Thr-96</pp> ){/NP_PP_90} .
+
+OUTPUT 9
+PTM = ({VP_pass_98};phosphorylated)
+Kinase = ({NP_P_100}<p>AMP -dependent protein kinase</p>{/NP_P_100};-)
+Substrate = ({NP_P_8}<p>Myelin basic protein</p>{/NP_P_8};-)
+Site = ({NP_PP_89}113{/NP_PP_89};{NP_PP_89}Ser{/NP_PP_89};UNK)
+
+With {NP_91}the possible exception{/NP_91} of {NP_PP_92}<pp>Ser-56</pp>{/NP_PP_92} , {NP_PP_93}these <Bppp>sites</Bppp>{/NP_PP_93} {VP_pass_neg_94}are not{/VP_pass_neg_94} {NP_95}the ones{/NP_95} {NP_96}that{/NP_96} {VP_pass_97}have been reported{/VP_pass_97} {VP_pass_98}to be phosphorylated{/VP_pass_98} in {NP_99}vitro{/NP_99} by {NP_P_100}cyclic <p>AMP -dependent protein kinase</p>{/NP_P_100} .
+
+NORM=myelin basic protein
+SYNONYM=Myelin basic protein
+SYNONYM=rabbit myelin basic protein
+
+
+{NP_1}PMID{/NP_1} - {CP_2}19585040{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}<pp>Phosphate-assisted peptide</pp> ligation{/NP_5} .
+
+OUTPUT 0
+PTM = ({NP_PP_8};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_8}<pp>peptides</pp>{/NP_PP_8})
+(-;-;{NP_PP_8}<pp>phosphopeptides</pp>{/NP_PP_8})
+
+{NP_6}A novel ligation method{/NP_6} for {NP_7}the synthesis{/NP_7} of {NP_PP_8}<pp>phosphopeptides</pp> and <pp>peptides</pp>{/NP_PP_8} {VP_pass_9}is described{/VP_pass_9} , {NP_10}which{/NP_10} {VP_act_11}utilises{/VP_act_11} {NP_12}the inherent reactivity{/NP_12} of {NP_PP_13}a <Bppp>peptide</Bppp>{/NP_PP_13} {VP_act_14}bearing{/VP_act_14} {NP_PP_15}an <pp>N-terminal phosphoserine</pp> or <pp>phosphothreonine residue</pp>{/NP_PP_15} {VP_act_16}to facilitate{/VP_act_16} {NP_17}amide bond formation{/NP_17} with {NP_18}a range{/NP_18} of {NP_C_19}<pp>C-terminal peptide</pp> <c>thioesters</c>{/NP_C_19} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}17372656{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}An integrated <Bpcf>chemical</Bpcf>{/NP_5} , {NP_6}mass spectrometric and computational strategy{/NP_6} for {NP_C_7}( quantitative ) <c>phosphoproteomics</c>{/NP_C_7} :
+
+{NP_8}application{/NP_8} to {NP_S_9}<S><s>Drosophila melanogaster</s> Kc167 cells</S>{/NP_S_9} .
+
+{NP_10}Current methods{/NP_10} for {NP_11}<c>phosphoproteome</c> analysis{/NP_11} {VP_act_12}have{/VP_act_12} {NP_13}several limitations{/NP_13} .
+
+OUTPUT 0
+PTM = ({NP_PP_19};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_19}<pp>phosphopeptides</pp>{/NP_PP_19})
+
+{AV_14}First{/AV_14} , {NP_15}most methods{/NP_15} for {NP_16}<pp>phosphopeptide</pp> enrichment lack{/NP_16} {NP_17}the specificity{/NP_17} {VP_act_18}to truly purify{/VP_act_18} {NP_PP_19}<pp>phosphopeptides</pp>{/NP_PP_19} .
+
+OUTPUT 1
+PTM = ({NP_PP_22};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_22}<pp>phosphopeptides</pp>{/NP_PP_22})
+
+OUTPUT 3
+PTM = ({NP_36};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_35}<Bppp>site</Bppp>{/NP_PP_35})
+
+OUTPUT 4
+PTM = ({NP_PP_43};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_43}<Bppp>peptides</Bppp>{/NP_PP_43})
+
+{JP_20}Second{/JP_20} , {NP_21}fragmentation spectra{/NP_21} of {NP_PP_22}<pp>phosphopeptides</pp>{/NP_PP_22} , in {JP_23}particular{/JP_23} those of {NP_PP_24}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_24} {VP_act_25}containing{/VP_act_25} {NP_PP_26}<Bppp>peptides</Bppp>{/NP_PP_26} , {VP_pass_27}are often dominated{/VP_pass_27} by {NP_28}the loss{/NP_28} of {NP_G_29}the <c>phosphate group(s)</c>{/NP_G_29} and {VP_act_30}therefore lack{/VP_act_30} {NP_31}the information{/NP_31} {VP_act_32}required{/VP_act_32} {VP_act_33}to identify{/VP_act_33} {NP_PP_34}the <Bppp>peptide sequence</Bppp>{/NP_PP_34} and {NP_PP_35}the <Bppp>site</Bppp>{/NP_PP_35} of {NP_36}phosphorylation{/NP_36} , and {JP_37}third{/JP_37} , {NP_38}<Bppp>sequence</Bppp> database search engines{/NP_38} and {NP_39}statistical models{/NP_39} for {NP_40}data validation{/NP_40} {VP_pass_neg_41}are not optimized{/VP_pass_neg_41} for {NP_42}the specific fragmentation properties{/NP_42} of {NP_PP_43}phosphorylated <Bppp>peptides</Bppp>{/NP_PP_43} .
+
+OUTPUT 5
+PTM = ({NP_PP_48};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_48}<Bppp>phosphorylation sites</Bppp>{/NP_PP_48})
+
+{AV_44}Consequently{/AV_44} , {NP_45}<c>phosphoproteomic</c> data{/NP_45} {VP_pass_46}are characterized{/VP_pass_46} by {NP_47}large and unknown rates{/NP_47} of {NP_PP_48}false positive and false negative <Bppp>phosphorylation sites</Bppp>{/NP_PP_48} .
+
+OUTPUT 6
+PTM = ({NP_PP_59};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_59}<pp>phosphopeptides</pp>{/NP_PP_59})
+
+{AV_49}Here{/AV_49} {NP_50}we{/NP_50} {VP_act_51}present{/VP_act_51} {NP_52}an integrated <Bpcf>chemical</Bpcf>{/NP_52} , {NP_53}mass spectrometric and computational strategy{/NP_53} {VP_act_54}to improve{/VP_act_54} {NP_55}the efficiency{/NP_55} , {NP_56}specificity{/NP_56} and {NP_57}confidence{/NP_57} in {NP_58}the identification{/NP_58} of {NP_PP_59}<pp>phosphopeptides</pp>{/NP_PP_59} and {NP_60}their site(s){/NP_60} of {NP_61}phosphorylation{/NP_61} .
+
+OUTPUT 8
+PTM = ({NP_PP_62};Phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_62}<pp>Phosphopeptides</pp>{/NP_PP_62})
+
+{NP_PP_62}<pp>Phosphopeptides</pp>{/NP_PP_62} {VP_pass_63}were isolated{/VP_pass_63} with {NP_64}high specificity{/NP_64} through {NP_65}a simple derivatization procedure{/NP_65} {VP_pass_66}based{/VP_pass_66} on {NP_67}<c>phosphoramidate</c> chemistry{/NP_67} .
+
+OUTPUT 9
+PTM = ({NP_PP_69};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_69}<pp>phosphopeptides</pp>{/NP_PP_69})
+
+{NP_68}Identification{/NP_68} of {NP_PP_69}<pp>phosphopeptides</pp>{/NP_PP_69} , {NP_70}their site(s){/NP_70} of {NP_71}phosphorylation{/NP_71} and {NP_P_72}the <p>corresponding phosphoproteins</p>{/NP_P_72} {VP_pass_73}was achieved{/VP_pass_73} by {NP_74}the optimization{/NP_74} of {NP_75}the mass spectrometric data acquisition procedure{/NP_75} , {NP_76}the computational tools{/NP_76} for {NP_77}database{/NP_77} {VP_act_78}searching{/VP_act_78} and {NP_79}the data{/NP_79} {VP_act_80}post{/VP_act_80} {VP_act_81}processing{/VP_act_81} .
+
+OUTPUT 12
+PTM = ({NP_PP_85};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_85}<Bppp>phosphorylation sites</Bppp>{/NP_PP_85})
+
+OUTPUT 13
+PTM = ({NP_89};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_85}<Bppp>phosphorylation sites</Bppp>{/NP_PP_85})
+
+{NP_82}The strategy{/NP_82} {VP_pass_83}was applied{/VP_pass_83} to {NP_84}the mapping{/NP_84} of {NP_PP_85}<Bppp>phosphorylation sites</Bppp>{/NP_PP_85} of {NP_P_86}a purified <Bppf>transcription factor</Bppf>{/NP_P_86} , {NP_P_87}<p>dFOXO</p>{/NP_P_87} and for {NP_88}the global analysis{/NP_88} of {NP_89}<Bppf>protein</Bppf> phosphorylation{/NP_89} of {NP_S_90}<S><s>Drosophila melanogaster</s> Kc167 cells</S>{/NP_S_90} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}2506075{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_6};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_7}<p>insulin receptor</p>{/NP_P_7};-)
+Site = (-;-;{NP_PP_6}<Bppp>phosphorylation site</Bppp>{/NP_PP_6})
+
+{NP_4}AB{/NP_4} - {NP_5}Identification{/NP_5} of {NP_PP_6}a <Bppp>phosphorylation site</Bppp>{/NP_PP_6} of {NP_P_7}the <s>rat</s> <p>insulin receptor</p>{/NP_P_7} {VP_pass_8}catalyzed{/VP_pass_8} by {NP_P_9}<p>protein kinase C</p>{/NP_P_9} in {NP_10}an intact <Bpcl>cell</Bpcl>{/NP_10} .
+
+OUTPUT 1
+PTM = ({VP_pass_14};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_13}<p>insulin receptor</p>{/NP_P_13};-)
+Site = (-;-;UNK)
+
+In {NP_11}two-dimensional tryptic <pp>phosphopeptide</pp> mapping{/NP_11} , {NP_P_12}the <Bppf>beta- subunit</Bppf>{/NP_P_12} of {NP_P_13}the <p>insulin receptor</p>{/NP_P_13} {VP_pass_14}phosphorylated{/VP_pass_14} by {NP_C_15}<c>12-O-tetradecanoylphorbol-13-acetate</c>{/NP_C_15} in {NP_B_16}<s>rat</s> hepatoma <Bpcl>cells</Bpcl> (H-35){/NP_B_16} {VP_pass_17}was separated{/VP_pass_17} into {NP_PP_18}one <Bppp>phosphothreonine-containing peptide</Bppp>{/NP_PP_18} and {NP_PP_19}several <Bppp>phosphoserine-containing peptides</Bppp>{/NP_PP_19} .
+
+OUTPUT 4
+PTM = ({VP_pass_23};phosphorylated)
+Kinase = ({NP_P_25}<p>protein kinase C</p>{/NP_P_25};-)
+Substrate = ({NP_P_22}<p>insulin receptor</p>{/NP_P_22};-)
+Site = (-;-;{NP_PP_21}<pp>C-terminal region</pp>{/NP_PP_21})
+(-;{NP_PP_24}Thr{/NP_PP_24};UNK)
+
+{NP_PP_20}The synthetic <Bppp><Bppp>peptide</Bppp> coding residues 1327-1343</Bppp>{/NP_PP_20} in {NP_PP_21}the <pp>C-terminal region</pp>{/NP_PP_21} of {NP_P_22}the <s>rat</s> <p>insulin receptor</p>{/NP_P_22} {VP_pass_23}was phosphorylated{/VP_pass_23} at {NP_PP_24}the <pp>threonine residue</pp>{/NP_PP_24} by {NP_P_25}<p>protein kinase C</p>{/NP_P_25} in {NP_26}a <c>phosphatidylserine</c> and oleoylacetylglycerol dependent manner{/NP_26} .
+
+OUTPUT 5
+PTM = ({NP_PP_29};phosphopeptide)
+Kinase = (-;-)
+Substrate = ({NP_P_22}<p>insulin receptor</p>{/NP_P_22};-)
+Site = (-;-;{NP_PP_20}The synthetic <Bppp><Bppp>peptide</Bppp> coding residues 1327-1343</Bppp>{/NP_PP_20})
+(-;-;{NP_PP_21}<pp>C-terminal region</pp>{/NP_PP_21})
+(-;-;{NP_PP_29}<pp>phosphopeptide</pp>{/NP_PP_29})
+(-;{NP_PP_24}Thr{/NP_PP_24};UNK)
+
+{NP_27}Tryptic{/NP_27} {VP_act_28}digest{/VP_act_28} of {NP_PP_29}this <pp>phosphopeptide</pp>{/NP_PP_29} {VP_act_30}migrated{/VP_act_30} to {NP_31}the same position{/NP_31} as {NP_PP_32}the <pp>phosphothreonine</pp>{/NP_PP_32} {VP_act_33}containing{/VP_act_33} {NP_PP_34}<Bppp>peptide</Bppp>{/NP_PP_34} {VP_act_35}obtained{/VP_act_35} from {NP_P_36}the <Bppf>beta- subunit</Bppf>{/NP_P_36} in {NP_37}two-dimensional <pp>phosphopeptide</pp> mapping{/NP_37} .
+
+OUTPUT 7
+PTM = ({NP_44};phosphorylation)
+Kinase = ({NP_P_45}<p>protein kinase C</p>{/NP_P_45};-)
+Substrate = ({NP_P_41}<p>insulin receptor</p>{/NP_P_41};-)
+Site = (-;-;{NP_PP_43}<Bppp>site</Bppp>{/NP_PP_43})
+({NP_PP_40}1336{/NP_PP_40};{NP_PP_40}Thr{/NP_PP_40};UNK)
+
+{NP_38}These data{/NP_38} {VP_act_39}suggested{/VP_act_39} that {NP_PP_40}<pp>Thr 1336</pp>{/NP_PP_40} of {NP_P_41}the <p>insulin receptor</p>{/NP_P_41} {VP_act_42}is{/VP_act_42} {NP_PP_43}the <Bppp>site</Bppp>{/NP_PP_43} of {NP_44}phosphorylation{/NP_44} by {NP_P_45}<p>protein kinase C</p>{/NP_P_45} in {NP_46}intact <Bpcl>cells</Bpcl>{/NP_46} .
+
+NORM=insulin receptor
+SYNONYM=insulin receptor
+
+
+{NP_1}PMID{/NP_1} - {CP_2}2482717{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_P_5};Phosphoamino)
+Kinase = (-;-)
+Substrate = ({NP_P_5}<p>Phosphoamino acid phosphatases</p>{/NP_P_5};-)
+Site = (-;-;UNK)
+
+{NP_4}AB{/NP_4} - {NP_P_5}<p>Phosphoamino acid phosphatases</p>{/NP_P_5} in {NP_S_6}<s>human</s> normal and leukaemic <S>lymphocytes</S>{/NP_S_6} .
+
+OUTPUT 1
+PTM = ({NP_P_8};phosphoamino)
+Kinase = (-;-)
+Substrate = ({NP_P_8}<p>phosphoamino acid phosphatases</p>{/NP_P_8};-)
+Site = (-;-;UNK)
+
+{NP_7}The activities{/NP_7} of {NP_P_8}<p>phosphoamino acid phosphatases</p>{/NP_P_8} {VP_pass_9}were measured{/VP_pass_9} in {NP_S_10}<S>lymphocytes</S>{/NP_S_10} from {NP_11}normal adults{/NP_11} .
+
+For {NP_12}<Bpcl>cells</Bpcl>{/NP_12} from {NP_13}white individuals{/NP_13} {NP_14}the mean value ( <B>+/- SD</B> ){/NP_14} for {NP_15}<p>phosphotyrosine phosphatase</p> activity{/NP_15} {VP_pass_16}was{/VP_pass_16} {NP_P_17}342 +/- 120 <p>mU/mg protein</p>{/NP_P_17} ; {VP_act_18}mean{/VP_act_18} {NP_19}values{/NP_19} for {NP_20}<pp>phosphothreonine</pp> and <p>phosphoserine phosphatase</p> activities{/NP_20} {VP_pass_21}were{/VP_pass_21} {NP_22}35.6 +/- 17.1{/NP_22} and {NP_P_23}21.6 +/- 10.2 <p>mU/mg protein</p>{/NP_P_23} , {AV_24}respectively{/AV_24} .
+
+{NP_25}The corresponding activities{/NP_25} {VP_pass_26}were similar{/VP_pass_26} to these for both {NP_C_27}the <c>Indian</c> and <c>Bantu population groups</c>{/NP_C_27} .
+
+{NP_28}The activity{/NP_28} of {NP_P_29}<p>phosphotyrosine phosphatase</p>{/NP_P_29} {VP_pass_30}was significantly lower{/VP_pass_30} in {NP_S_31}<S>lymphocytes</S>{/NP_S_31} from {NP_32}white <s>children</s>{/NP_32} with {NP_33}acute lymphocytic leukaemia{/NP_33} than in {NP_34}<Bpcl>cells</Bpcl>{/NP_34} from {NP_35}normal <s>children</s>{/NP_35} or {NP_36}adults{/NP_36} .
+
+For {NP_P_37}<pp>phosphothreonine</pp> and <p>phosphoserine phosphatases</p>{/NP_P_37} , there {VP_pass_38}was{/VP_pass_38} {NP_39}no significant difference{/NP_39} between {NP_40}activities{/NP_40} {VP_pass_41}obtained{/VP_pass_41} in {NP_S_42}<S>lymphocytes</S>{/NP_S_42} from {NP_43}normal and leukaemic <s>children</s>{/NP_43} .
+
+NORM=phosphoamino acid phosphatases
+SYNONYM=Phosphoamino acid phosphatases
+SYNONYM=phosphoamino acid phosphatases
+
+
+{NP_1}PMID{/NP_1} - {CP_2}16242953{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_7};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_7}<pp>phosphopeptides</pp>{/NP_PP_7})
+
+{NP_4}AB{/NP_4} - {VP_act_5}Manipulating{/VP_act_5} {NP_6}the fragmentation patterns{/NP_6} of {NP_PP_7}<pp>phosphopeptides</pp>{/NP_PP_7} via {NP_8}<c>gas-phase boron</c> derivatization{/NP_8} :
+
+OUTPUT 1
+PTM = ({NP_PP_10};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_10}<Bppp>phosphorylation sites</Bppp>{/NP_PP_10})
+(-;-;{NP_PP_11}<Bppp>peptides</Bppp>{/NP_PP_11})
+
+{VP_act_9}determining{/VP_act_9} {NP_PP_10}<Bppp>phosphorylation sites</Bppp>{/NP_PP_10} in {NP_PP_11}<Bppp>peptides</Bppp>{/NP_PP_11} with {NP_PP_12}multiple <pp>serines</pp>{/NP_PP_12} .
+
+OUTPUT 2
+PTM = ({NP_PP_15};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_15}<pp>phosphopeptides</pp>{/NP_PP_15})
+
+{NP_13}Trivalent <c>boron</c> species{/NP_13} {VP_act_14}readily react{/VP_act_14} with {NP_PP_15}protonated <pp>phosphopeptides</pp>{/NP_PP_15} {VP_act_16}to give{/VP_act_16} {NP_17}<Bpf>addition products</Bpf>{/NP_17} with {NP_18}the loss{/NP_18} of {NP_B_19}<B>boron ligands</B>{/NP_B_19} .
+
+In {NP_C_20}the present study , <c>trimethoxyborane ( TMB )</c> , <c>diisopropoxymethylborane ( DIPM )</c> , and <c>diethylmethoxyborane ( DEMB )</c>{/NP_C_20} {VP_pass_21}were allowed{/VP_pass_21} {VP_act_22}to react{/VP_act_22} with {NP_B_23}four <pp>phosphopeptides</pp> , <p>VsSF</p> , <B>LSsF</B> , <p>LsGASA</p> , and <B>VSGAsA</B>{/NP_B_23} ( {JP_24}lower-case{/JP_24} {NP_25}s{/NP_25} {VP_act_26}indicates{/VP_act_26} {NP_PP_27}<pp>phosphoserine</pp>{/NP_PP_27} ) .
+
+OUTPUT 4
+PTM = ({NP_PP_28};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_28}<pp>phosphopeptides</pp>{/NP_PP_28})
+
+Each of {NP_PP_28}the <pp>phosphopeptides</pp>{/NP_PP_28} {VP_act_29}contains{/VP_act_29} {NP_PP_30}one <pp>serine</pp>{/NP_PP_30} {NP_31}that{/NP_31} {VP_pass_32}is phosphorylated{/VP_pass_32} and {CP_33}one{/CP_33} {NP_34}that{/NP_34} {VP_pass_neg_35}is not{/VP_pass_neg_35} .
+
+OUTPUT 6
+PTM = ({NP_PP_43};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_43}<pp>phosphopeptide</pp>{/NP_PP_43})
+
+Under {NP_36}<B>collision-activated dissociation ( CAD )</B> conditions{/NP_36} , {NP_PP_37}the boron-derivatized <Bppp>peptides</Bppp>{/NP_PP_37} {VP_act_38}give{/VP_act_38} {NP_39}fragmentation patterns{/NP_39} {NP_40}that{/NP_40} {VP_act_41}differ{/VP_act_41} {AV_42}significantly{/AV_42} from that of {NP_PP_43}the protonated <pp>phosphopeptide</pp>{/NP_PP_43} .
+
+{NP_44}The patterns{/NP_44} {VP_act_45}vary{/VP_act_45} , {VP_act_46}depending{/VP_act_46} on {NP_47}the number{/NP_47} of {JP_48}labile{/JP_48} ( {NP_49}i.e.{/NP_49} , {NP_C_50}<c>alkoxy</c>{/NP_C_50} ) {NP_51}<Bpf>ligands</Bpf>{/NP_51} on {NP_C_52}the <c>boron</c>{/NP_C_52} .
+
+In {JP_53}general{/JP_53} , {NP_54}<c>boron</c> derivatization{/NP_54} {VP_act_55}increases{/VP_act_55} {NP_56}the yield{/NP_56} of {NP_57}<Bppp>phosphate-containing sequence</Bppp> ions{/NP_57} , but {NP_58}dramatic effects{/NP_58} {VP_pass_59}are only seen{/VP_pass_59} with {NP_60}certain <Bppp>reagent/peptide</Bppp> combinations{/NP_60} .
+
+{AV_61}However{/AV_61} , {NP_62}the suite{/NP_62} of {NP_63}reagents{/NP_63} {VP_act_64}provides{/VP_act_64} {NP_65}a means{/NP_65} of {VP_act_66}altering and increasing{/VP_act_66} {NP_67}the information content{/NP_67} of {NP_68}<p><pp>phosphopeptide</pp> CAD</p> spectra{/NP_68} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}10453998{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Modulatory effect{/NP_5} of {NP_6}divalent metal cations{/NP_6} on {NP_7}the <pp>phosphotyrosine</pp> activity{/NP_7} of {NP_P_8}the frog liver acid <p>phosphatase</p>{/NP_P_8} .
+
+{NP_P_9}Frog liver acid <p>phosphatase</p>{/NP_P_9} {VP_act_10}hydrolyzes{/VP_act_10} {NP_PP_11}<pp>phosphotyrosine</pp>{/NP_PP_11} at {NP_12}acidic pH{/NP_12} {JP_13}optimum{/JP_13} .
+
+{NP_B_14}<c>Mn2+</c> , <B>Ca2+</B> and <B>Mg2+</B>{/NP_B_14} ( but {NP_B_15}not <B>Zn2+</B>{/NP_B_15} ) {NP_16}ions{/NP_16} {VP_act_17}modulate{/VP_act_17} {NP_18}this activity{/NP_18} by {VP_act_19}shifting{/VP_act_19} {NP_20}its pH{/NP_20} {JP_21}optimum{/JP_21} to {NP_22}physiological pH{/NP_22} .
+
+{NP_23}This effect{/NP_23} {VP_pass_neg_24}is not observed{/VP_pass_neg_24} when {NP_G_25}<c>p-nitrophenylphosphate</c>{/NP_G_25} {VP_pass_26}is used{/VP_pass_26} as {NP_P_27}a <Bppf>substrate</Bppf>{/NP_P_27} .
+
+{NP_PP_28}<pp>Phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_28} {VP_pass_neg_29}are not hydrolyzed{/VP_pass_neg_29} under {NP_30}the same conditions{/NP_30} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}14678013{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_7};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_7}<pp>phosphopeptides</pp>{/NP_PP_7})
+
+{NP_4}AB{/NP_4} - {NP_5}Inhibition{/NP_5} of {NP_6}<c>hydroxyapatite</c> formation{/NP_6} by {NP_PP_7}<p>osteopontin</p> <pp>phosphopeptides</pp>{/NP_PP_7} .
+
+{NP_P_8}<p>Osteopontin ( OPN )</p>{/NP_P_8} {VP_act_9}is{/VP_act_9} {NP_P_10}an acidic <p>phosphoglycoprotein</p>{/NP_P_10} {NP_11}that{/NP_11} {VP_pass_12}is believed{/VP_pass_12} {VP_pass_13}to function{/VP_pass_13} in {NP_14}the prevention{/NP_14} of {NP_15}soft <Bpcl>tissue</Bpcl> calcification{/NP_15} .
+
+OUTPUT 1
+PTM = ({NP_25};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_18}<p>OPN</p>{/NP_P_18};-)
+Site = (-;-;UNK)
+
+OUTPUT 2
+PTM = ({NP_PP_31};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_31}<Bppp>residues</Bppp>{/NP_PP_31})
+
+{NP_16}In vitro studies{/NP_16} {VP_act_17}have shown{/VP_act_17} that {NP_P_18}<p>OPN</p>{/NP_P_18} {VP_act_19}can inhibit{/VP_act_19} {NP_20}the formation{/NP_20} of {NP_C_21}<c>hydroxyapatite ( HA )</c>{/NP_C_21} and {NP_22}other biologically relevant crystal phases{/NP_22} , and that {NP_23}this inhibitory activity{/NP_23} {VP_act_24}requires{/VP_act_24} {NP_25}phosphorylation{/NP_25} of {NP_P_26}the <Bppf>protein</Bppf>{/NP_P_26} ; {AV_27}however{/AV_27} , {NP_28}it{/NP_28} {VP_pass_neg_29}is not known{/VP_pass_neg_29} {NP_30}which{/NP_30} {NP_PP_31}phosphorylated <Bppp>residues</Bppp>{/NP_PP_31} {VP_pass_32}are involved{/VP_pass_32} .
+
+OUTPUT 3
+PTM = ({NP_PP_37};phosphoserine)
+Kinase = (-;-)
+Substrate = ({NP_P_38}<s>rat</s> <p>OPN</p>{/NP_P_38};-)
+Site = (-;{NP_PP_37}Ser{/NP_PP_37};UNK)
+
+{NP_33}We{/NP_33} {VP_act_34}have synthesized{/VP_act_34} {NP_PP_35}<Bppp>peptides</Bppp>{/NP_PP_35} {VP_act_36}corresponding{/VP_act_36} to {NP_PP_37}four <Bppp>phosphoserine-containing sequences</Bppp>{/NP_PP_37} in {NP_P_38}<s>rat</s> <p>OPN</p>{/NP_P_38} : {NP_P_39}<p>OPN7-17</p>{/NP_P_39} , {VP_act_40}containing{/VP_act_40} {NP_PP_41}<pp>phosphoserines 10 and 11</pp>{/NP_PP_41} ; {NP_P_42}<p>OPN41-52</p>{/NP_P_42} , {VP_act_43}containing{/VP_act_43} {NP_PP_44}<pp>phosphoserines 46 and 47</pp>{/NP_PP_44} ; {NP_P_45}<p>OPN248-264</p>{/NP_P_45} , {VP_act_46}containing{/VP_act_46} {NP_PP_47}<pp>phosphoserines 250 , 257 and 262</pp>{/NP_PP_47} ; and {NP_P_48}<p>OPN290-301</p>{/NP_P_48} , {VP_act_49}containing{/VP_act_49} {NP_PP_50}<pp>phosphoserines 295-297</pp>{/NP_PP_50} .
+
+{NP_51}The abilities{/NP_51} of {NP_PP_52}these <Bppp>peptides</Bppp>{/NP_PP_52} {VP_act_53}to inhibit{/VP_act_53} {NP_54}de novo <c>HA</c> formation{/NP_54} {VP_pass_55}were determined{/VP_pass_55} {VP_act_56}using{/VP_act_56} {NP_57}a constant-composition autotitration assay{/NP_57} .
+
+OUTPUT 8
+PTM = ({NP_PP_58};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_58}<pp><p>OPN</p> phosphopeptides</pp>{/NP_PP_58})
+
+{NP_PP_58}All four <pp><p>OPN</p> phosphopeptides</pp>{/NP_PP_58} {VP_act_59}caused{/VP_act_59} {NP_60}a dose -dependent increase{/NP_60} in {NP_61}nucleation lag time{/NP_61} , but {VP_act_neg_62}did not significantly affect{/VP_act_neg_62} {NP_63}subsequent formation{/NP_63} of {NP_64}the crystals{/NP_64} .
+
+{AV_65}However{/AV_65} , {NP_P_66}<p>OPN41-52</p> ( inhibitory constant 73.5 <p>min/microM</p> ){/NP_P_66} and {NP_P_67}<p>OPN290-301</p> ( 72.2 <p>min/microM</p> ){/NP_P_67} {VP_pass_68}were{/VP_pass_68} {NP_P_69}approx. 4 times more potent <Bppf>inhibitors</Bppf>{/NP_P_69} than {NP_P_70}<p>OPN7-17</p> ( 19.7 <p>min/microM</p> ){/NP_P_70} and {NP_P_71}<p>OPN247-264</p> ( 16.3 <p>min/microM</p> ){/NP_P_71} .
+
+OUTPUT 9
+PTM = ({NP_G_78};phosphate groups)
+Kinase = (-;-)
+Substrate = ({NP_P_74}<p>OPN290-301</p>{/NP_P_74};-)
+Site = (-;-;{NP_PP_73}the <Bppp>amino acid sequence</Bppp>{/NP_PP_73})
+(-;-;{NP_PP_79}<Bppp>peptide</Bppp>{/NP_PP_79})
+
+{NP_72}'Scrambling'{/NP_72} {NP_PP_73}the <Bppp>amino acid sequence</Bppp>{/NP_PP_73} of {NP_P_74}<p>OPN290-301</p>{/NP_P_74} {VP_pass_75}resulted{/VP_pass_75} in {NP_P_76}decreased potency ( 45.6 <p>min/microM</p> ){/NP_P_76} , whereas {NP_77}omission{/NP_77} of {NP_G_78}the <c>phosphate groups</c>{/NP_G_78} from {NP_PP_79}this <Bppp>peptide</Bppp>{/NP_PP_79} {VP_act_80}caused{/VP_act_80} a {VP_act_81}greater decrease{/VP_act_81} {NP_P_82}( 5.20 <p>min/microM</p> ){/NP_P_82} .
+
+OUTPUT 10
+PTM = ({NP_PP_85};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_85}<Bppp>sequences</Bppp>{/NP_PP_85})
+
+{NP_83}These findings{/NP_83} {VP_act_84}have identified{/VP_act_84} {NP_PP_85}phosphorylated <Bppp>sequences</Bppp>{/NP_PP_85} {NP_86}that{/NP_86} {VP_pass_87}are important{/VP_pass_87} for {NP_88}the ability{/NP_88} of {NP_P_89}<s>rat</s> bone <p>OPN</p>{/NP_P_89} {VP_act_90}to inhibit{/VP_act_90} {NP_91}<c>HA</c> crystal formation{/NP_91} , and {VP_act_92}suggest{/VP_act_92} that {NP_93}negative-charge density{/NP_93} {VP_act_94}is{/VP_act_94} {NP_P_95}an important <Bppf>factor</Bppf>{/NP_P_95} in {NP_96}this activity{/NP_96} .
+
+NORM=opn
+SYNONYM=OPN
+SYNONYM=rat OPN
+
+
+{NP_1}PMID{/NP_1} - {CP_2}12463352{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Identification{/NP_5} of {NP_PP_6}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_6} as {NP_P_7}<p>cysteic acid</p> and <p>beta-methylcysteic acid residues</p>{/NP_P_7} in {NP_PP_8}<Bppp>peptides</Bppp>{/NP_PP_8} by {NP_9}tandem mass spectrometric sequencing{/NP_9} .
+
+OUTPUT 1
+PTM = ({NP_PP_14};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_14}<Bppp>phosphorylation sites</Bppp>{/NP_PP_14})
+
+{NP_10}Tandem mass spectrometry{/NP_10} {VP_pass_11}has long been{/VP_pass_11} {NP_12}an intrinsic tool{/NP_12} {VP_act_13}to determine{/VP_act_13} {NP_PP_14}<Bppp>phosphorylation sites</Bppp>{/NP_PP_14} in {NP_P_15}<Bppf>proteins</Bppf>{/NP_P_15} .
+
+{AV_16}However{/AV_16} , {NP_17}loss{/NP_17} of {NP_C_18}the <c>phosphate moiety</c>{/NP_C_18} from {NP_PP_19}both <pp>phosphoserine</pp> and <pp>phosphothreonine residues</pp>{/NP_PP_19} in {NP_20}low-energy collision-induced dissociation{/NP_20} {VP_act_21}is{/VP_act_21} {NP_22}a common phenomenon{/NP_22} , {NP_23}which{/NP_23} {VP_act_24}makes{/VP_act_24} {NP_25}identification{/NP_25} of {NP_PP_26}<B>P-Ser</B> and <pp><p>P-Thr</p> residues</pp>{/NP_PP_26} {VP_act_27}complicated{/VP_act_27} .
+
+OUTPUT 3
+PTM = ({NP_PP_30};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_7}<p>cysteic acid</p>{/NP_P_7};-)
+Site = (-;{NP_PP_30}Ser{/NP_PP_30};UNK)
+(-;{NP_PP_30}Thr{/NP_PP_30};UNK)
+
+{NP_28}A method{/NP_28} for {NP_29}direct sequencing{/NP_29} of {NP_PP_30}the <pp><pp>Ser</pp> and <pp>Thr</pp> phosphorylation sites</pp>{/NP_PP_30} by {NP_31}<p>ESI</p> tandem mass spectrometry{/NP_31} {VP_act_32}following{/VP_act_32} {NP_33}<c>beta-elimination/sulfite</c> addition{/NP_33} {VP_act_34}to convert{/VP_act_34} {NP_B_35}<B>-HPO4</B>{/NP_B_35} to {NP_B_36}<B>-SO3</B>{/NP_B_36} {VP_pass_37}has been studied{/VP_pass_37} .
+
+OUTPUT 4
+PTM = ({NP_PP_38};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_38}<pp>phosphopeptides</pp>{/NP_PP_38})
+
+OUTPUT 5
+PTM = ({NP_PP_42};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_42}<pp>peptide</pp>{/NP_PP_42})
+
+OUTPUT 6
+PTM = ({NP_PP_43};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_43}a <pp>phosphopeptide</pp>{/NP_PP_43})
+
+{NP_PP_38}Five model <pp>phosphopeptides</pp>{/NP_PP_38} , {VP_act_39}including{/VP_act_39} {NP_B_40}three synthetic <B>P-Ser-</B> , <B>P-Thr-</B> , or <B>P-Ser</B>{/NP_B_40} - and {NP_PP_41}<pp>P-Thr-containing peptides</pp>{/NP_PP_41} ; {NP_PP_42}a protein kinases C -phosphorylated <pp>peptide</pp>{/NP_PP_42} ; and {NP_PP_43}a <pp>phosphopeptide</pp>{/NP_PP_43} {VP_act_44}derived{/VP_act_44} from {NP_45}<p>beta-casein trypsin</p> digests{/NP_45} {VP_pass_46}were modified{/VP_pass_46} and {AV_47}then{/AV_47} {VP_act_48}sequenced{/VP_act_48} {VP_act_49}using{/VP_act_49} {NP_50}an <c>ESI-quadrupole</c> ion trap mass spectrometer{/NP_50} .
+
+{VP_act_51}Following{/VP_act_51} {NP_52}incubation{/NP_52} of {NP_B_53}<B>P-Ser</B>{/NP_B_53} - or {NP_PP_54}<pp>P-Thr-containing peptides</pp>{/NP_PP_54} with {NP_B_55}<B>Na2SO3/NaOH</B>{/NP_B_55} , {NP_B_56}90% <B>P-Ser</B>{/NP_B_56} and {NP_P_57}80% <p>P-Thr</p>{/NP_P_57} {VP_pass_58}was converted{/VP_pass_58} to {NP_P_59}<p>cysteic acid</p> and <p>beta-methylcysteic acid</p>{/NP_P_59} , {AV_60}respectively{/AV_60} , as {JP_61}revealed{/JP_61} by {NP_62}<Bppp>amino acid</Bppp> analysis{/NP_62} .
+
+{NP_63}The conversion{/NP_63} {VP_pass_64}can be carried{/VP_pass_64} out at {NP_65}1 microM concentration{/NP_65} of {NP_PP_66}the <Bppp>peptide</Bppp>{/NP_PP_66} .
+
+{NP_P_67}Both <p>cysteic acid</p> and <p>beta-methylcysteic acid residues</p>{/NP_P_67} in {NP_PP_68}the <Bppp>sequence</Bppp>{/NP_PP_68} {VP_pass_69}were shown{/VP_pass_69} {VP_pass_70}to be stable and easily identifiable{/VP_pass_70} under {NP_71}general conditions{/NP_71} for {NP_72}tandem mass spectrometric sequencing{/NP_72} {JP_73}applicable{/JP_73} to {NP_PP_74}common <Bppp>peptides</Bppp>{/NP_PP_74} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}16372258{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}<Bpcf>Chemical</Bpcf> derivatization{/NP_5} of {NP_PP_6}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_6} {VP_act_7}containing{/VP_act_7} {NP_PP_8}<Bppp>peptides</Bppp>{/NP_PP_8} {VP_act_9}to increase{/VP_act_9} {NP_10}sensitivity{/NP_10} for {NP_11}<B>MALDI-based</B> analysis{/NP_11} and for {NP_12}selectivity{/NP_12} of {NP_13}MS/MS analysis{/NP_13} .
+
+{NP_14}<Bppf>Protein</Bppf> phosphorylation{/NP_14} {VP_act_15}is{/VP_act_15} {CP_16}one{/CP_16} of {NP_17}the most important and common ways{/NP_17} of {VP_act_18}regulating{/VP_act_18} {NP_19}<Bppf>protein</Bppf> function{/NP_19} in {NP_20}<Bpcl>cells</Bpcl>{/NP_20} .
+
+OUTPUT 2
+PTM = ({NP_PP_22};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_22}<pp>phosphopeptides</pp>{/NP_PP_22})
+
+{AV_21}However{/AV_21} , {NP_PP_22}<pp>phosphopeptides</pp>{/NP_PP_22} {VP_pass_23}are difficult{/VP_pass_23} {VP_act_24}to analyse{/VP_act_24} , {VP_act_25}ionising{/VP_act_25} {AV_26}poorly{/AV_26} under {NP_27}standard MALDI conditions{/NP_27} .
+
+{NP_28}Several methods{/NP_28} {VP_pass_29}have been developed{/VP_pass_29} to {NP_30}deal{/NP_30} with {NP_31}the low sensitivity and specificity{/NP_31} of {NP_32}<pp>phosphopeptide</pp> analysis{/NP_32} .
+
+{AV_33}Here{/AV_33} , {NP_34}we{/NP_34} {VP_act_35}show{/VP_act_35} {NP_36}an approach{/NP_36} {VP_act_37}using{/VP_act_37} {NP_38}a simple one-step beta-elimination/Michael addition reaction{/NP_38} for {NP_39}the derivatization{/NP_39} of {NP_PP_40}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_40} .
+
+{NP_41}The substitution{/NP_41} of {NP_G_42}the negatively charged <c>phosphate group</c>{/NP_G_42} by {NP_C_43}a positively charged <c>S-ethylpyridyl group</c>{/NP_C_43} {VP_act_44}greatly improves{/VP_act_44} {NP_45}the ionisation{/NP_45} of {NP_PP_46}the modified <Bppp>peptides</Bppp>{/NP_PP_46} , {AV_47}especially{/AV_47} in {NP_48}MALDI MS{/NP_48} , {VP_act_49}increasing{/VP_act_49} {NP_50}the sensitivity{/NP_50} of {NP_51}the analysis{/NP_51} .
+
+{NP_52}The modification{/NP_52} {VP_act_53}allows{/VP_act_53} {NP_54}the formation{/NP_54} of {NP_55}a unique <Bppp>fragment</Bppp> ion{/NP_55} at {NP_56}m/z 106{/NP_56} under {NP_57}mild collisional activation conditions{/NP_57} , {NP_58}which{/NP_58} {VP_pass_59}can be used{/VP_pass_59} for {NP_60}parent ( <Bpf>precursor</Bpf> ) ion scanning{/NP_60} in {NP_61}order{/NP_61} {VP_act_62}to improve{/VP_act_62} both {NP_63}the sensitivity{/NP_63} and {NP_64}the selectivity{/NP_64} of {NP_65}the analysis{/NP_65} .
+
+{NP_66}The optimisation{/NP_66} of {NP_67}the approach{/NP_67} {VP_pass_68}is described{/VP_pass_68} for {NP_P_69}a standard model <Bppp>peptide</Bppp> and <Bppf>protein</Bppf>{/NP_P_69} and {AV_70}then{/AV_70} {VP_act_71}applied{/VP_act_71} to {NP_72}phosphorylation analysis{/NP_72} in {NP_P_73}two biologically derived <Bppf>proteins</Bppf>{/NP_P_73} {VP_act_74}purified{/VP_act_74} from {NP_75}different experimental systems{/NP_75} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}11440136{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_5};Phosphopeptides)
+Kinase = (-;-)
+Substrate = ({NP_P_7}<p>phosvitin</p>{/NP_P_7};-)
+Site = (-;-;{NP_PP_5}<pp>Phosphopeptides</pp>{/NP_PP_5})
+
+{NP_4}AB{/NP_4} - {NP_PP_5}<pp>Phosphopeptides</pp>{/NP_PP_5} {VP_act_6}derived{/VP_act_6} from {NP_P_7}hen egg yolk <p>phosvitin</p>{/NP_P_7} :
+
+{NP_8}effect{/NP_8} of {NP_9}molecular size{/NP_9} on {NP_10}the calcium-binding properties{/NP_10} .
+
+OUTPUT 1
+PTM = ({NP_PP_11};phosphopeptide)
+Kinase = (-;-)
+Substrate = ({NP_P_13}<p>phosvitin</p>{/NP_P_13};-)
+Site = (-;-;{NP_PP_11}<pp>phosphopeptide ( PPP ) fragments</pp>{/NP_PP_11})
+
+OUTPUT 2
+PTM = ({NP_PP_18};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_18}<pp>casein phosphopeptides ( CPP )</pp>{/NP_PP_18})
+
+{NP_PP_11}Two different <pp>phosphopeptide ( PPP ) fragments</pp>{/NP_PP_11} {VP_act_12}derived{/VP_act_12} from {NP_P_13}partially dephosphorylated hen egg yolk <p>phosvitin</p>{/NP_P_13} {VP_pass_14}were prepared{/VP_pass_14} by {NP_15}tryptic digestion{/NP_15} , and {NP_16}their Ca2+ binding property{/NP_16} {VP_act_17}compared{/VP_act_17} with that of {NP_PP_18}commercial <pp>casein phosphopeptides ( CPP )</pp>{/NP_PP_18} .
+
+{NP_PP_19}The smaller <Bppp>fragment</Bppp>{/NP_PP_19} of {JP_20}less{/JP_20} than {NP_21}1 <B>kDa</B> and O-phospho-1-serine{/NP_21} {VP_act_neg_22}did not bind{/VP_act_neg_22} {NP_B_23}<B>Ca2+</B>{/NP_B_23} to any {VP_act_24}significant extend{/VP_act_24} , while {NP_B_25}<B>PPP</B>{/NP_B_25} of {NP_B_26}1-3 <B>kDa</B>{/NP_B_26} {VP_act_27}showed{/VP_act_27} {NP_28}a higher ability{/NP_28} than {NP_B_29}<B>CPP</B>{/NP_B_29} {VP_act_30}to render{/VP_act_30} {NP_C_31}soluble <c>calcium</c>{/NP_C_31} .
+
+OUTPUT 4
+PTM = ({NP_PP_40};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_40}<pp>phosphopeptides</pp>{/NP_PP_40})
+
+{NP_32}The results{/NP_32} {VP_act_33}show{/VP_act_33} that {AV_34}not only{/AV_34} {NP_PP_35}the <pp>phosphoserine residues</pp>{/NP_PP_35} {VP_pass_36}are critical{/VP_pass_36} for {NP_37}<B>Ca2+</B> binding{/NP_37} , but {AV_38}also{/AV_38} {NP_39}the molecular size{/NP_39} of {NP_PP_40}the <pp>phosphopeptides</pp>{/NP_PP_40} .
+
+NORM=phosvitin
+SYNONYM=phosvitin
+
+
+{NP_1}PMID{/NP_1} - {CP_2}17297928{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Automatic validation{/NP_5} of {NP_6}<pp>phosphopeptide</pp> identifications{/NP_6} from {NP_7}tandem mass spectra{/NP_7} .
+
+{NP_8}We{/NP_8} {VP_act_9}developed{/VP_act_9} and {VP_act_10}compared{/VP_act_10} {NP_11}two approaches{/NP_11} for {NP_12}automated validation{/NP_12} of {NP_13}<pp>phosphopeptide</pp> tandem mass spectra{/NP_13} {VP_act_14}identified{/VP_act_14} {VP_act_15}using{/VP_act_15} {NP_16}database{/NP_16} {VP_act_17}searching{/VP_act_17} {NP_18}algorithms{/NP_18} .
+
+{NP_19}<pp>Phosphopeptide</pp> identifications{/NP_19} {VP_pass_20}were obtained{/VP_pass_20} through {NP_21}<B>SEQUEST</B> searches{/NP_21} of {NP_22}a <Bppf>protein</Bppf> database{/NP_22} {VP_act_23}appended{/VP_act_23} with {NP_PP_24}its decoy ( <Bppp>reversed sequences</Bppp> ){/NP_PP_24} .
+
+OUTPUT 0
+PTM = ({NP_PP_31};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_31}<pp>phosphopeptides</pp>{/NP_PP_31})
+
+{NP_25}Statistical evaluation{/NP_25} and {NP_26}iterative searches{/NP_26} {VP_pass_27}were employed{/VP_pass_27} {VP_act_28}to create{/VP_act_28} {NP_29}a high-quality data{/NP_29} {VP_act_30}set{/VP_act_30} of {NP_PP_31}<pp>phosphopeptides</pp>{/NP_PP_31} .
+
+{NP_32}Automation{/NP_32} of {NP_33}postsearch validation{/NP_33} {VP_pass_34}was approached{/VP_pass_34} by {NP_35}two different strategies{/NP_35} .
+
+OUTPUT 1
+PTM = ({NP_41};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_41}<Bppp>peptide</Bppp>{/NP_41})
+
+By {VP_act_36}using{/VP_act_36} {NP_37}statistical multiple testing{/NP_37} , {NP_38}we{/NP_38} {VP_act_39}calculate{/VP_act_39} {NP_40}a p value{/NP_40} for {NP_41}each tentative <Bppp>peptide</Bppp> phosphorylation{/NP_41} .
+
+OUTPUT 2
+PTM = ({NP_54};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_54}<Bppp>peptide</Bppp>{/NP_54})
+
+In {NP_42}a second method{/NP_42} , {NP_43}we{/NP_43} {VP_act_44}use{/VP_act_44} {NP_45}a{/NP_45} {VP_act_46}support{/VP_act_46} {NP_47}vector machine{/NP_47} ( {NP_B_48}<B>SVM</B>{/NP_B_48} ; {NP_49}a machine{/NP_49} {VP_act_50}learning{/VP_act_50} {NP_51}algorithm{/NP_51} ) {NP_52}binary classifier{/NP_52} {VP_act_53}to predict{/VP_act_53} whether {NP_54}a tentative <Bppp>peptide</Bppp> phosphorylation{/NP_54} {VP_pass_55}is true{/VP_pass_55} .
+
+{NP_56}We{/NP_56} {VP_act_57}show{/VP_act_57} {NP_58}good agreement ( 85% ){/NP_58} between {NP_59}postsearch validation{/NP_59} of {NP_C_60}<c>phosphopeptide/spectrum</c>{/NP_C_60} {VP_act_61}matches{/VP_act_61} by {NP_62}multiple testing{/NP_62} and that from {VP_act_63}support{/VP_act_63} {NP_64}vector machines{/NP_64} .
+
+{NP_65}Automatic methods{/NP_65} {VP_act_66}conform{/VP_act_66} {AV_67}very well{/AV_67} with {NP_68}manual expert validation{/NP_68} in {NP_69}a blinded test{/NP_69} .
+
+OUTPUT 3
+PTM = ({NP_PP_74};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_74}<pp>phosphopeptides</pp>{/NP_PP_74})
+
+{AV_70}Additionally{/AV_70} , {NP_71}the algorithms{/NP_71} {VP_pass_72}were tested{/VP_pass_72} on {NP_73}the identification{/NP_73} of {NP_PP_74}synthetic <pp>phosphopeptides</pp>{/NP_PP_74} .
+
+{NP_75}We{/NP_75} {VP_act_76}show{/VP_act_76} that {NP_77}<c>phosphate</c> neutral losses{/NP_77} in {NP_78}tandem mass spectra{/NP_78} {VP_pass_79}can be used{/VP_pass_79} {VP_act_80}to assess{/VP_act_80} {NP_81}the correctness{/NP_81} of {NP_82}<c>phosphopeptide/spectrum</c> matches{/NP_82} .
+
+{NP_B_83}An <B>SVM classifier</B>{/NP_B_83} with {NP_84}a radial basis function{/NP_84} {VP_act_85}provided{/VP_act_85} {NP_86}classification accuracy{/NP_86} from {CP_87}95.7% to 96.8%{/CP_87} of {NP_88}the positive data{/NP_88} {VP_act_89}set{/VP_act_89} , {VP_act_90}depending{/VP_act_90} on {NP_91}search algorithm{/NP_91} {VP_act_92}used{/VP_act_92} .
+
+OUTPUT 4
+PTM = ({NP_PP_101};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_101}<Bppp>phosphorylation sites</Bppp>{/NP_PP_101})
+
+{VP_act_93}Establishing{/VP_act_93} {NP_94}the efficacy{/NP_94} of {NP_95}an identification{/NP_95} {VP_act_96}is{/VP_act_96} {NP_97}a necessary step{/NP_97} for {NP_98}further postsearch interrogation{/NP_98} of {NP_99}the spectra{/NP_99} for {NP_100}complete localization{/NP_100} of {NP_PP_101}<Bppp>phosphorylation sites</Bppp>{/NP_PP_101} .
+
+OUTPUT 6
+PTM = ({NP_PP_107};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_107}<Bppp>phosphorylation sites</Bppp>{/NP_PP_107})
+
+{NP_102}Our current implementation{/NP_102} {VP_act_103}performs{/VP_act_103} {NP_104}validation{/NP_104} of {NP_PP_105}<pp>phosphoserine/phosphothreonine-containing peptides</pp>{/NP_PP_105} {VP_act_106}having{/VP_act_106} {NP_PP_107}one or two <Bppp>phosphorylation sites</Bppp>{/NP_PP_107} from {NP_108}data{/NP_108} {VP_pass_109}gathered{/VP_pass_109} on {NP_110}an ion trap mass spectrometer{/NP_110} .
+
+{NP_111}The <B>SVM-based</B> algorithm{/NP_111} {VP_pass_112}has been implemented{/VP_pass_112} in {NP_P_113}the software package <p>DeBunker</p>{/NP_P_113} .
+
+{NP_114}We{/NP_114} {VP_act_115}illustrate{/VP_act_115} {NP_116}the application{/NP_116} of {NP_B_117}the <B>SVM-based software <p>DeBunker</p></B>{/NP_B_117} on {NP_118}a large phosphorylation data{/NP_118} {VP_act_119}set{/VP_act_119} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}1517236{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_7};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_8}<p>Xenopus cdk2 protein kinase complex</p>{/NP_P_8};-)
+Site = (-;-;UNK)
+
+{NP_4}AB{/NP_4} - {NP_P_5}<p>Cdc25</p>{/NP_P_5} {VP_act_6}regulates{/VP_act_6} {NP_7}the phosphorylation and activity{/NP_7} of {NP_P_8}the <p>Xenopus cdk2 protein kinase complex</p>{/NP_P_8} .
+
+{NP_P_9}The <p>Xenopus cdk2 gene</p>{/NP_P_9} {VP_act_10}encodes{/VP_act_10} {NP_P_11}a <p>32-kDa protein kinase</p>{/NP_P_11} with {NP_12}<Bppp>sequence</Bppp> similarity{/NP_12} to {NP_P_13}the <p>34-kDa product</p>{/NP_P_13} of {NP_P_14}the <p>cdc2 gene</p>{/NP_P_14} .
+
+{NP_15}Previous studies{/NP_15} {VP_act_16}have shown{/VP_act_16} that {NP_17}the <Bppf>kinase</Bppf> activity{/NP_17} of {NP_18}the <Bpf>protein product</Bpf>{/NP_18} of {NP_P_19}the <p>cdk2 gene</p>{/NP_P_19} {VP_act_20}oscillates{/VP_act_20} in {NP_21}the <B>Xenopus</B> embryonic <Bpcl>cell</Bpcl> cycle{/NP_21} with {NP_22}a high{/NP_22} in {NP_23}M-phase{/NP_23} and {NP_24}a low{/NP_24} in {NP_25}interphase{/NP_25} .
+
+In {NP_P_26}the present study <p>cdk2</p>{/NP_P_26} {VP_pass_27}was found{/VP_pass_27} {AV_28}not{/AV_28} {VP_pass_29}to be associated{/VP_pass_29} with {NP_P_30}any newly synthesized <Bppf>proteins</Bppf>{/NP_P_30} during {NP_31}the <Bpcl>cell</Bpcl> cycle{/NP_31} , but {NP_P_32}the <Bppf>enzyme</Bppf>{/NP_P_32} {VP_act_33}did undergo{/VP_act_33} {NP_34}periodic changes{/NP_34} in {NP_35}phosphorylation{/NP_35} .
+
+OUTPUT 2
+PTM = ({VP_pass_39};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_38}<p>cdk2</p>{/NP_P_38};-)
+Site = (-;{NP_PP_40}Ser{/NP_PP_40};UNK)
+(-;{NP_PP_40}Tyr{/NP_PP_40};UNK)
+
+Upon {NP_36}exit{/NP_36} from {NP_37}metaphase{/NP_37} , {NP_P_38}<p>cdk2</p>{/NP_P_38} {VP_pass_39}became increasingly phosphorylated{/VP_pass_39} on {NP_PP_40}both <pp>tyrosine</pp> and <pp>serine residues</pp>{/NP_PP_40} , and {VP_act_41}labeling{/VP_act_41} on {NP_PP_42}these <Bppp>residues</Bppp>{/NP_PP_42} {VP_act_43}increased{/VP_act_43} {AV_44}progressively{/AV_44} until {NP_45}entry{/NP_45} into {NP_46}mitosis{/NP_46} , when {NP_PP_47}<pp>tyrosine residues</pp>{/NP_PP_47} {VP_pass_48}were markedly dephosphorylated{/VP_pass_48} .
+
+OUTPUT 3
+PTM = ({NP_53};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_52}<Bppp>sites</Bppp>{/NP_PP_52})
+(-;-;{NP_PP_55}a <pp>phosphopeptide</pp>{/NP_PP_55})
+
+OUTPUT 4
+PTM = ({NP_PP_55};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_55}a <pp>phosphopeptide</pp>{/NP_PP_55})
+
+{NP_49}<pp>Phosphopeptide</pp> mapping{/NP_49} of {NP_P_50}<p>cdk2</p>{/NP_P_50} {VP_act_51}demonstrated{/VP_act_51} {NP_PP_52}the major <Bppp>sites</Bppp>{/NP_PP_52} of {NP_53}phosphorylation{/NP_53} {VP_pass_54}were{/VP_pass_54} in {NP_PP_55}a <pp>phosphopeptide</pp>{/NP_PP_55} with {NP_B_56}a <B>pI</B>{/NP_B_56} of {NP_57}3.7{/NP_57} {NP_58}that{/NP_58} {VP_act_59}contained{/VP_act_59} {NP_PP_60}both <pp>phosphoserine</pp> and <pp>phosphotyrosine</pp>{/NP_PP_60} .
+
+OUTPUT 6
+PTM = ({NP_PP_61};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_61}<pp>phosphopeptide</pp>{/NP_PP_61})
+
+{NP_PP_61}This <pp>phosphopeptide</pp>{/NP_PP_61} {VP_pass_62}accumulated{/VP_pass_62} in {NP_63}egg extracts{/NP_63} {VP_pass_64}blocked{/VP_pass_64} in {NP_65}S-phase{/NP_65} with {NP_B_66}<B>aphidicolin</B>{/NP_B_66} and {VP_pass_neg_67}was not evident{/VP_pass_neg_67} in {NP_P_68}<p>cdc2</p>{/NP_P_68} {VP_act_69}immunoprecipitated{/VP_act_69} under {NP_70}the same conditions{/NP_70} .
+
+OUTPUT 7
+PTM = ({VP_pass_72};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_71}<p>cdc2</p>{/NP_P_71};-)
+Site = (-;-;{NP_PP_74}a <pp>phosphopeptide</pp>{/NP_PP_74})
+
+OUTPUT 8
+PTM = ({NP_PP_74};phosphopeptide)
+Kinase = (-;-)
+Substrate = ({NP_P_71}<p>cdc2</p>{/NP_P_71};-)
+Site = (-;-;{NP_PP_74}a <pp>phosphopeptide</pp>{/NP_PP_74})
+
+OUTPUT 9
+PTM = ({NP_PP_76};phosphothreonine)
+Kinase = (-;-)
+Substrate = ({NP_P_38}<p>cdk2</p>{/NP_P_38};-)
+Site = (-;{NP_PP_76}Thr{/NP_PP_76};UNK)
+({NP_PP_77}14{/NP_PP_77};{NP_PP_77}Thr{/NP_PP_77};UNK)
+({NP_PP_77}15{/NP_PP_77};{NP_PP_77}Tyr{/NP_PP_77};UNK)
+
+Under {NP_P_71}the same conditions <p>cdc2</p>{/NP_P_71} {VP_pass_72}was phosphorylated{/VP_pass_72} {AV_73}primarily{/AV_73} on {NP_PP_74}a <pp>phosphopeptide</pp>{/NP_PP_74} {VP_act_75}containing{/VP_act_75} {NP_PP_76}both <pp>phosphothreonine</pp> and <pp>phosphotyrosine residues</pp>{/NP_PP_76} , {NP_PP_77}most likely <pp>threonine 14</pp> and <pp>tyrosine 15</pp>{/NP_PP_77} .
+
+{NP_P_78}Affinity-purified <s>human</s> <p>GST-cdc25</p>{/NP_P_78} {VP_pass_79}was able{/VP_pass_79} {VP_act_80}to dephosphorylate and activate{/VP_act_80} {NP_P_81}<p>cdk2</p>{/NP_P_81} {VP_pass_82}isolated{/VP_pass_82} from {NP_83}<Bpcl>interphase cells</Bpcl>{/NP_83} .
+
+OUTPUT 10
+PTM = ({NP_PP_88};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_88}<pp>phosphopeptide</pp>{/NP_PP_88})
+
+OUTPUT 11
+PTM = ({NP_91};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_90}<Bppp>site</Bppp>{/NP_PP_90})
+
+{NP_84}<pp>Phosphopeptide</pp> mapping{/NP_84} {VP_act_85}demonstrated{/VP_act_85} that {NP_G_86}the <c>phosphate</c>{/NP_G_86} {VP_pass_87}was specifically removed{/VP_pass_87} from {NP_PP_88}the same <pp>phosphopeptide</pp>{/NP_PP_88} {VP_act_89}identified{/VP_act_89} as {NP_PP_90}the major in vivo <Bppp>site</Bppp>{/NP_PP_90} of {NP_91}phosphorylation{/NP_91} .
+
+OUTPUT 12
+PTM = ({NP_97};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_71}<p>cdc2</p>{/NP_P_71};-)
+Site = (-;-;{NP_PP_74}<pp>phosphopeptide</pp>{/NP_PP_74})
+(-;{NP_PP_98}Ser{/NP_PP_98};UNK)
+(-;{NP_PP_98}Tyr{/NP_PP_98};UNK)
+({NP_PP_77}14{/NP_PP_77};{NP_PP_77}Thr{/NP_PP_77};UNK)
+({NP_PP_77}15{/NP_PP_77};{NP_PP_77}Tyr{/NP_PP_77};UNK)
+
+{NP_92}These results{/NP_92} {VP_act_93}demonstrate{/VP_act_93} that {NP_P_94}<p>cdk2</p>{/NP_P_94} {VP_pass_95}is regulated{/VP_pass_95} in {NP_96}the <Bpcl>cell</Bpcl> cycle{/NP_96} by {NP_97}phosphorylation and dephosphorylation{/NP_97} on {NP_PP_98}both <pp>serine</pp> and <pp>tyrosine residues</pp>{/NP_PP_98} .
+
+OUTPUT 13
+PTM = ({NP_100};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_101}<p>cdk2</p>{/NP_P_101};-)
+Site = (-;-;UNK)
+
+{AV_99}Moreover{/AV_99} , {NP_100}the increased phosphorylation{/NP_100} of {NP_P_101}<p>cdk2</p>{/NP_P_101} in {NP_102}aphidicolin-blocked extracts{/NP_102} and {NP_103}the ability{/NP_103} of {NP_P_104}<p>cdc25</p>{/NP_P_104} {VP_act_105}to mediate{/VP_act_105} {NP_106}<p>cdk2</p> dephosphorylation{/NP_106} in {NP_107}vitro{/NP_107} {VP_act_108}suggest{/VP_act_108} {NP_109}the possibility{/NP_109} that {NP_P_110}<p>cdk2</p>{/NP_P_110} {VP_act_111}is{/VP_act_111} {NP_112}part{/NP_112} of {NP_113}the mechanism{/NP_113} {VP_act_114}ensuring{/VP_act_114} {NP_115}mitosis{/NP_115} {VP_pass_neg_116}is not initiated{/VP_pass_neg_116} until {NP_117}completion{/NP_117} of {NP_118}DNA replication{/NP_118} .
+
+{NP_119}It{/NP_119} {VP_act_120}also implies{/VP_act_120} {NP_P_121}<p>cdc25</p>{/NP_P_121} {VP_act_122}may have{/VP_act_122} {NP_123}other functions{/NP_123} in {NP_124}addition{/NP_124} to {NP_125}the regulation{/NP_125} of {NP_126}<p>cdc2 kinase</p> activity{/NP_126} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}7635197{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_7};non-phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_7}<pp>non-phosphopeptides</pp>{/NP_PP_7})
+
+{NP_4}AB{/NP_4} - {NP_5}Separation{/NP_5} of {NP_C_6}<c>phospho</c>{/NP_C_6} - and {NP_PP_7}<pp>non-phosphopeptides</pp>{/NP_PP_7} {VP_act_8}using{/VP_act_8} {VP_act_9}reverse{/VP_act_9} {NP_10}phase column chromatography{/NP_10} .
+
+{NP_PP_11}<Bppp>Peptides</Bppp>{/NP_PP_11} {VP_act_12}containing{/VP_act_12} {NP_PP_13}<pp>phosphoserine</pp> , <pp>phosphothreonine</pp> or <pp>phosphotyrosine</pp>{/NP_PP_13} and {NP_P_14}their parent non-phosphorylated <Bppf>forms</Bppf>{/NP_P_14} {VP_pass_15}were chromatographed{/VP_pass_15} {VP_act_16}using{/VP_act_16} {NP_PP_17}standard <pp>C18</pp>{/NP_PP_17} {VP_act_18}reverse{/VP_act_18} {NP_19}phase chromatography{/NP_19} in {NP_20}the presence{/NP_20} of {NP_21}a <c>water/acetonitrile</c> gradient{/NP_21} {VP_act_22}supplemented{/VP_act_22} with {NP_23}different counter ions{/NP_23} .
+
+{NP_24}We{/NP_24} {VP_act_25}obtained{/VP_act_25} {NP_26}the best separation{/NP_26} of {JP_27}phosphorylated{/JP_27} from {NP_PP_28}non-phosphorylated <Bppp>peptides</Bppp>{/NP_PP_28} in {NP_29}the presence{/NP_29} of {NP_P_30}<p>heptafluorobutyric acid</p>{/NP_P_30} , with {NP_31}differences{/NP_31} in {NP_32}retention times{/NP_32} {JP_33}as large{/JP_33} as {NP_34}approximately 20 min{/NP_34} .
+
+{NP_35}The chromatographic method{/NP_35} {VP_pass_36}was reliable{/VP_pass_36} in {NP_37}separation{/NP_37} of {NP_PP_38}the same <Bppp>peptides</Bppp>{/NP_PP_38} {VP_pass_39}phosphorylated{/VP_pass_39} at {NP_PP_40}different positions , acidic or basic phospho-<pp>Ser/Thr-peptides</pp> or phospho-<pp>Tyr-containing peptides</pp>{/NP_PP_40} .
+
+OUTPUT 5
+PTM = ({NP_PP_47};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_47}<Bppp>phosphorylation sites</Bppp>{/NP_PP_47})
+
+{NP_41}The described separation conditions{/NP_41} {VP_pass_42}are useful{/VP_pass_42} in {VP_act_43}studying{/VP_act_43} {NP_44}the kinetics{/NP_44} of {NP_45}phosphorylation/dephosphorylation{/NP_45} and in {NP_46}analysis{/NP_46} of {NP_PP_47}<Bppp>phosphorylation sites</Bppp>{/NP_PP_47} in {NP_48}vivo{/NP_48} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}8567164{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_PP_6};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_6}<pp>phosphopeptides</pp>{/NP_PP_6})
+
+{NP_4}AB{/NP_4} - {NP_5}<Bpcf>Chemical</Bpcf> synthesis{/NP_5} of {NP_PP_6}<pp>phosphopeptides</pp>{/NP_PP_6} {VP_act_7}using{/VP_act_7} {NP_C_8}the <c>arylthio group</c>{/NP_C_8} for {NP_9}protection{/NP_9} of {NP_G_10}<c>phosphate</c>{/NP_G_10} :
+
+OUTPUT 1
+PTM = ({NP_PP_13};phosphorylation)
+Kinase = ({NP_PP_13}<p>cdc2 kinase</p>{/NP_PP_13};-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_13}<pp><p>cdc2 kinase</p> phosphorylation sites</pp>{/NP_PP_13})
+
+{NP_11}application{/NP_11} to {NP_12}identification{/NP_12} of {NP_PP_13}<pp><p>cdc2 kinase</p> phosphorylation sites</pp>{/NP_PP_13} .
+
+OUTPUT 2
+PTM = ({NP_B_15};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_16}<pp>S-bis ( p-methoxyphenyl ) phosphorodithioyl]threonylproline</pp>{/NP_PP_16})
+
+OUTPUT 4
+PTM = ({NP_PP_19};phosphorylated)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_19}<pp>peptides</pp>{/NP_PP_19})
+
+{NP_14}Synthesis{/NP_14} of {NP_B_15}two O -phosphorylated dipeptides , <B>N-Boc-O[S</B> , <pp>S-bis ( p-methoxyphenyl ) phosphorodithioyl]- serylproline</pp> and <B>N-Boc-O-[S</B>{/NP_B_15} , {NP_PP_16}<pp>S-bis ( p-methoxyphenyl ) phosphorodithioyl]threonylproline</pp>{/NP_PP_16} , as {NP_17}new O -phosphorylated <pp>dipeptide</pp> building blocks{/NP_17} for {NP_18}the synthesis{/NP_18} of {NP_PP_19}O -phosphorylated <pp>peptides</pp>{/NP_PP_19} , {VP_pass_20}is described{/VP_pass_20} .
+
+{NP_PP_21}<Bppp>Peptides</Bppp>{/NP_PP_21} {VP_act_22}containing{/VP_act_22} {NP_PP_23}<pp>phosphoserine</pp> or <pp>phosphothreonine</pp>{/NP_PP_23} {VP_pass_24}were prepared{/VP_pass_24} by {NP_25}use{/NP_25} of {NP_26}these building{/NP_26} {VP_pass_27}blocks{/VP_pass_27} in {NP_28}the <p>Boc</p> mode{/NP_28} of {NP_29}<Bppp>liquid-phase peptide</Bppp> synthesis{/NP_29} .
+
+OUTPUT 6
+PTM = ({VP_pass_31};phosphorylated)
+Kinase = ({NP_P_32}<p>cdc2 kinase</p>{/NP_P_32};-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_30}<Bppp>Sites</Bppp>{/NP_PP_30})
+
+OUTPUT 7
+PTM = ({NP_PP_35};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_35}<pp>phosphopeptides</pp>{/NP_PP_35})
+(-;-;{NP_PP_6}<pp>phosphopeptides</pp>{/NP_PP_6})
+
+{NP_PP_30}<Bppp>Sites</Bppp>{/NP_PP_30} {VP_pass_31}phosphorylated{/VP_pass_31} by {NP_P_32}<p>cdc2 kinase</p>{/NP_P_32} {VP_pass_33}were easily identified{/VP_pass_33} {VP_act_34}using{/VP_act_34} {NP_PP_35}these chemically synthesized <pp>phosphopeptides</pp>{/NP_PP_35} .
+
+NORM=cdc 2 kinase
+SYNONYM=cdc2 kinase
+
+
+{NP_1}PMID{/NP_1} - {CP_2}2581963{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_6};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_7}<p>insulin receptors</p>{/NP_P_7};-)
+Site = (-;{NP_6}Tyr{/NP_6};UNK)
+
+{NP_4}AB{/NP_4} - {NP_5}Predominance{/NP_5} of {NP_6}<pp>tyrosine</pp> phosphorylation{/NP_6} of {NP_P_7}<p>insulin receptors</p>{/NP_P_7} during {NP_8}the initial response{/NP_8} of {NP_9}intact <Bpcl>cells</Bpcl>{/NP_9} to {NP_P_10}<p>insulin</p>{/NP_P_10} .
+
+OUTPUT 1
+PTM = ({NP_14};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_16}<p>insulin receptor</p>{/NP_P_16};-)
+Site = (-;-;UNK)
+
+{NP_P_11}<p>Anti-phosphotyrosine antibody</p> and <p>anti-insulin receptor antibody</p>{/NP_P_11} {VP_pass_12}were used{/VP_pass_12} {VP_act_13}to study{/VP_act_13} {NP_14}<p>insulin</p>-stimulated phosphorylation{/NP_14} of {NP_P_15}the <Bppf>beta- subunit</Bppf>{/NP_P_15} of {NP_P_16}the <p>insulin receptor</p>{/NP_P_16} in {NP_S_17}<S>[32P]orthophosphate-labeled Fao hepatoma cells</S>{/NP_S_17} .
+
+Without {NP_P_18}<p>insulin</p>{/NP_P_18} , {NP_P_19}the <Bppf>receptor</Bppf>{/NP_P_19} {VP_act_20}contained{/VP_act_20} {NP_PP_21}both <pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_21} and {VP_pass_22}could be immunoprecipitated{/VP_pass_22} with {NP_23}anti{/NP_23} - {NP_P_24}<Bppf>receptor antibody</Bppf>{/NP_P_24} but {AV_25}not{/AV_25} with {NP_P_26}the <p>anti-phosphotyrosine antibody</p>{/NP_P_26} .
+
+OUTPUT 3
+PTM = ({NP_P_32};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_16}<p>insulin receptor</p>{/NP_P_16};-)
+Site = (-;-;UNK)
+
+After {NP_27}incubation{/NP_27} of {NP_28}these <Bpcl>cells</Bpcl>{/NP_28} with {NP_P_29}<p>insulin</p>{/NP_P_29} , {NP_P_30}both <Bppf>antibodies</Bppf>{/NP_P_30} {VP_act_31}immunoprecipitated{/VP_act_31} {NP_P_32}the phosphorylated <Bppf>receptor</Bppf>{/NP_P_32} .
+
+{NP_P_33}The <Bppf>beta- subunit</Bppf>{/NP_P_33} of {NP_P_34}the <Bppf>receptor</Bppf>{/NP_P_34} {VP_act_35}precipitated{/VP_act_35} with {NP_P_36}<p>anti-phosphotyrosine antibody</p>{/NP_P_36} from {NP_37}<Bpcl>cells</Bpcl>{/NP_37} {VP_act_38}stimulated{/VP_act_38} with {NP_P_39}<p>insulin</p> ( 100 nM ){/NP_P_39} for {NP_40}1 min{/NP_40} {VP_act_41}contained{/VP_act_41} predominantly {NP_PP_42}<pp>phosphotyrosine</pp>{/NP_PP_42} , whereas , after {NP_43}10 min{/NP_43} with {NP_P_44}<p>insulin</p>{/NP_P_44} , {NP_45}the amounts{/NP_45} of {NP_PP_46}<pp>phosphotyrosine</pp> and <pp>phosphoserine</pp>{/NP_PP_46} {VP_pass_47}were nearly equal{/VP_pass_47} .
+
+{NP_48}These results{/NP_48} {VP_act_49}suggest{/VP_act_49} that {NP_50}insulin-stimulated <pp>tyrosine</pp> phosphorylation{/NP_50} {VP_act_51}preceded{/VP_act_51} {NP_52}insulin-stimulated <pp>serine</pp> phosphorylation{/NP_52} of {NP_P_53}the <Bppf>beta- subunit</Bppf>{/NP_P_53} .
+
+OUTPUT 8
+PTM = ({NP_PP_66};phosphoserine)
+Kinase = (-;-)
+Substrate = ({NP_P_63}<p>insulin receptors</p>{/NP_P_63};-)
+Site = (-;{NP_PP_66}Ser{/NP_PP_66};UNK)
+
+OUTPUT 9
+PTM = ({VP_pass_68};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_63}<p>insulin receptors</p>{/NP_P_63};-)
+Site = (-;{NP_PP_66}Ser{/NP_PP_66};UNK)
+(-;{VP_pass_68}Tyr{/VP_pass_68};UNK)
+
+{NP_54}Sequential immunoprecipitation{/NP_54} of {NP_P_55}<Bppf>receptor</Bppf>{/NP_P_55} with {NP_P_56}<p>anti-phosphotyrosine antibody</p>{/NP_P_56} {VP_pass_57}followed{/VP_pass_57} by {NP_58}precipitation{/NP_58} of {NP_P_59}the remaining <Bppf>proteins</Bppf>{/NP_P_59} with {NP_60}anti{/NP_60} - {NP_P_61}<Bppf>receptor antibody</Bppf>{/NP_P_61} {VP_act_62}suggests{/VP_act_62} that {NP_P_63}<p>insulin receptors</p>{/NP_P_63} {NP_64}which{/NP_64} {VP_act_65}contain{/VP_act_65} {NP_PP_66}<pp>phosphoserine</pp>{/NP_PP_66} in {NP_67}the basal state{/NP_67} {VP_pass_68}are <pp>tyrosine</pp> phosphorylated{/VP_pass_68} {AV_69}more slowly{/AV_69} than {NP_P_70}the dephosphorylated <Bppf>receptors</Bppf>{/NP_P_70} or {AV_71}not{/AV_71} at all after {NP_72}the addition{/NP_72} of {NP_P_73}<p>insulin</p>{/NP_P_73} .
+
+OUTPUT 10
+PTM = ({NP_P_77};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_75}<p>insulin receptor</p>{/NP_P_75};-)
+Site = (-;-;UNK)
+
+{NP_P_74}The <Bppf>beta- subunit</Bppf>{/NP_P_74} of {NP_P_75}the <p>insulin receptor</p>{/NP_P_75} {VP_pass_76}was{/VP_pass_76} {NP_P_77}the <Bppf>major phosphorylated protein</Bppf>{/NP_P_77} {VP_pass_78}precipitated{/VP_pass_78} by {NP_P_79}the <p>anti-phosphotyrosine antibody</p>{/NP_P_79} from {NP_S_80}insulin-stimulated <s><S>Fao cells</S></s>{/NP_S_80} .
+
+OUTPUT 12
+PTM = ({NP_87};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_88}<p>insulin receptor</p>{/NP_P_88};-)
+Site = (-;{NP_87}Ser{/NP_87};UNK)
+
+{NP_81}These results{/NP_81} {VP_act_82}confirm{/VP_act_82} {NP_83}our notion{/NP_83} {NP_P_84}that <p>insulin</p>{/NP_P_84} {VP_act_85}initially stimulated{/VP_act_85} {NP_86}<pp>tyrosine</pp> autophosphorylation{/NP_86} and {NP_87}subsequently <pp>serine</pp> phosphorylation{/NP_87} of {NP_P_88}the <p>insulin receptor</p>{/NP_P_88} in {NP_89}intact <Bpcl>cells</Bpcl>{/NP_89} and {VP_act_90}suggests{/VP_act_90} that {NP_PP_91}this <Bppp>sequence</Bppp>{/NP_PP_91} of {NP_92}reactions{/NP_92} {VP_act_93}occurs{/VP_act_93} {AV_94}faster{/AV_94} on {NP_P_95}<Bppf>receptors</Bppf>{/NP_P_95} {NP_96}that{/NP_96} {VP_pass_97}are dephosphorylated{/VP_pass_97} before {NP_98}the incubation{/NP_98} with {NP_P_99}<p>insulin</p>{/NP_P_99} .
+
+NORM=insulin receptor
+SYNONYM=insulin receptor
+SYNONYM=insulin receptors
+
+
+{NP_1}PMID{/NP_1} - {CP_2}19002654{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Detection and assignment{/NP_5} of {NP_PP_6}<pp>phosphoserine</pp> and <pp>phosphothreonine residues</pp>{/NP_PP_6} by {NP_7}( 13 ) <B>C- ( 31 )</B> P spin-echo difference NMR spectroscopy{/NP_7} .
+
+OUTPUT 1
+PTM = ({NP_PP_11};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_12}<p>N-labeled proteins</p>{/NP_P_12};-)
+Site = (-;{NP_PP_11}Ser{/NP_PP_11};UNK)
+(-;{NP_PP_11}Thr{/NP_PP_11};UNK)
+
+{NP_8}A simple NMR method{/NP_8} {VP_pass_9}is presented{/VP_pass_9} for {NP_10}the identification and assignment{/NP_10} of {NP_PP_11}phosphorylated <pp>serine</pp> and <pp>threonine residues</pp>{/NP_PP_11} in {NP_P_12}( 13 ) <B>C-</B> or ( 13 ) <B>C/ ( 15 )</B> <p>N-labeled proteins</p>{/NP_P_12} .
+
+By {VP_act_13}exploiting{/VP_act_13} {NP_14}modest ( ~5 Hz ) 2{/NP_14} - and {NP_15}<B>3-bond ( 13 ) C- ( 31 ) P</B> scalar couplings{/NP_15} , {NP_B_16}the aliphatic <B>(1) H- ( 13 ) C signals</B>{/NP_B_16} from {NP_PP_17}<pp>phosphoserines</pp> and <pp>phosphothreonines</pp>{/NP_PP_17} {VP_pass_18}can be detected{/VP_pass_18} {AV_19}selectively{/AV_19} in {NP_20}a ( 31 ) <B>P spin-echo difference constant time (1) H- ( 13 ) C HSQC</B> spectrum{/NP_20} .
+
+{NP_21}Inclusion{/NP_21} of the {JP_22}same{/JP_22} {NP_P_23}( 31 ) <Bppf>P spin-echo element</Bppf>{/NP_P_23} within {NP_24}the ( 13 ) <B>C frequency</B> editing period{/NP_24} of {NP_B_25}an <B>intraHNCA</B> or <B>HN (CO) CA</B>{/NP_B_25} {VP_act_26}experiment{/VP_act_26} {VP_act_27}allows{/VP_act_27} {NP_28}identification{/NP_28} of {NP_B_29}the <B>amide (1) H(N)</B> and ( 15 ) <B>N signals</B>{/NP_B_29} of {NP_PP_30}<Bppp>residues</Bppp>{/NP_PP_30} (i) for {NP_31}which{/NP_31} {NP_P_32}( 13 ) <p>C ( alpha )</p>{/NP_P_32} (i) or {NP_P_33}( 13 ) <p>C ( alpha )</p>{/NP_P_33} ( {NP_34}i{/NP_34} - {CP_35}1{/CP_35} ) , {AV_36}respectively{/AV_36} , {VP_pass_37}are coupled{/VP_pass_37} to {NP_G_38}a <c>phosphate</c>{/NP_G_38} .
+
+{AV_39}Furthermore{/AV_39} , {NP_40}( 31 ) <B>P resonance</B> assignments{/NP_40} {VP_pass_41}can be obtained{/VP_pass_41} by {VP_act_42}applying{/VP_act_42} {NP_B_43}selective low power cw ( 31 ) <B>P</B>{/NP_B_43} {VP_act_44}decoupling{/VP_act_44} during {NP_45}the spin-echo period{/NP_45} .
+
+OUTPUT 3
+PTM = ({NP_53};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_12}<p>N-labeled proteins</p>{/NP_P_12};-)
+Site = ({NP_PP_55}38{/NP_PP_55};{NP_PP_55}Thr{/NP_PP_55};UNK)
+({NP_PP_55}41{/NP_PP_55};{NP_PP_55}Ser{/NP_PP_55};UNK)
+
+{NP_46}The approach{/NP_46} {VP_pass_47}is demonstrated{/VP_pass_47} {VP_act_48}using{/VP_act_48} {NP_PP_49}a <pp>PNT domain</pp>{/NP_PP_49} {VP_act_50}containing{/VP_act_50} {NP_PP_51}<Bppp>fragment</Bppp>{/NP_PP_51} of {NP_P_52}the <p>transcription factor Ets-1</p>{/NP_P_52} , {NP_53}phosphorylated{/NP_53} in {NP_54}vitro{/NP_54} at {NP_PP_55}<pp>Thr38</pp> and <pp>Ser41</pp>{/NP_PP_55} with {NP_P_56}the <p>MAP kinase ERK2</p>{/NP_P_56} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}8216295{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 1
+PTM = ({NP_7};autophosphorylation)
+Kinase = ({NP_P_8}<p>EGF receptor</p>{/NP_P_8};-)
+({NP_P_8}<p>insulin receptor</p>{/NP_P_8};-)
+Substrate = ({NP_P_8}<p>insulin receptor</p>{/NP_P_8};-)
+Site = (-;-;UNK)
+
+OUTPUT 2
+PTM = ({NP_7};autophosphorylation)
+Kinase = ({NP_P_8}<p>EGF receptor</p>{/NP_P_8};-)
+({NP_P_8}<p>insulin receptor</p>{/NP_P_8};-)
+Substrate = ({NP_P_8}<p>EGF receptor</p>{/NP_P_8};-)
+Site = (-;-;UNK)
+
+{NP_4}AB{/NP_4} - {NP_P_5}<pp>Anti-phosphoserine</pp> and <p>anti-phosphothreonine antibodies</p>{/NP_P_5} {VP_act_6}modulate{/VP_act_6} {NP_7}autophosphorylation{/NP_7} of {NP_P_8}the <p>insulin receptor</p> but not <p>EGF receptor</p>{/NP_P_8} .
+
+OUTPUT 4
+PTM = ({NP_13};autophosphorylation)
+Kinase = ({NP_13}<p>insulin receptor</p>{/NP_13};-)
+Substrate = ({NP_13}<p>insulin receptor</p>{/NP_13};-)
+Site = (-;-;UNK)
+
+{NP_9}We{/NP_9} {VP_act_10}examined{/VP_act_10} {NP_11}the effect{/NP_11} of {NP_P_12}<pp>anti-phosphothreonine</pp> and <p>anti-phosphoserine antibodies</p>{/NP_P_12} on {NP_13}<p>insulin receptor</p> autophosphorylation{/NP_13} .
+
+{NP_P_14}These <Bppf>antibodies</Bppf>{/NP_P_14} {VP_act_neg_15}did not affect{/VP_act_neg_15} {NP_16}<p>insulin</p> binding activity{/NP_16} of {NP_P_17}the <Bppf>receptor</Bppf>{/NP_P_17} .
+
+OUTPUT 5
+PTM = ({NP_21};autophosphorylation)
+Kinase = ({NP_P_22}<p>insulin receptor</p>{/NP_P_22};-)
+Substrate = ({NP_P_22}<p>insulin receptor</p>{/NP_P_22};-)
+Site = (-;-;UNK)
+
+OUTPUT 6
+PTM = ({NP_24};autophosphorylation)
+Kinase = ({NP_P_25}<p>EGF receptor</p>{/NP_P_25};-)
+Substrate = ({NP_P_25}<p>EGF receptor</p>{/NP_P_25};-)
+Site = (-;-;UNK)
+
+{NP_P_18}These <Bppf>antibodies</Bppf>{/NP_P_18} , {AV_19}however{/AV_19} , {VP_act_20}inhibited{/VP_act_20} {NP_21}<p>insulin</p>-stimulated autophosphorylation{/NP_21} of {NP_P_22}<p>insulin receptor</p>{/NP_P_22} , while {VP_act_neg_23}did not affect{/VP_act_neg_23} {NP_24}<p>EGF</p> -stimulated autophosphorylation{/NP_24} of {NP_P_25}<p>EGF receptor</p>{/NP_P_25} .
+
+{NP_26}The inhibition{/NP_26} {VP_pass_27}was reversed{/VP_pass_27} by {VP_act_28}adding{/VP_act_28} {NP_29}large amounts{/NP_29} of {NP_PP_30}<pp>phosphoserine</pp> or <pp>phosphothreonine</pp>{/NP_PP_30} .
+
+OUTPUT 8
+PTM = ({NP_PP_33};phosphoserine)
+Kinase = (-;-)
+Substrate = ({NP_P_34}<p>insulin receptor</p>{/NP_P_34};-)
+Site = (-;{NP_PP_33}Ser{/NP_PP_33};UNK)
+
+{NP_31}These data{/NP_31} {VP_act_32}suggest{/VP_act_32} that {NP_PP_33}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_33} on {NP_P_34}<p>insulin receptor</p>{/NP_P_34} {VP_act_35}play{/VP_act_35} {NP_36}an important role{/NP_36} in {NP_37}insulin-induced conformational change{/NP_37} of {NP_P_38}the <Bppf>receptor</Bppf>{/NP_P_38} .
+
+NORM=egf receptor
+SYNONYM=EGF receptor
+
+NORM=insulin receptor
+SYNONYM=insulin receptor
+
+
+{NP_1}PMID{/NP_1} - {CP_2}2452204{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_P_5}Monoclonal <Bppf>antibodies</Bppf>{/NP_P_5} to {NP_PP_6}<pp>phosphotyrosine</pp>{/NP_PP_6} .
+
+{NP_PP_7}<pp>Phosphotyrosine</pp>{/NP_PP_7} {VP_act_8}coupled{/VP_act_8} to {NP_B_9}<B>KLH</B> , <B>BSA</B> , and <B>OVA</B>{/NP_B_9} {VP_pass_10}was used{/VP_pass_10} for {NP_11}the production and screening{/NP_11} of {NP_P_12}<Bppf>antibodies</Bppf>{/NP_P_12} to {NP_13}<c>phosphotyrosine. 800</c> hybridomas{/NP_13} {VP_act_14}secreting{/VP_act_14} {NP_P_15}<Bppf>antibodies</Bppf>{/NP_P_15} {NP_16}that{/NP_16} {VP_act_17}bound{/VP_act_17} to {NP_PP_18}<pp>phosphotyrosine</pp>{/NP_PP_18} {VP_pass_19}were detected{/VP_pass_19} by {NP_B_20}<B>ELISA</B>{/NP_B_20} .
+
+{NP_21}The most reactive 100{/NP_21} of these {CP_22}800{/CP_22} {VP_pass_23}were tested{/VP_pass_23} {AV_24}subsequently{/AV_24} for {NP_25}their ability{/NP_25} {VP_act_26}to bind{/VP_act_26} {NP_P_27}<Bppf>phosphotyrosine-containing proteins</Bppf>{/NP_P_27} on {NP_28}Western blots{/NP_28} .
+
+{NP_29}Eight stable hybridoma <Bpcl>cell lines</Bpcl>{/NP_29} {VP_pass_30}were selected{/VP_pass_30} for {NP_31}further study{/NP_31} , {VP_pass_32}cloned{/VP_pass_32} by {VP_act_33}limiting{/VP_act_33} {NP_34}dilution{/NP_34} , and {VP_act_35}grown{/VP_act_35} as {NP_36}ascites{/NP_36} .
+
+{NP_P_37}These <Bppf>antibodies</Bppf>{/NP_P_37} {VP_pass_38}were purified{/VP_pass_38} by {NP_39}three different methods{/NP_39} , and {NP_40}it{/NP_40} {VP_pass_41}was found{/VP_pass_41} that {NP_42}affinity chromatography{/NP_42} on {NP_C_43}<c>phosphotyrosine-affigel</c>{/NP_C_43} {VP_act_44}provided{/VP_act_44} {NP_45}the most rapid and effective method{/NP_45} .
+
+{NP_P_46}Many <Bppf>phosphotyrosine-containing proteins</Bppf>{/NP_P_46} {VP_pass_47}were detected{/VP_pass_47} by {VP_act_48}using{/VP_act_48} {NP_P_49}these <Bppf>antibodies</Bppf>{/NP_P_49} in {NP_50}Western{/NP_50} {VP_act_51}blotting{/VP_act_51} and {NP_52}immunoaffinity purification procedures{/NP_52} .
+
+{NP_53}Binding{/NP_53} of {NP_P_54}<p>anti-phosphotyrosine antibody</p>{/NP_P_54} {VP_pass_55}could be competed{/VP_pass_55} by {NP_G_56}<pp>phosphotyrosine</pp> or <c>phenylphosphate</c>{/NP_G_56} but {AV_57}not{/AV_57} by {NP_PP_58}<pp>phosphoserine</pp> , <pp>phosphothreonine</pp>{/NP_PP_58} , or {NP_G_59}free <c>phosphate</c>{/NP_G_59} .
+
+{NP_P_60}These <Bppf>antibodies</Bppf>{/NP_P_60} {VP_act_61}should be useful{/VP_act_61} for {NP_62}the identification and purification{/NP_62} of {NP_P_63}<Bppf>proteins</Bppf>{/NP_P_63} {VP_pass_64}phosphorylated{/VP_pass_64} on {NP_PP_65}<pp>tyrosine residues</pp>{/NP_PP_65} in {JP_66}transformed{/JP_66} and {NP_67}<Bpcl>growth factor -treated cells</Bpcl>{/NP_67} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}22013880{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Comparison{/NP_5} of {NP_6}three <c>quantitative phosphoproteomic</c> strategies{/NP_6} {VP_act_7}to study{/VP_act_7} {NP_8}<p>receptor tyrosine kinase</p> signaling{/NP_8} .
+
+There {VP_pass_9}are{/VP_pass_9} {NP_10}three <c>quantitative phosphoproteomic</c> strategies{/NP_10} {VP_act_11}most commonly used{/VP_act_11} {VP_act_12}to study{/VP_act_12} {NP_13}<p>receptor tyrosine kinase ( RTK )</p> signaling{/NP_13} .
+
+OUTPUT 1
+PTM = ({NP_PP_21};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_21}<pp>phosphopeptides</pp>{/NP_PP_21})
+
+{NP_14}These strategies{/NP_14} {VP_act_15}quantify{/VP_act_15} {NP_16}changes{/NP_16} in : (1) {NP_17}all three forms{/NP_17} of {NP_PP_18}<c>phosphosites</c> ( <pp>phosphoserine</pp> , <pp>phosphothreonine</pp> and <pp>phosphotyrosine</pp> ){/NP_PP_18} {VP_act_19}following{/VP_act_19} {NP_20}enrichment{/NP_20} of {NP_PP_21}<pp>phosphopeptides</pp>{/NP_PP_21} by {NP_C_22}<c>titanium dioxide</c>{/NP_C_22} or {VP_act_23}immobilized{/VP_act_23} {NP_24}metal affinity chromatography{/NP_24} ; (2) {NP_PP_25}<pp><B>phosphotyrosine</B> sites</pp>{/NP_PP_25} {VP_act_26}following{/VP_act_26} anti - {NP_27}<p>phosphotyrosine antibody</p> enrichment{/NP_27} of {NP_PP_28}<pp>phosphotyrosine peptides</pp>{/NP_PP_28} ; or (3) {NP_P_29}<p><pp>phosphotyrosine</pp> proteins</p>{/NP_P_29} and {NP_30}their binding partners{/NP_30} {VP_act_31}following{/VP_act_31} {NP_32}<p>anti-phosphotyrosine protein</p> immunoprecipitation{/NP_32} .
+
+{AV_33}However{/AV_33} , {NP_34}it{/NP_34} {VP_pass_neg_35}is not clear{/VP_pass_neg_35} from {NP_36}literature{/NP_36} {NP_37}which{/NP_37} {NP_38}strategy{/NP_38} {VP_pass_39}is more effective{/VP_pass_39} .
+
+In {NP_40}this study{/NP_40} , {NP_41}we{/NP_41} {VP_act_42}assessed{/VP_act_42} {NP_43}the utility{/NP_43} of {NP_44}these <c>three phosphoproteomic</c> strategies{/NP_44} in {NP_45}<p>RTK</p> signaling studies{/NP_45} by {VP_act_46}using{/VP_act_46} {NP_47}<p>EphB receptor</p> signaling{/NP_47} as {NP_48}an example{/NP_48} .
+
+{NP_49}We{/NP_49} {VP_act_50}used{/VP_act_50} {NP_51}all three strategies{/NP_51} with {NP_52}stable isotope labeling with amino acids{/NP_52} in {NP_C_53}cell culture ( SILAC ){/NP_C_53} {VP_act_54}to compare{/VP_act_54} {NP_55}changes{/NP_55} in {NP_C_56}<c>phosphoproteomes</c>{/NP_C_56} upon {NP_57}<p>EphB receptor</p> activation{/NP_57} .
+
+{NP_58}We{/NP_58} {VP_act_59}used{/VP_act_59} {NP_60}bioinformatic analysis{/NP_60} {VP_act_61}to compare{/VP_act_61} {NP_62}results{/NP_62} from {NP_63}the three analyses{/NP_63} .
+
+{NP_64}Our results{/NP_64} {VP_act_65}show{/VP_act_65} that {NP_66}the three strategies{/NP_66} {VP_act_67}provide{/VP_act_67} {NP_68}complementary information{/NP_68} about {NP_69}<p>RTK</p> pathways{/NP_69} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}1654905{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_5};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_6}<p>insulin receptor</p>{/NP_P_6};-)
+Site = (-;{NP_5}Ser{/NP_5};UNK)
+(-;{NP_5}Thr{/NP_5};UNK)
+
+{NP_4}AB{/NP_4} - {NP_5}Insulin-stimulated <pp>serine/threonine</pp> phosphorylation{/NP_5} of {NP_P_6}the <p>insulin receptor</p>{/NP_P_6} :
+
+OUTPUT 1
+PTM = ({NP_8};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = ({NP_8}1348{/NP_8};{NP_8}Thr{/NP_8};UNK)
+
+{NP_7}paucity{/NP_7} of {NP_8}<pp>threonine 1348</pp> phosphorylation{/NP_8} in {NP_9}vitro{/NP_9} {VP_act_10}indicates{/VP_act_10} {NP_11}the involvement{/NP_11} of {JP_12}more{/JP_12} than {NP_P_13}one <Bppf>serine/threonine kinase</Bppf>{/NP_P_13} in {NP_14}vivo{/NP_14} .
+
+OUTPUT 2
+PTM = ({VP_pass_19};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_20}<p>insulin receptor</p>{/NP_P_20};-)
+Site = (-;{NP_PP_18}Ser{/NP_PP_18};UNK)
+(-;{NP_PP_18}Thr{/NP_PP_18};UNK)
+
+{NP_P_15}Immunoaffinity-purified <p>insulin receptors</p>{/NP_P_15} {VP_pass_16}were used{/VP_pass_16} {VP_act_17}to analyse and compare{/VP_act_17} {NP_PP_18}the <pp><B>serine/threonine</B> sites</pp>{/NP_PP_18} {VP_pass_19}phosphorylated{/VP_pass_19} on {NP_P_20}the <p>insulin receptor</p> in vitro ( <Bppf>isolated receptor</Bppf> ){/NP_P_20} with {NP_21}the insulin-stimulated phosphorylation{/NP_21} in {NP_22}vivo{/NP_22} ( {NP_23}intact <Bpcl>cells</Bpcl>{/NP_23} in {NP_24}<Bpcl>culture</Bpcl>{/NP_24} ) .
+
+{NP_25}In vivo{/NP_25} , {NP_26}insulin-stimulation{/NP_26} {VP_pass_27}resulted{/VP_pass_27} in {NP_28}the appearance{/NP_28} of {NP_PP_29}three <pp>phosphoserine-containing phosphopeptides</pp>{/NP_PP_29} and {NP_PP_30}a distinct <pp>phosphothreonine peptide (<pp>threonine 1348</pp>)</pp>{/NP_PP_30} .
+
+{NP_31}In vitro{/NP_31} , {NP_PP_32}similar <pp>phosphoserine peptides</pp>{/NP_PP_32} {VP_pass_33}were observed{/VP_pass_33} but {NP_PP_34}the <pp>phosphothreonine peptide</pp>{/NP_PP_34} {VP_pass_35}was absent{/VP_pass_35} .
+
+OUTPUT 8
+PTM = ({VP_pass_39};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_44}<p>insulin receptor</p>{/NP_44};-)
+Site = (-;{NP_PP_38}Ser{/NP_PP_38};UNK)
+
+OUTPUT 9
+PTM = ({NP_44};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_44}<p>insulin receptor</p>{/NP_44};-)
+Site = (-;{NP_44}Thr{/NP_44};UNK)
+
+{NP_36}These results{/NP_36} {VP_act_37}indicate{/VP_act_37} that {NP_PP_38}multiple <pp><B>serine</B> sites</pp>{/NP_PP_38} {VP_pass_39}are phosphorylated{/VP_pass_39} in {NP_40}vivo{/NP_40} and {NP_41}in vitro{/NP_41} and that {NP_P_42}an additional <Bppf>protein kinase</Bppf>{/NP_P_42} {VP_act_43}mediates{/VP_act_43} {NP_44}insulin-stimulated <p>insulin receptor</p> <pp>threonine</pp> phosphorylation{/NP_44} in {NP_45}vivo{/NP_45} .
+
+NORM=insulin receptor
+SYNONYM=insulin receptor
+
+
+{NP_1}PMID{/NP_1} - {CP_2}18578522{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}<c>TiO(2)- based phosphoproteomic</c> analysis{/NP_5} of {NP_6}the plasma membrane{/NP_6} and {NP_7}the effects{/NP_7} of {NP_8}<Bppf>phosphatase inhibitor</Bppf> treatment{/NP_8} .
+
+{NP_9}Phosphorylation{/NP_9} of {NP_P_10}plasma <Bppf>membrane proteins</Bppf>{/NP_P_10} {VP_act_11}frequently initiates{/VP_act_11} {NP_12}signal transduction pathways{/NP_12} or {VP_act_13}attenuate{/VP_act_13} {NP_14}plasma membrane transport processes{/NP_14} .
+
+Because of {NP_15}the low abundance and hydrophobic features{/NP_15} of {NP_P_16}many plasma <Bppf>membrane proteins</Bppf>{/NP_P_16} and {NP_17}the low stoichiometry{/NP_17} of {NP_18}<Bppf>protein</Bppf> phosphorylation{/NP_18} , {VP_act_19}studies{/VP_act_19} of {NP_C_20}the plasma <c>membrane phosphoproteome</c>{/NP_C_20} {VP_act_21}are challenging{/VP_act_21} .
+
+OUTPUT 2
+PTM = ({NP_PP_31};phosphopeptide)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_31}<pp>phosphopeptide</pp>{/NP_PP_31})
+
+{NP_22}We{/NP_22} {VP_act_23}present{/VP_act_23} {NP_24}an optimized analytical strategy{/NP_24} for {NP_C_25}plasma <c>membrane phosphoproteomics</c>{/NP_C_25} {NP_26}that{/NP_26} {VP_act_27}combines{/VP_act_27} {NP_28}efficient plasma <Bppf>membrane protein</Bppf> preparation{/NP_28} with {NP_29}<pp><B>TiO(2)</B>- based phosphopeptide</pp> enrichment{/NP_29} and {NP_30}high-performance mass spectrometry{/NP_30} for {NP_PP_31}<pp>phosphopeptide</pp>{/NP_PP_31} {VP_act_32}sequencing{/VP_act_32} .
+
+{NP_33}We{/NP_33} {VP_act_34}used{/VP_act_34} {NP_35}<c>sucrose</c> centrifugation{/NP_35} in {NP_36}combination{/NP_36} with {NP_37}<c>sodium carbonate</c> extraction{/NP_37} {VP_act_38}to achieve{/VP_act_38} {NP_39}efficient and reproducible purification{/NP_39} of {NP_40}low microgram levels{/NP_40} of {NP_P_41}plasma <Bppf>membrane proteins</Bppf>{/NP_P_41} from {NP_42}<s>human</s> mesenchymal stem <Bpcl>cells</Bpcl>{/NP_42} ( {NP_P_43}<p>hMSCs</p>{/NP_P_43} , {NP_S_44}<S>10(7) cells</S>{/NP_S_44} ) , {VP_act_45}achieving{/VP_act_45} {JP_46}more{/JP_46} than {NP_47}70% yield{/NP_47} of {NP_P_48}<Bppf>membrane proteins</Bppf>{/NP_P_48} .
+
+OUTPUT 3
+PTM = ({NP_PP_56};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_56}<Bppp>phosphorylation sites</Bppp>{/NP_PP_56})
+
+{NP_49}<pp>Phosphopeptide</pp> enrichment{/NP_49} by {NP_50}<c>titanium dioxide</c> chromatography{/NP_50} {VP_pass_51}followed{/VP_pass_51} by {NP_52}capillary liquid chromatography-tandem mass spectrometry{/NP_52} {VP_act_53}allowed{/VP_act_53} {NP_54}us{/NP_54} {VP_act_55}to assign{/VP_act_55} {NP_PP_56}703 unique <Bppp>phosphorylation sites</Bppp>{/NP_PP_56} in {NP_P_57}376 <p>phosphoproteins</p>{/NP_P_57} .
+
+{NP_58}Our experiments{/NP_58} {VP_act_59}revealed{/VP_act_59} that {NP_60}treatment{/NP_60} of {NP_61}<Bpcl>cell cultures</Bpcl>{/NP_61} with {NP_62}three different types{/NP_62} of {NP_P_63}<Bppf>protein phosphatase inhibitors</Bppf>{/NP_P_63} {VP_act_64}produces{/VP_act_64} {NP_65}distinct <pp>phosphopeptide</pp> populations{/NP_65} and an {VP_act_66}increase{/VP_act_66} of {NP_67}10-40%{/NP_67} of {NP_68}the number{/NP_68} of {JP_69}detected{/JP_69} and {VP_act_70}sequenced{/VP_act_70} {NP_PP_71}<pp>phosphoserine</pp> , <pp>phosphothreonine</pp> and <pp>phosphotyrosine</pp>{/NP_PP_71} {VP_act_72}containing{/VP_act_72} {NP_PP_73}<Bppp>peptides</Bppp>{/NP_PP_73} .
+
+In {NP_74}summary{/NP_74} , {NP_75}our analytical strategy{/NP_75} {VP_act_76}enables{/VP_act_76} {NP_77}functional <c>phosphoproteomic</c> analysis{/NP_77} of {NP_78}<Bpcl>stem cell</Bpcl> differentiation and <Bpcl>cell</Bpcl> surface biomarker discovery{/NP_78} {VP_act_79}using{/VP_act_79} {NP_80}very low amounts{/NP_80} of {VP_act_81}starting{/VP_act_81} {NP_82}material{/NP_82} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}6434347{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({VP_pass_7};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_5}<p>Glycogen synthase</p>{/NP_P_5};-)
+Site = (-;{NP_PP_8}Ser{/NP_PP_8};UNK)
+(-;{NP_PP_8}Thr{/NP_PP_8};UNK)
+
+{NP_4}AB{/NP_4} - {NP_P_5}<p>Glycogen synthase</p>{/NP_P_5} in {NP_6}<S><s>rat</s> adipocytes</S> and skeletal muscle{/NP_6} {VP_pass_7}is phosphorylated{/VP_pass_7} on {NP_PP_8}both <pp>serine</pp> and <pp>threonine</pp>{/NP_PP_8} .
+
+OUTPUT 1
+PTM = ({VP_pass_10};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_9}<p>Glycogen synthase</p>{/NP_P_9};-)
+Site = (-;-;{NP_PP_13}<Bppp>sites</Bppp>{/NP_PP_13})
+
+{NP_P_9}<p>Glycogen synthase</p>{/NP_P_9} {VP_pass_10}is phosphorylated{/VP_pass_10} {NP_11}both{/NP_11} in {NP_12}vivo and in vitro{/NP_12} on {NP_PP_13}multiple <Bppp>sites</Bppp>{/NP_PP_13} per {NP_P_14}<Bppf>subunit</Bppf>{/NP_P_14} .
+
+{NP_15}All phosphorylations{/NP_15} of {NP_P_16}the <Bppf>enzyme</Bppf>{/NP_P_16} {VP_act_17}thus far identified{/VP_act_17} {VP_pass_18}occur{/VP_pass_18} on {NP_PP_19}<pp>serines</pp>{/NP_PP_19} {NP_20}which{/NP_20} {VP_pass_21}are found{/VP_pass_21} in {NP_PP_22}<pp><c>two cyanogen bromide</c> fragments</pp>{/NP_PP_22} , {VP_act_neg_23}denoted{/VP_act_neg_23} {NP_P_24}<p>CB-1</p> and <p>CB-2</p>{/NP_P_24} .
+
+{NP_25}We{/NP_25} {VP_act_26}have immunoprecipitated{/VP_act_26} {NP_P_27}<p>[32P]glycogen synthase</p>{/NP_P_27} from {NP_S_28}<s>rat</s> <S>adipocytes</S>{/NP_S_28} and {NP_29}epitrochlearis muscles{/NP_29} {VP_act_30}incubated{/VP_act_30} with {NP_G_31}<c>[32P]phosphate</c>{/NP_G_31} .
+
+{NP_32}<c>Phosphoamino acid</c> analyses{/NP_32} by {NP_33}two-dimensional electrophoresis{/NP_33} after {NP_34}acid hydrolysis{/NP_34} {VP_act_35}revealed{/VP_act_35} {NP_PP_36}no <pp>[32P]phosphotyrosine</pp>{/NP_PP_36} , but {NP_37}significant levels{/NP_37} of {NP_PP_38}<pp>[32P]phosphothreonine</pp>{/NP_PP_38} ( {NP_39}6-14%{/NP_39} of {NP_C_40}the <c>[32P] ( phosphoserine )</c>{/NP_C_40} . {NP_PP_41}The <pp>[32P]phosphothreonine</pp>{/NP_PP_41} {VP_pass_42}was recovered{/VP_pass_42} in {NP_43}the large <pp>CNBr-fragment ( <p>CB-2</p> )</pp>{/NP_43} , {JP_44}indicative{/JP_44} of {NP_45}a hitherto unknown phosphorylation site(s){/NP_45} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}6286990{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_5};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_8}<s>vesicular stomatitis virus</s> <p>NS protein</p>{/NP_P_8};-)
+Site = (-;-;{NP_5}<Bppp>Site</Bppp>{/NP_5})
+
+{NP_4}AB{/NP_4} - {NP_5}<Bppp>Site</Bppp> -specific phosphorylation{/NP_5} {VP_act_6}regulates{/VP_act_6} {NP_7}the transcriptive activity{/NP_7} of {NP_P_8}<s>vesicular stomatitis virus</s> <p>NS protein</p>{/NP_P_8} .
+
+{NP_9}In vitro transcription{/NP_9} by {NP_10}<s>vesicular stomatitis virus</s> nucleocapsids{/NP_10} {VP_pass_11}is inhibited{/VP_pass_11} by {NP_12}enzymatic dephosphorylation{/NP_12} of {NP_P_13}the <p>NS protein</p>{/NP_P_13} .
+
+{NP_14}We{/NP_14} {VP_act_15}provide{/VP_act_15} {NP_16}evidence{/NP_16} that {JP_17}specific{/JP_17} , {NP_18}partial dephosphorylation{/NP_18} of {NP_P_19}<Bppf><p>NS</p> molecules</Bppf>{/NP_P_19} {VP_act_20}is{/VP_act_20} {NP_21}the only detectable change{/NP_21} in {NP_22}nucleocapsids{/NP_22} {VP_act_23}treated{/VP_act_23} with {NP_P_24}bacterial alkaline <p>phosphatase</p>{/NP_P_24} under {NP_25}conditions{/NP_25} {NP_26}that{/NP_26} {VP_act_27}prevent{/VP_act_27} {NP_28}the action{/NP_28} of {NP_P_29}adventitious <Bppf>protease</Bppf>{/NP_P_29} .
+
+{NP_30}Dephosphorylation{/NP_30} {VP_act_31}appeared{/VP_act_31} {VP_act_32}to affect{/VP_act_32} {AV_33}only{/AV_33} {NP_34}the rate{/NP_34} of {NP_35}transcription{/NP_35} ; there {VP_pass_36}were{/VP_pass_36} {NP_37}no changes{/NP_37} in {NP_38}sedimentation rates{/NP_38} of {NP_P_39}<Bppf>transcripts</Bppf>{/NP_P_39} .
+
+OUTPUT 2
+PTM = ({NP_42};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_41}<Bppp>sites</Bppp>{/NP_PP_41})
+
+OUTPUT 3
+PTM = ({NP_PP_48};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_48}<pp>phosphopeptides</pp>{/NP_PP_48})
+
+{VP_act_40}To identify{/VP_act_40} {NP_PP_41}the <Bppp>sites</Bppp>{/NP_PP_41} of {NP_42}phosphorylation{/NP_42} {VP_act_43}required{/VP_act_43} for {NP_44}<p>NS</p> activity{/NP_44} in {NP_45}transcription{/NP_45} , {NP_46}we{/NP_46} {VP_act_47}examined{/VP_act_47} {NP_PP_48}<pp>phosphopeptides</pp>{/NP_PP_48} {VP_pass_49}produced{/VP_pass_49} by {NP_50}<B>chymotrypsin</B> digestion{/NP_50} of {NP_51}the two electrophoretic classes{/NP_51} of {NP_P_52}<Bppf><p>NS</p> molecules</Bppf>{/NP_P_52} {VP_pass_53}found{/VP_pass_53} in {NP_54}virions{/NP_54} and {VP_act_55}infected{/VP_act_55} {NP_56}<Bpcl>cells</Bpcl>{/NP_56} .
+
+OUTPUT 4
+PTM = ({NP_PP_66};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_66}<pp>phosphopeptides</pp>{/NP_PP_66})
+
+{NP_57}The electrophoretically slower class{/NP_57} , {NP_P_58}<p>NS1</p>{/NP_P_58} , {JP_59}abundant{/JP_59} in {NP_60}the intracellular soluble pool{/NP_60} , {VP_act_61}has{/VP_act_61} {NP_62}a lower activity{/NP_62} in {NP_63}transcription{/NP_63} ; {NP_64}it{/NP_64} {VP_act_65}contained{/VP_act_65} {NP_PP_66}six chymotryptic <pp>phosphopeptides</pp>{/NP_PP_66} .
+
+OUTPUT 6
+PTM = ({NP_75};phosphorylation)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_74}<Bppp>separate sites</Bppp>{/NP_PP_74})
+
+{CP_67}Five{/CP_67} of {NP_PP_68}these <Bppp>peptides</Bppp>{/NP_PP_68} {VP_act_69}contained{/VP_act_69} {NP_PP_70}both <pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_70} , {VP_act_71}indicating{/VP_act_71} that {NP_72}this <Bppp>peptide</Bppp> cluster{/NP_72} {VP_act_73}represents{/VP_act_73} {NP_PP_74}atleast 11 <Bppp>separate sites</Bppp>{/NP_PP_74} of {NP_75}phosphorylation{/NP_75} .
+
+OUTPUT 7
+PTM = ({NP_PP_83};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_83}<pp>phosphopeptides</pp>{/NP_PP_83})
+
+In {NP_P_76}the electrophoretically faster nucleocapsid-associated <p>NS2 class</p>{/NP_P_76} of {NP_P_77}<Bppf>molecules</Bppf>{/NP_P_77} , {NP_78}which{/NP_78} {VP_act_79}support{/VP_act_79} {NP_80}a higher rate{/NP_80} of {NP_81}transcription{/NP_81} , {NP_82}another <Bpcf>group</Bpcf>{/NP_82} of {NP_PP_83}eight <pp>phosphopeptides</pp>{/NP_PP_83} {VP_pass_84}was superimposed{/VP_pass_84} on {NP_85}this pattern{/NP_85} .
+
+OUTPUT 9
+PTM = ({NP_PP_94};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_52}<p>NS</p>{/NP_P_52};-)
+Site = (-;-;{NP_PP_87}these <Bppp>peptides</Bppp>{/NP_PP_87})
+(-;-;{NP_PP_94}<Bppp>phosphorylation sites</Bppp>{/NP_PP_94})
+(-;{NP_PP_70}Ser{/NP_PP_70};UNK)
+(-;{NP_PP_70}Thr{/NP_PP_70};UNK)
+
+{CP_86}Two{/CP_86} of {NP_PP_87}these <Bppp>peptides</Bppp>{/NP_PP_87} {VP_act_88}contained{/VP_act_88} {NP_PP_89}both <pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_89} , {AV_90}so{/AV_90} {NP_91}this cluster{/NP_91} of {NP_PP_92}<Bppp>peptides</Bppp>{/NP_PP_92} {VP_act_93}represents{/VP_act_93} {NP_PP_94}atleast 10 additional <Bppp>phosphorylation sites</Bppp>{/NP_PP_94} .
+
+{NP_PP_95}These <Bppp>sites</Bppp>{/NP_PP_95} {VP_pass_96}were especially sensitive{/VP_pass_96} to {NP_97}dephosphorylation{/NP_97} by {NP_P_98}bacterial alkaline <p>phosphatase</p>{/NP_P_98} .
+
+{CP_99}One{/CP_99} or {JP_100}more{/JP_100} of {NP_101}them{/NP_101} {VP_act_102}appears{/VP_act_102} {VP_pass_103}to be responsible{/VP_pass_103} for {NP_104}the higher transcription rates{/NP_104} {VP_pass_105}medicated{/VP_pass_105} by {NP_P_106}<Bppf>NS2 molecules</Bppf>{/NP_P_106} .
+
+NORM=ns
+SYNONYM=NS
+SYNONYM=vesicular stomatitis virus NS protein
+
+
+{NP_1}PMID{/NP_1} - {CP_2}1705393{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}An alternative method{/NP_5} for {NP_6}a fast separation{/NP_6} of {NP_PP_7}<pp>phosphotyrosine</pp>{/NP_PP_7} .
+
+{NP_8}A simple and rapid procedure{/NP_8} {VP_pass_9}is described{/VP_pass_9} for {VP_act_10}fully separating{/VP_act_10} {NP_PP_11}<pp>phosphotyrosine</pp>{/NP_PP_11} from {NP_PP_12}<pp>phosphoserine</pp> and <pp>phosphothreonine</pp>{/NP_PP_12} through {NP_13}one-dimensional thin-layer chromatography{/NP_13} .
+
+{NP_14}The migration properties{/NP_14} of {NP_C_15}these <c>phosphoamino acids</c>{/NP_C_15} {VP_pass_16}are compared{/VP_pass_16} with those of {NP_P_17}<p>CMP</p>{/NP_P_17} , {NP_G_18}<c>UMP</c> , <p>ATP</p> , ribose <c>phosphate</c> , and <c>inorganic or thophosphate</c>{/NP_G_18} , {VP_act_19}considered{/VP_act_19} {NP_20}the most frequent <Bpf>comigrating products</Bpf>{/NP_20} {VP_act_21}derived{/VP_act_21} from {NP_22}<B>32P-labeling</B> experiments{/NP_22} .
+
+{NP_23}We{/NP_23} {VP_act_24}demonstrate{/VP_act_24} that {NP_25}<B>Rf</B> values{/NP_25} for {NP_26}the <c>three phosphoamino</c> acids{/NP_26} {VP_act_27}differ{/VP_act_27} from those {JP_28}displayed{/JP_28} by {NP_29}the mentioned contaminating <Bpcf>compounds</Bpcf>{/NP_29} .
+
+{CP_30}One{/CP_30} of {NP_31}the most relevant advantages{/NP_31} of {NP_32}this procedure{/NP_32} {VP_act_33}is{/VP_act_33} that {NP_34}a complete separation{/NP_34} of {NP_PP_35}<pp>phosphotyrosine</pp>{/NP_PP_35} {VP_pass_36}can be achieved{/VP_pass_36} in {NP_37}only 90 min{/NP_37} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}19526547{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}A sensitive magnetic bead method{/NP_5} for {NP_6}the detection and identification{/NP_6} of {NP_7}<pp>tyrosine</pp> phosphorylation{/NP_7} in {NP_P_8}<Bppf>proteins</Bppf>{/NP_P_8} by {NP_9}MALDI-TOF/TOF MS{/NP_9} .
+
+{NP_10}Phosphorylation{/NP_10} {VP_act_11}is{/VP_act_11} {CP_12}one{/CP_12} of {NP_13}the most important PTMs{/NP_13} and {VP_pass_14}is estimated{/VP_pass_14} {VP_pass_15}to occur{/VP_pass_15} on {NP_16}30%{/NP_16} of {NP_17}the mammalian proteome{/NP_17} .
+
+{NP_18}Its perturbed regulation{/NP_18} {VP_pass_19}has been implicated{/VP_pass_19} in {NP_20}many pathologies{/NP_20} .
+
+{NP_21}The rarity{/NP_21} of {NP_PP_22}<pp>phosphotyrosine</pp>{/NP_PP_22} {VP_act_23}compared{/VP_act_23} with {NP_PP_24}<pp>phosphoserine</pp> or <pp>phosphothreonine</pp>{/NP_PP_24} {VP_act_25}is prompting{/VP_act_25} {NP_26}the development{/NP_26} of {NP_27}more sensitive approaches{/NP_27} because {NP_28}proteomic technologies{/NP_28} {NP_29}that{/NP_29} {VP_pass_30}are currently used{/VP_pass_30} {VP_act_31}to assess{/VP_act_31} {NP_32}<pp>tyrosine</pp> phosphorylation{/NP_32} in {NP_P_33}<Bppf>proteins</Bppf>{/NP_P_33} {VP_pass_34}are inadequate{/VP_pass_34} , {VP_act_35}identifying{/VP_act_35} {AV_36}only{/AV_36} {NP_37}a fraction{/NP_37} of {NP_C_38}the predicted <c>tyrosine phosphoproteome</c>{/NP_C_38} .
+
+{AV_39}Here{/AV_39} {NP_40}we{/NP_40} {VP_act_41}describe{/VP_act_41} {NP_42}the development{/NP_42} of a {JP_43}reproducible{/JP_43} , {NP_44}high-sensitivity methodology{/NP_44} for {NP_45}the detection and mapping{/NP_45} of {NP_PP_46}<pp>phosphotyrosine residues</pp>{/NP_PP_46} by {NP_B_47}<B>MS</B>{/NP_B_47} .
+
+{NP_P_48}The <p>anti-phosphotyrosine antibody 4G10</p>{/NP_P_48} {VP_pass_49}was coupled{/VP_pass_49} {AV_50}covalently{/AV_50} to {NP_51}super para-magnetic beads{/NP_51} or by {NP_52}affinity{/NP_52} to {NP_53}super para-magnetic beads{/NP_53} with {NP_P_54}<p>protein G</p>{/NP_P_54} {VP_act_55}covalently attached{/VP_act_55} .
+
+{VP_act_56}Using{/VP_act_56} {NP_57}this approach{/NP_57} , {NP_58}we{/NP_58} {VP_act_59}successfully enriched{/VP_act_59} {NP_PP_60}<pp>phosphotyrosine peptides</pp>{/NP_PP_60} {VP_act_61}mixed{/VP_act_61} with {NP_PP_62}non-phosphorylated <Bppp>peptides</Bppp>{/NP_PP_62} at {NP_63}a ratio{/NP_63} of up to {CP_64}1{/CP_64} : {CP_65}200{/CP_65} , {VP_act_66}enabling{/VP_act_66} {NP_67}detection{/NP_67} at {NP_68}a level{/NP_68} {VP_act_69}representing{/VP_act_69} {NP_70}the highest sensitivity{/NP_70} {VP_act_71}reported{/VP_act_71} for {NP_72}<pp>tyrosine</pp> phosphorylation{/NP_72} .
+
+OUTPUT 9
+PTM = ({NP_PP_78};vitro-phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_P_79}<p>granulocyte-macrophage colony-stimulating factor receptor</p>{/NP_P_79};-)
+Site = (-;-;{NP_PP_78}<Bppp>beta-intracellular region</Bppp>{/NP_PP_78})
+
+{NP_73}The beads{/NP_73} {VP_pass_74}were subsequently used{/VP_pass_74} {VP_act_75}to enrich{/VP_act_75} {NP_PP_76}<pp>tyrosine phosphopeptides</pp>{/NP_PP_76} from {NP_77}a digest{/NP_77} of {NP_PP_78}the in vitro-phosphorylated recombinant <Bppp>beta-intracellular region</Bppp>{/NP_PP_78} of {NP_P_79}the <p>granulocyte-macrophage colony-stimulating factor receptor</p>{/NP_P_79} , {NP_80}which{/NP_80} {VP_pass_81}was subsequently analysed{/VP_pass_81} by {NP_82}MALDI-TOF/TOF MS{/NP_82} .
+
+{NP_83}Our results{/NP_83} {VP_act_84}define{/VP_act_84} {NP_85}this methodology{/NP_85} as {NP_86}a sensitive approach{/NP_86} for {NP_87}<c>tyrosine phosphoproteome</c> analysis{/NP_87} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}16738478{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Simultaneous detection{/NP_5} of {NP_C_6}<p>tau</p> phospho-<c>epitopes</c>{/NP_C_6} with {NP_P_7}haptenylated <Bppf>antibodies</Bppf>{/NP_P_7} .
+
+{NP_8}Neurofibrillary tangles{/NP_8} as {NP_9}a neuropathological hallmark{/NP_9} of {NP_10}<B>Alzheimer</B> 's disease{/NP_10} {VP_pass_11}are mainly composed{/VP_pass_11} of {NP_P_12}abnormally phosphorylated microtubule-associated protein <p>tau</p>{/NP_P_12} .
+
+{NP_13}The present work{/NP_13} {VP_pass_14}was primarily focused{/VP_pass_14} on {NP_15}the <Bpcf>immunohistochemical</Bpcf> characterization{/NP_15} of {NP_P_16}recently developed monoclonal <Bppf>antibodies</Bppf>{/NP_P_16} {VP_act_17}directed{/VP_act_17} against {NP_18}disease-associated epitopes{/NP_18} .
+
+OUTPUT 1
+PTM = ({NP_PP_19};Anti-phospho-<pp>threonine 212</pp>)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = ({NP_PP_19}212{/NP_PP_19};{NP_PP_19}Thr{/NP_PP_19};UNK)
+
+{NP_PP_19}Anti-phospho-<pp>threonine 212</pp>/phospho-<pp>serine 214</pp> (<p>HPT-1</p>) , anti-phospho-<pp>threonine 231/phospho-<pp>serine 235</pp> (HPT-101)</pp>{/NP_PP_19} and {NP_20}their biotinylated <Bpf>derivatives</Bpf>{/NP_20} {VP_pass_21}were shown{/VP_pass_21} {VP_pass_22}to be{/VP_pass_22} {NP_23}sensitive markers{/NP_23} for {NP_24}the <Bpcf>immunohistochemical</Bpcf> detection{/NP_24} of {NP_25}neuropathological alterations{/NP_25} during {NP_26}<B>Alzheimer</B> 's disease{/NP_26} .
+
+{NP_27}Triple carbocyanine immunofluorescence{/NP_27} {VP_act_28}labelling{/VP_act_28} {VP_pass_29}was based{/VP_pass_29} on {JP_30}digoxigenylated{/JP_30} , {VP_act_31}fluoresceinated and biotinylated{/VP_act_31} {NP_P_32}primary <Bppf>antibodies</Bppf>{/NP_P_32} .
+
+OUTPUT 2
+PTM = ({NP_PP_34};phospho-<pp>serine 202</pp>)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = ({NP_PP_34}202{/NP_PP_34};{NP_PP_34}Ser{/NP_PP_34};UNK)
+
+OUTPUT 3
+PTM = ({NP_39};double-phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_39}<p>tau</p>{/NP_39};-)
+Site = ({NP_PP_34}202{/NP_PP_34};{NP_PP_34}Ser{/NP_PP_34};UNK)
+({NP_PP_34}205{/NP_PP_34};{NP_PP_34}Thr{/NP_PP_34};UNK)
+
+{NP_C_33}<c>AT8-immunolabelling</c>{/NP_C_33} of {NP_PP_34}phospho-<pp>serine 202</pp> and phospho-<pp>threonine 205</pp>{/NP_PP_34} {VP_pass_35}combined{/VP_pass_35} with {NP_P_36}<p>HPT-1</p> and <p>HPT-101-staining</p>{/NP_P_36} {VP_act_37}revealed{/VP_act_37} {NP_38}similar distribution patterns{/NP_38} of {NP_39}the three double-phosphorylated <p>tau</p> epitopes{/NP_39} in {NP_40}the neocortex{/NP_40} of {NP_41}patients{/NP_41} with {NP_42}<B>Alzheimer</B> 's disease{/NP_42} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}1691639{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+{NP_4}AB{/NP_4} - {NP_5}Fluorescence{/NP_5} of {NP_P_6}<c>phosphotyrosine--terbium</c> <p>(III) complexes</p>{/NP_P_6} .
+
+{NP_PP_7}<pp>Phosphotyrosine</pp>{/NP_PP_7} , {NP_PP_8}a biologically important <Bppp>protein residue</Bppp>{/NP_PP_8} , {VP_pass_9}was investigated{/VP_pass_9} for {NP_10}the ability{/NP_10} {VP_act_11}to enhance{/VP_act_11} {NP_12}<B>terbium ( Tb3+ )</B> fluorescence{/NP_12} .
+
+{NP_13}Spectroscopic analysis{/NP_13} of {NP_B_14}the <B>Tb3+</B>{/NP_B_14} : {NP_15}<pp>phosphotyrosine</pp> interaction{/NP_15} {VP_act_16}indicated{/VP_act_16} {NP_17}the development{/NP_17} of {NP_18}a new excitation peak{/NP_18} at {NP_19}275 nm{/NP_19} and {NP_20}strong <B>Tb+</B> fluorescence enhancement{/NP_20} at {NP_21}488 and 540 nm{/NP_21} {NP_22}that{/NP_22} {VP_pass_23}was linear{/VP_pass_23} over {NP_24}a range{/NP_24} from {NP_25}0.5{/NP_25} to {NP_PP_26}100 <pp>microM amino acid</pp>{/NP_PP_26} .
+
+{NP_27}Subsequent experiments{/NP_27} {VP_act_28}comparing{/VP_act_28} {NP_29}the ability{/NP_29} of {NP_PP_30}<pp>phosphotyrosine</pp> , <pp>phosphothreonine</pp> , <pp>phosphoserine</pp>{/NP_PP_30} and {NP_PP_31}20 other common non-phosphorylated <Bppp>amino acids</Bppp>{/NP_PP_31} {VP_act_32}showed{/VP_act_32} that {NP_PP_33}only <pp>phosphotyrosine</pp>{/NP_PP_33} {VP_act_34}produced{/VP_act_34} {NP_35}significant <B>Tb3+</B> fluorescence enhancement{/NP_35} .
+
+{NP_36}Analysis{/NP_36} of {NP_C_37}various phospho-<c>sugars</c>{/NP_C_37} and {NP_38}nucleotides{/NP_38} {VP_act_39}showed{/VP_act_39} ( with {NP_40}the expected exception{/NP_40} of {NP_P_41}<p>GMP</p>{/NP_P_41} ) that {NP_42}they{/NP_42} {VP_act_43}produced{/VP_act_43} {JP_44}little{/JP_44} or {NP_45}no significant fluorescence enhancement{/NP_45} , {VP_act_46}indicating{/VP_act_46} {NP_47}a further selectiveness{/NP_47} for {NP_PP_48}the <pp>phosphotyrosine</pp>{/NP_PP_48} : {NP_49}<B>Tb3+</B> fluorescence enhancement event{/NP_49} .
+
+{NP_50}These results{/NP_50} {VP_act_51}establish{/VP_act_51} {NP_52}a basis{/NP_52} for {NP_53}the future use{/NP_53} of {NP_54}<B>Tb3+</B> fluorescence enhancement{/NP_54} as {NP_55}a unique probe{/NP_55} for {NP_56}the investigation{/NP_56} of {NP_PP_57}<pp>phosphotyrosine residues</pp>{/NP_PP_57} .
+
+
+{NP_1}PMID{/NP_1} - {CP_2}1652474{/CP_2}
+
+{NP_3}TI{/NP_3} -
+
+OUTPUT 0
+PTM = ({NP_5};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_6}<p>insulin</p>{/NP_P_6};-)
+Site = (-;{NP_5}Ser{/NP_5};UNK)
+
+{NP_4}AB{/NP_4} - {NP_5}<pp>Multisite serine</pp> phosphorylation{/NP_5} of {NP_P_6}the <p>insulin</p> and <p>IGF-I receptors</p>{/NP_P_6} in {NP_7}transfected <Bpcl>cells</Bpcl>{/NP_7} .
+
+OUTPUT 1
+PTM = ({NP_8};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_P_9}<p>insulin/IGF-I receptors</p>{/NP_P_9};-)
+Site = (-;{NP_8}Ser{/NP_8};UNK)
+
+{NP_8}<pp>Serine</pp> phosphorylation{/NP_8} of {NP_P_9}<p>insulin/IGF-I receptors</p>{/NP_P_9} in {NP_S_10}transfected <S>fibroblasts</S>{/NP_S_10} {VP_pass_11}was analysed{/VP_pass_11} by {NP_12}<Bppp>peptide</Bppp> mapping{/NP_12} .
+
+OUTPUT 2
+PTM = ({NP_15};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_PP_16}<p>insulin receptor</p>{/NP_PP_16};-)
+Site = (-;-;{NP_PP_16}<pp>phosphopeptides</pp>{/NP_PP_16})
+({NP_PP_19}1348{/NP_PP_19};{NP_PP_19}Thr{/NP_PP_19};UNK)
+
+OUTPUT 3
+PTM = ({NP_PP_16};phosphopeptides)
+Kinase = (-;-)
+Substrate = (-;-)
+Site = (-;-;{NP_PP_16}<pp>phosphopeptides</pp>{/NP_PP_16})
+
+{NP_P_13}<p>PMA</p>{/NP_P_13} {VP_act_14}stimulated{/VP_act_14} {NP_15}the phosphorylation{/NP_15} of {NP_PP_16}5 distinct <p>insulin receptor</p> <pp>phosphopeptides</pp>{/NP_PP_16} : {NP_PP_17}a single major <pp>phosphothreonine peptide</pp>{/NP_PP_17} {VP_act_18}containing{/VP_act_18} {NP_PP_19}<pp>Thr-1348</pp>{/NP_PP_19} , {JP_20}one major{/JP_20} and {NP_PP_21}3 minor <pp>phosphoserine peptides</pp>{/NP_PP_21} .
+
+{NP_PP_22}The major insulin-stimulated <pp>phosphoserine peptides</pp>{/NP_PP_22} {VP_pass_23}were{/VP_pass_23} the {JP_24}same{/JP_24} as those after {NP_P_25}<p>PMA</p>{/NP_P_25} , with {NP_26}the exception{/NP_26} of {NP_PP_27}2 minor <pp>phosphoserine peptides</pp>{/NP_PP_27} .
+
+OUTPUT 8
+PTM = ({NP_30};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_PP_31}<p>IGF-I receptor</p>{/NP_PP_31};-)
+Site = (-;{NP_PP_31}Ser{/NP_PP_31};UNK)
+
+OUTPUT 9
+PTM = ({NP_PP_31};phosphoserine)
+Kinase = (-;-)
+Substrate = ({NP_PP_31}<p>IGF-I receptor</p>{/NP_PP_31};-)
+Site = (-;{NP_PP_31}Ser{/NP_PP_31};UNK)
+
+OUTPUT 10
+PTM = ({VP_pass_33};phosphorylated)
+Kinase = (-;-)
+Substrate = ({NP_PP_31}<p>IGF-I receptor</p>{/NP_PP_31};-)
+Site = (-;-;UNK)
+
+{NP_P_28}<p>PMA</p>{/NP_P_28} {VP_act_29}stimulated{/VP_act_29} {NP_30}phosphorylation{/NP_30} of {NP_PP_31}a single major <p>IGF-I receptor</p> <pp>phosphoserine peptide</pp>{/NP_PP_31} {NP_32}which{/NP_32} {VP_pass_33}was phosphorylated{/VP_pass_33} to {NP_34}a lesser extent{/NP_34} after {NP_P_35}<p>IGF-I</p>{/NP_P_35} .
+
+OUTPUT 11
+PTM = ({NP_40};phosphorylation)
+Kinase = (-;-)
+Substrate = ({NP_PP_16}<p>insulin receptor</p>{/NP_PP_16};-)
+Site = (-;-;{NP_PP_41}<Bppp>sites</Bppp>{/NP_PP_41})
+(-;{NP_PP_27}Ser{/NP_PP_27};UNK)
+
+{NP_36}We{/NP_36} {VP_act_37}conclude{/VP_act_37} that {NP_P_38}<p>insulin/IGF-I</p> and <p>PMA</p>{/NP_P_38} {VP_act_39}stimulate{/VP_act_39} {NP_40}phosphorylation{/NP_40} of {NP_PP_41}the same <Bppp>sites</Bppp>{/NP_PP_41} , but {VP_pass_42}differ{/VP_pass_42} in {NP_43}the extents{/NP_43} of {NP_44}phosphorylation{/NP_44} .
+
+NORM=pma
+SYNONYM=PMA
+
+
