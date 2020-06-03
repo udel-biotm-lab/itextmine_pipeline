@@ -12,7 +12,6 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cheggaaa/pb"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
@@ -95,7 +94,7 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 	terminateChan := make(chan bool)
 
 	// start a goroutine to handle the messages from worker pool
-	go handleProgress(progressChan, terminateChan, num_tasks)
+	go HandleProgress(progressChan, terminateChan, num_tasks)
 
 	log.Println(fmt.Sprintf("Starting the pool with %d workers", numParallelTasks))
 
@@ -143,26 +142,6 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 	}
 
 	return nil
-}
-
-func handleProgress(progressChan chan bool, terminateChan chan bool, taskCount int) {
-	// create and start new bar
-	bar := pb.Full.Start(taskCount)
-
-	for {
-		select {
-		case isTaskDone := <-progressChan:
-			if isTaskDone {
-				bar.Increment()
-			}
-		case isTerminate := <-terminateChan:
-			if isTerminate {
-				bar.Finish()
-				return
-			}
-		}
-	}
-
 }
 
 func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, taskName string, workdir string) error {
@@ -245,21 +224,21 @@ func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, ta
 	// check the output
 	checkoutputErr := misc.CheckOutput(taskOutputJsonAbsolutePath)
 	if checkoutputErr != nil {
-		return checkoutputErr
-	}
+		// No output being present is not an an error. The tool might not find anything in this set of docs
+		log.Println(fmt.Sprintf("WARN: %s", checkoutputErr.Error()))
+	} else {
+		// create the absolute path for align output
+		alignOutputAbsolutePath, alignOutputAbsolutePathError := filepath.Abs(path.Join(workdir, "rlimsp", taskName, "align.json"))
+		if alignOutputAbsolutePathError != nil {
+			return alignOutputAbsolutePathError
+		}
 
-	// create the absolute path for align output
-	alignOutputAbsolutePath, alignOutputAbsolutePathError := filepath.Abs(path.Join(workdir, "rlimsp", taskName, "align.json"))
-	if alignOutputAbsolutePathError != nil {
-		return alignOutputAbsolutePathError
+		// run alignment
+		alignError := ExecuteAlign(ctx, dockerClient, taskName, taskInputAbsolutePath, taskOutputJsonAbsolutePath, alignOutputAbsolutePath, "rlimsp")
+		if alignError != nil {
+			return alignError
+		}
 	}
-
-	// run alignment
-	alignError := ExecuteAlign(ctx, dockerClient, taskName, taskInputAbsolutePath, taskOutputJsonAbsolutePath, alignOutputAbsolutePath, "rlimsp")
-	if alignError != nil {
-		return alignError
-	}
-
 	return nil
 }
 
@@ -325,11 +304,29 @@ func startRLIMSPMySQLContainer(ctx context.Context, dockerClient *client.Client)
 
 func ReduceRlimsp(toolWorkDir string, toolOutputDir string, collectionType string) error {
 
-	// build reduce align json
+	// build output reduce json path
+	outputFilePath := fmt.Sprintf("%s/rlimsp.%s.output.json", toolOutputDir, collectionType)
+	reduceOutputCmdStr := fmt.Sprintf("cat %s/*/output.json > %s", toolWorkDir, outputFilePath)
+
+	log.Println(fmt.Sprintf("Reducing RLIMSP output results to : %s", outputFilePath))
+
+	// execute the command
+	reduceOutputCmdErr, _, reduceOutputCmdErrOut := misc.Shellout(reduceOutputCmdStr)
+	if reduceOutputCmdErr != nil {
+		return errors.New(reduceOutputCmdErrOut)
+	}
+
+	// check reduce output
+	outputReduceOutputCheckError := misc.CheckOutput(outputFilePath)
+	if outputReduceOutputCheckError != nil {
+		return outputReduceOutputCheckError
+	}
+
+	// build align reduce json path
 	alignOutputFilePath := fmt.Sprintf("%s/rlimsp.%s.align.json", toolOutputDir, collectionType)
 	reduceAlignCmdStr := fmt.Sprintf("cat %s/*/align.json > %s", toolWorkDir, alignOutputFilePath)
 
-	log.Println(fmt.Sprintf("Reducing RLIMSP results to : %s", alignOutputFilePath))
+	log.Println(fmt.Sprintf("Reducing RLIMSP align results to : %s", alignOutputFilePath))
 
 	// execute the command
 	reduceAlignCmdErr, _, reduceAlignCmdErrOut := misc.Shellout(reduceAlignCmdStr)

@@ -5,10 +5,12 @@ import (
 	"errors"
 	"fmt"
 	"itextmine/misc"
+	"log"
 	"os"
 	"path"
 	"path/filepath"
 
+	"github.com/cheggaaa/pb"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
@@ -79,12 +81,13 @@ func ExecuteAlign(ctx context.Context,
 		return waitErr
 	}
 	// remove the container when we are done
-	defer dockerClient.ContainerRemove(ctx, containerCreateResponse.ID, types.ContainerRemoveOptions{Force: true})
+	//defer dockerClient.ContainerRemove(ctx, containerCreateResponse.ID, types.ContainerRemoveOptions{Force: true})
 
 	// check the output
 	checkoutputErr := misc.CheckOutput(alignedJsonPath)
 	if checkoutputErr != nil {
-		return checkoutputErr
+		// WARN - Alignment depends on "docId" field and it can be empty. So the resulting document also can be empty.
+		log.Println(fmt.Sprintf("WARN: %s", checkoutputErr.Error()))
 	}
 
 	return nil
@@ -127,9 +130,35 @@ func Reduce(workDir string, outputDir string, toolName string, collectionType st
 			return efipReduceError
 		}
 
+	} else if toolName == "mirtex" {
+		// reduce efip
+		mirtexReduceError := ReduceMirtex(toolWorkDir, outputDir, collectionType)
+		if mirtexReduceError != nil {
+			return mirtexReduceError
+		}
 	} else {
 		return errors.New(fmt.Sprintf("Unknown tool %s", toolName))
 	}
 
 	return nil
+}
+
+func HandleProgress(progressChan chan bool, terminateChan chan bool, taskCount int) {
+	// create and start new bar
+	bar := pb.Full.Start(taskCount)
+
+	for {
+		select {
+		case isTaskDone := <-progressChan:
+			if isTaskDone {
+				bar.Increment()
+			}
+		case isTerminate := <-terminateChan:
+			if isTerminate {
+				bar.Finish()
+				return
+			}
+		}
+	}
+
 }

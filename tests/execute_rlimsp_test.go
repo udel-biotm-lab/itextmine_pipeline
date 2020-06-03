@@ -19,7 +19,7 @@ func TestExcuteRlimsp(t *testing.T) {
 	defer misc.CleanDir(workDir)
 
 	// split the document
-	splitErr := misc.SplitInputDoc(inputDoc, workDir, "rlimsp", 50)
+	splitErr := misc.SplitInputDoc(inputDoc, workDir, "rlimsp", 20)
 	require.Equal(t, nil, splitErr, splitErr)
 
 	// Execute rlimsp

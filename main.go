@@ -39,6 +39,11 @@ func main() {
 		if rlimspError != nil {
 			panic(rlimspError)
 		}
+	} else if opts.Tool == "mirtex" {
+		mirtexError := tools.ExecuteMirtex(opts.Workdir, opts.NumberOfTask)
+		if mirtexError != nil {
+			panic(mirtexError)
+		}
 	}
 
 	// reduce

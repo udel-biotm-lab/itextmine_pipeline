@@ -80,19 +80,20 @@ func ExecuteEfipContainer(ctx context.Context, dockerClient *client.Client, task
 	// check the output
 	checkoutputErr := misc.CheckOutput(taskOutputJsonAbsolutePath)
 	if checkoutputErr != nil {
-		return checkoutputErr
-	}
+		// No output being present is not an an error. The tool might not find anything in this set of docs
+		log.Println(fmt.Sprintf("WARN: %s", checkoutputErr.Error()))
+	} else {
+		// create the absolute path for align output
+		alignOutputAbsolutePath, alignOutputAbsolutePathError := filepath.Abs(path.Join(workdir, "rlimsp", taskName, "efip_align.json"))
+		if alignOutputAbsolutePathError != nil {
+			return alignOutputAbsolutePathError
+		}
 
-	// create the absolute path for align output
-	alignOutputAbsolutePath, alignOutputAbsolutePathError := filepath.Abs(path.Join(workdir, "rlimsp", taskName, "efip_align.json"))
-	if alignOutputAbsolutePathError != nil {
-		return alignOutputAbsolutePathError
-	}
-
-	// run alignment
-	alignError := ExecuteAlign(ctx, dockerClient, taskName, rlimspTaskInputAbsolutePath, taskOutputJsonAbsolutePath, alignOutputAbsolutePath, "efip")
-	if alignError != nil {
-		return alignError
+		// run alignment
+		alignError := ExecuteAlign(ctx, dockerClient, taskName, rlimspTaskInputAbsolutePath, taskOutputJsonAbsolutePath, alignOutputAbsolutePath, "efip")
+		if alignError != nil {
+			return alignError
+		}
 	}
 
 	return nil
@@ -100,11 +101,29 @@ func ExecuteEfipContainer(ctx context.Context, dockerClient *client.Client, task
 
 func ReduceEfip(toolWorkDir string, toolOutputDir string, collectionType string) error {
 
-	// build reduce align json
+	// build output reduce json file paths
+	outputFilePath := fmt.Sprintf("%s/efip.%s.output.json", toolOutputDir, collectionType)
+	reduceOutputCmdStr := fmt.Sprintf("cat %s/*/efip_output.json > %s", toolWorkDir, outputFilePath)
+
+	log.Println(fmt.Sprintf("Reducing EFIP output results to : %s", outputFilePath))
+
+	// execute the command
+	reduceOutputCmdErr, _, reduceOuputCmdErrOut := misc.Shellout(reduceOutputCmdStr)
+	if reduceOutputCmdErr != nil {
+		return errors.New(reduceOuputCmdErrOut)
+	}
+
+	// check reduce output
+	outputReduceOutputCheckError := misc.CheckOutput(outputFilePath)
+	if outputReduceOutputCheckError != nil {
+		return outputReduceOutputCheckError
+	}
+
+	// build align reduce json
 	alignOutputFilePath := fmt.Sprintf("%s/efip.%s.align.json", toolOutputDir, collectionType)
 	reduceAlignCmdStr := fmt.Sprintf("cat %s/*/efip_align.json > %s", toolWorkDir, alignOutputFilePath)
 
-	log.Println(fmt.Sprintf("Reducing EFIP results to : %s", alignOutputFilePath))
+	log.Println(fmt.Sprintf("Reducing EFIP Align results to : %s", alignOutputFilePath))
 
 	// execute the command
 	reduceAlignCmdErr, _, reduceAlignCmdErrOut := misc.Shellout(reduceAlignCmdStr)
@@ -113,9 +132,9 @@ func ReduceEfip(toolWorkDir string, toolOutputDir string, collectionType string)
 	}
 
 	// check reduce output
-	reduceOutputCheckError := misc.CheckOutput(alignOutputFilePath)
-	if reduceOutputCheckError != nil {
-		return reduceOutputCheckError
+	alignReduceOutputCheckError := misc.CheckOutput(alignOutputFilePath)
+	if alignReduceOutputCheckError != nil {
+		return alignReduceOutputCheckError
 	}
 
 	return nil
