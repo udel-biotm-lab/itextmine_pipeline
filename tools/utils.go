@@ -102,18 +102,12 @@ func Reduce(workDir string, outputDir string, toolName string, collectionType st
 		return toolWorkDirExistsError
 	}
 
-	// build path to final output dir
-	toolOutputDir, toolOutputDirErr := filepath.Abs(path.Join(outputDir, toolName))
-	if toolOutputDirErr != nil {
-		return toolOutputDirErr
-	}
-
-	// check if tool output dir exists
-	outputDirExists, _ := misc.PathExists(toolOutputDir)
+	// check if output dir exists
+	outputDirExists, _ := misc.PathExists(outputDir)
 
 	// if does not exist, create it
 	if outputDirExists == false {
-		mkDirErr := os.MkdirAll(toolOutputDir, os.FileMode(0777))
+		mkDirErr := os.MkdirAll(outputDir, os.FileMode(0777))
 		if mkDirErr != nil {
 			return mkDirErr
 		}
@@ -121,13 +115,13 @@ func Reduce(workDir string, outputDir string, toolName string, collectionType st
 
 	if toolName == "rlimsp" {
 		// reduce rlimsp
-		rlimsPpReduceError := ReduceRlimsp(toolWorkDir, toolOutputDir, collectionType)
+		rlimsPpReduceError := ReduceRlimsp(toolWorkDir, outputDir, collectionType)
 		if rlimsPpReduceError != nil {
 			return rlimsPpReduceError
 		}
 
 		// reduce efip
-		efipReduceError := ReduceEfip(toolWorkDir, toolOutputDir, collectionType)
+		efipReduceError := ReduceEfip(toolWorkDir, outputDir, collectionType)
 		if efipReduceError != nil {
 			return efipReduceError
 		}
