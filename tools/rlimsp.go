@@ -237,7 +237,6 @@ func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, ta
 
 	// wait for container to be done running
 	status, waitErr := dockerClient.ContainerWait(ctx, containerCreateResponse.ID)
-	println(status)
 	if waitErr != nil {
 		return waitErr
 	}
@@ -327,11 +326,11 @@ func startRLIMSPMySQLContainer(ctx context.Context, dockerClient *client.Client)
 
 func ReduceRlimsp(toolWorkDir string, toolOutputDir string, collectionType string) error {
 
-	log.Println("Reducing RLIMSP results")
-
 	// build reduce align json
 	alignOutputFilePath := fmt.Sprintf("%s/rlimsp.%s.align.json", toolOutputDir, collectionType)
 	reduceAlignCmdStr := fmt.Sprintf("cat %s/*/align.json > %s", toolWorkDir, alignOutputFilePath)
+
+	log.Println(fmt.Sprintf("Reducing RLIMSP results to : %s", alignOutputFilePath))
 
 	// execute the command
 	reduceAlignCmdErr, _, reduceAlignCmdErrOut := misc.Shellout(reduceAlignCmdStr)
