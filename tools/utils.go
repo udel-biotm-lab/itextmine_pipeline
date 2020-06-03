@@ -19,7 +19,9 @@ func ExecuteAlign(ctx context.Context,
 	taskName string,
 	originalJsonPath string,
 	toolOutputJsonPath string,
-	alignedJsonPath string) error {
+	alignedJsonPath string,
+	toolName string,
+) error {
 
 	// check original json exists
 	originalJsonPathExists, originalJsonPathError := misc.PathExists(originalJsonPath)
@@ -58,7 +60,7 @@ func ExecuteAlign(ctx context.Context,
 		&containerConfig,
 		&hostConfig,
 		nil,
-		fmt.Sprintf("rlimsp-align-%s", taskName),
+		fmt.Sprintf("%s-align-%s", toolName, taskName),
 	)
 
 	if containerCreateError != nil {
@@ -72,8 +74,7 @@ func ExecuteAlign(ctx context.Context,
 	}
 
 	// wait for container to be done running
-	status, waitErr := dockerClient.ContainerWait(ctx, containerCreateResponse.ID)
-	println(status)
+	_, waitErr := dockerClient.ContainerWait(ctx, containerCreateResponse.ID)
 	if waitErr != nil {
 		return waitErr
 	}

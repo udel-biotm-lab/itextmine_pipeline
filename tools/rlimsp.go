@@ -97,7 +97,7 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 	// start a goroutine to handle the messages from worker pool
 	go handleProgress(progressChan, terminateChan, num_tasks)
 
-	log.Println("Starting the pool")
+	log.Println(fmt.Sprintf("Starting the pool with %d workers", numParallelTasks))
 
 	for _, task := range *tasks {
 		taskCopy := task
@@ -105,14 +105,15 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 			// execute rlimsp container
 			rlimsContainerError := executeRLIMSPContainer(ctx, dockerClient, taskCopy, workDir)
 			if rlimsContainerError != nil {
+				wp.Stop()
 				errorChan <- rlimsContainerError
 			}
 
 			progressChan <- true
-
 			// execute efip container
 			efipContainerError := ExecuteEfipContainer(ctx, dockerClient, taskCopy, workDir)
 			if efipContainerError != nil {
+				wp.Stop()
 				errorChan <- efipContainerError
 			}
 
@@ -134,8 +135,6 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 
 	// send a message on done channel to quit the goroutine
 	terminateChan <- true
-
-	log.Println("Pool closed")
 
 	// check if we had any errors
 	if len(errors) > 0 {
@@ -236,7 +235,7 @@ func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, ta
 	}
 
 	// wait for container to be done running
-	status, waitErr := dockerClient.ContainerWait(ctx, containerCreateResponse.ID)
+	_, waitErr := dockerClient.ContainerWait(ctx, containerCreateResponse.ID)
 	if waitErr != nil {
 		return waitErr
 	}
@@ -256,7 +255,7 @@ func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, ta
 	}
 
 	// run alignment
-	alignError := ExecuteAlign(ctx, dockerClient, taskName, taskInputAbsolutePath, taskOutputJsonAbsolutePath, alignOutputAbsolutePath)
+	alignError := ExecuteAlign(ctx, dockerClient, taskName, taskInputAbsolutePath, taskOutputJsonAbsolutePath, alignOutputAbsolutePath, "rlimsp")
 	if alignError != nil {
 		return alignError
 	}
@@ -355,10 +354,22 @@ func cleanUpRlimsp(ctx context.Context, dockerClient *client.Client) error {
 		return danglingRlimsRemoveError
 	}
 
+	// remove dangling align rlimsp containers
+	danglingRlimsAlignRemoveError := misc.RemoveContainer(ctx, dockerClient, "rlimsp-align*")
+	if danglingRlimsAlignRemoveError != nil {
+		return danglingRlimsAlignRemoveError
+	}
+
 	// remove dangling efip containers
 	danglingEfipRemoveError := misc.RemoveContainer(ctx, dockerClient, "rlimsp-efip-task*")
 	if danglingEfipRemoveError != nil {
 		return danglingEfipRemoveError
+	}
+
+	// remove dangling align rlimsp containers
+	danglingEfipAlignRemoveError := misc.RemoveContainer(ctx, dockerClient, "efip-align*")
+	if danglingEfipAlignRemoveError != nil {
+		return danglingEfipAlignRemoveError
 	}
 
 	// remove rlimsp mysql container

@@ -25,6 +25,7 @@ func SplitInputDoc(inputDocPath string, workdirPath string, toolName string, num
 	}
 
 	// clean the work dir
+	log.Println(fmt.Sprintf("Cleaning workdir - %s", toolWorkDirPath))
 	cleanError := CleanDir(toolWorkDirPath)
 	if cleanError != nil {
 		return cleanError
@@ -48,7 +49,7 @@ func SplitInputDoc(inputDocPath string, workdirPath string, toolName string, num
 	taskIndex := 0
 	linesBuffer := make([]string, 0)
 
-	log.Println(fmt.Sprintf("Splitting input file to - %s", toolWorkDirPath))
+	log.Println(fmt.Sprintf("Splitting input file %s", inputDocPath))
 
 	// loop over the input
 	for scanner.Scan() {

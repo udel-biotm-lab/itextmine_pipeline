@@ -70,8 +70,7 @@ func ExecuteEfipContainer(ctx context.Context, dockerClient *client.Client, task
 	}
 
 	// wait for container to be done running
-	status, waitErr := dockerClient.ContainerWait(ctx, containerCreateResponse.ID)
-	println(status)
+	_, waitErr := dockerClient.ContainerWait(ctx, containerCreateResponse.ID)
 	if waitErr != nil {
 		return waitErr
 	}
@@ -91,7 +90,7 @@ func ExecuteEfipContainer(ctx context.Context, dockerClient *client.Client, task
 	}
 
 	// run alignment
-	alignError := ExecuteAlign(ctx, dockerClient, taskName, rlimspTaskInputAbsolutePath, taskOutputJsonAbsolutePath, alignOutputAbsolutePath)
+	alignError := ExecuteAlign(ctx, dockerClient, taskName, rlimspTaskInputAbsolutePath, taskOutputJsonAbsolutePath, alignOutputAbsolutePath, "efip")
 	if alignError != nil {
 		return alignError
 	}
