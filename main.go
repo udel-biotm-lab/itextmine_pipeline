@@ -9,7 +9,7 @@ import (
 )
 
 type Options struct {
-	Tool           string `short:"t" long:"toolname" description:"Name of the text mining tool to run. Options are rlimsp" required:"true"`
+	Tool           string `short:"t" long:"toolname" description:"Name of the text mining tool to run. Options are rlimsp, mirtex" required:"true"`
 	Workdir        string `short:"w" long:"workdir" description:"Full path to the workdir. Please ensure that the user has rw access to the directory" required:"true"`
 	InputDoc       string `short:"i" long:"inputfile" description:"Full path to the input file. Please ensure that the user has read access to the file" required:"true"`
 	OutputDir      string `short:"o" long:"outputdir" description:"Full path to the output directory. Please ensure that the user has rw access to the directory" required:"true"`
@@ -54,7 +54,7 @@ func main() {
 }
 
 func validateArguments(opt Options) error {
-	tools := []string{"rlimsp"}
+	tools := []string{"rlimsp", "mirtex"}
 
 	if misc.StringInSlice(opt.Tool, tools) == false {
 		// check tool names
