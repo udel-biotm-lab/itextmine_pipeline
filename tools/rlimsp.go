@@ -105,7 +105,7 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 			// execute rlimsp container
 			rlimsContainerError := executeRLIMSPContainer(ctx, dockerClient, taskCopy, workDir)
 			if rlimsContainerError != nil {
-				wp.Stop()
+				log.Println(fmt.Sprintf("ERROR: %s", rlimsContainerError.Error()))
 				errorChan <- rlimsContainerError
 			}
 
@@ -113,7 +113,7 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 			// execute efip container
 			efipContainerError := ExecuteEfipContainer(ctx, dockerClient, taskCopy, workDir)
 			if efipContainerError != nil {
-				wp.Stop()
+				log.Println(fmt.Sprintf("ERROR: %s", efipContainerError.Error()))
 				errorChan <- efipContainerError
 			}
 
