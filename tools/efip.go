@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"itextmine/misc"
+	"log"
 	"os"
 	"path"
 	"path/filepath"
@@ -99,6 +100,8 @@ func ExecuteEfipContainer(ctx context.Context, dockerClient *client.Client, task
 }
 
 func ReduceEfip(toolWorkDir string, toolOutputDir string, collectionType string) error {
+	log.Println("Reducing EFIP results")
+
 	// build reduce align json
 	alignOutputFilePath := fmt.Sprintf("%s/efip.%s.align.json", toolOutputDir, collectionType)
 	reduceAlignCmdStr := fmt.Sprintf("cat %s/*/efip_align.json > %s", toolWorkDir, alignOutputFilePath)

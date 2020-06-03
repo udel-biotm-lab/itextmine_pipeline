@@ -3,6 +3,7 @@ package misc
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 	"path"
 	"strings"
@@ -46,6 +47,8 @@ func SplitInputDoc(inputDocPath string, workdirPath string, toolName string, num
 	lineIndex := 0
 	taskIndex := 0
 	linesBuffer := make([]string, 0)
+
+	log.Println(fmt.Sprintf("Splitting input file to - %s", toolWorkDirPath))
 
 	// loop over the input
 	for scanner.Scan() {

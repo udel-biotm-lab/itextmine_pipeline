@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"itextmine/constants"
 	"itextmine/misc"
+	"log"
 	"os"
 	"path"
 	"path/filepath"
@@ -24,6 +25,7 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 
 	ctx := context.Background()
 
+	log.Println("Cleaning up docker env from previous run")
 	// cleanup from previous run
 	cleanupError := cleanUpRlimsp(ctx, dockerClient)
 	if cleanupError != nil {
@@ -31,12 +33,14 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 	}
 
 	// create rlimsp network
+	log.Println(fmt.Sprintf("Creating %s network", constants.RLIMS_NETWORK_NAME))
 	networkID, networkCreateError := createRlimspNetwork(ctx, dockerClient)
 	if networkCreateError != nil {
 		return networkCreateError
 	}
 
 	// start the rlimsp mysql container if does not exists
+	log.Println(fmt.Sprintf("Creating %s container", constants.RLIMS_MYSQL_CONTAINER_NAME))
 	rlimsMySQLContainerID, rlimspMysqlStartError := startRLIMSPMySQLContainer(ctx, dockerClient)
 	if rlimspMysqlStartError != nil {
 		return rlimspMysqlStartError
@@ -68,6 +72,7 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 
 	// get a list of all the tasks
 	rlimsWorkDirPath := path.Join(workDir, "rlimsp")
+	log.Println(fmt.Sprintf("Generating tasks from : %s ", rlimsWorkDirPath))
 	tasks, tasksError := misc.GetSubDirNames(rlimsWorkDirPath)
 	if tasksError != nil {
 		return tasksError
@@ -76,17 +81,23 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 	// create a worker pool and start the execution
 	wp := workerpool.New(numParallelTasks)
 
+	// number of tasks
+	num_tasks := len(*tasks) * 2 // multiple by two as we execute both rlimsp and efip together
+	log.Println(fmt.Sprintf("Generated %d tasks", num_tasks))
+
 	// make a buffered channel to receive errors in go routine
-	errorChan := make(chan error, len(*tasks))
+	errorChan := make(chan error, num_tasks)
 
 	// make a buffered channel to receive progress
-	progressChan := make(chan bool, len(*tasks))
+	progressChan := make(chan bool, num_tasks)
 
 	// make a done channel to signal work completion
 	terminateChan := make(chan bool)
 
 	// start a goroutine to handle the messages from worker pool
-	go handleProgress(progressChan, terminateChan, len(*tasks))
+	go handleProgress(progressChan, terminateChan, num_tasks)
+
+	log.Println("Starting the pool")
 
 	for _, task := range *tasks {
 		taskCopy := task
@@ -96,6 +107,8 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 			if rlimsContainerError != nil {
 				errorChan <- rlimsContainerError
 			}
+
+			progressChan <- true
 
 			// execute efip container
 			efipContainerError := ExecuteEfipContainer(ctx, dockerClient, taskCopy, workDir)
@@ -121,6 +134,8 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 
 	// send a message on done channel to quit the goroutine
 	terminateChan <- true
+
+	log.Println("Pool closed")
 
 	// check if we had any errors
 	if len(errors) > 0 {
@@ -311,6 +326,9 @@ func startRLIMSPMySQLContainer(ctx context.Context, dockerClient *client.Client)
 }
 
 func ReduceRlimsp(toolWorkDir string, toolOutputDir string, collectionType string) error {
+
+	log.Println("Reducing RLIMSP results")
+
 	// build reduce align json
 	alignOutputFilePath := fmt.Sprintf("%s/rlimsp.%s.align.json", toolOutputDir, collectionType)
 	reduceAlignCmdStr := fmt.Sprintf("cat %s/*/align.json > %s", toolWorkDir, alignOutputFilePath)
