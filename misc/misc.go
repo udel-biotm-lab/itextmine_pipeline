@@ -2,7 +2,6 @@ package misc
 
 import (
 	"bytes"
-	"errors"
 	"fmt"
 	"log"
 	"os"
@@ -45,7 +44,8 @@ func CheckOutput(outputJson string) error {
 	}
 
 	if fileStat.Size() == 0 {
-		return errors.New(fmt.Sprintf("%s is empty", outputJson))
+		errorMsg := (fmt.Sprintf("%s is empty", outputJson))
+		return &OutputNotPresentError{errorMsg: errorMsg}
 	} else {
 		return nil
 	}

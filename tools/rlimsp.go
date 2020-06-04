@@ -38,7 +38,7 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 		return networkCreateError
 	}
 
-	// start the rlimsp mysql container if does not exists
+	// start the rlimsp mysql container
 	log.Println(fmt.Sprintf("Creating %s container", constants.RLIMS_MYSQL_CONTAINER_NAME))
 	rlimsMySQLContainerID, rlimspMysqlStartError := startRLIMSPMySQLContainer(ctx, dockerClient)
 	if rlimspMysqlStartError != nil {

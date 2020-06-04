@@ -81,7 +81,7 @@ func ExecuteAlign(ctx context.Context,
 		return waitErr
 	}
 	// remove the container when we are done
-	//defer dockerClient.ContainerRemove(ctx, containerCreateResponse.ID, types.ContainerRemoveOptions{Force: true})
+	defer dockerClient.ContainerRemove(ctx, containerCreateResponse.ID, types.ContainerRemoveOptions{Force: true})
 
 	// check the output
 	checkoutputErr := misc.CheckOutput(alignedJsonPath)
