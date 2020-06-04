@@ -149,9 +149,7 @@ func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, ta
 	// network config
 	rlimspNetworkConfig := network.NetworkingConfig{
 		EndpointsConfig: map[string]*network.EndpointSettings{
-			constants.RLIMS_NETWORK_NAME: {
-				IPAddress: "10.0.0.2",
-			},
+			constants.RLIMS_NETWORK_NAME: {},
 		},
 	}
 
