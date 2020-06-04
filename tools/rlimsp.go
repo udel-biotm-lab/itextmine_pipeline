@@ -52,19 +52,19 @@ func ExecuteRlimsp(workDir string, numParallelTasks int) error {
 	defer dockerClient.ContainerRemove(ctx, rlimsMySQLContainerID, types.ContainerRemoveOptions{Force: true})
 
 	// pull rlimsp docker image
-	rlimsPullError := misc.PullImage(ctx, dockerClient, "itextmine/rlimsp")
+	rlimsPullError := misc.PullImage(ctx, dockerClient, constants.RLIMSP_IMAGE)
 	if rlimsPullError != nil {
 		return rlimsPullError
 	}
 
 	// pull efip docker image
-	efipPullError := misc.PullImage(ctx, dockerClient, "leebird/efip")
+	efipPullError := misc.PullImage(ctx, dockerClient, constants.EFIP_IMAGE)
 	if efipPullError != nil {
 		return efipPullError
 	}
 
 	// pull align docker image
-	alignPullError := misc.PullImage(ctx, dockerClient, "itextmine/align")
+	alignPullError := misc.PullImage(ctx, dockerClient, constants.ALIGN_IMAGE)
 	if alignPullError != nil {
 		return alignPullError
 	}
@@ -149,7 +149,7 @@ func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, ta
 	// network config
 	rlimspNetworkConfig := network.NetworkingConfig{
 		EndpointsConfig: map[string]*network.EndpointSettings{
-			"rlimsp": {
+			constants.RLIMS_NETWORK_NAME: {
 				IPAddress: "10.0.0.2",
 			},
 		},
@@ -193,7 +193,7 @@ func executeRLIMSPContainer(ctx context.Context, dockerClient *client.Client, ta
 
 	// container config
 	containerConfig := container.Config{
-		Image: "itextmine/rlimsp",
+		Image: constants.RLIMSP_IMAGE,
 	}
 
 	// create the container
@@ -268,7 +268,7 @@ func startRLIMSPMySQLContainer(ctx context.Context, dockerClient *client.Client)
 	// check if rlimsp mysql container exists
 
 	// pull the image
-	pullError := misc.PullImage(ctx, dockerClient, "itextmine/rlimsp-mysql")
+	pullError := misc.PullImage(ctx, dockerClient, constants.RLIMSP_MYSQL_IMAGE)
 	if pullError != nil {
 		return "", pullError
 	}
@@ -277,12 +277,12 @@ func startRLIMSPMySQLContainer(ctx context.Context, dockerClient *client.Client)
 	rlimsMySQLNetworkConfig := network.NetworkingConfig{
 		EndpointsConfig: map[string]*network.EndpointSettings{
 			constants.RLIMS_NETWORK_NAME: {
-				IPAddress: "10.0.0.2",
+				IPAddress: constants.RLIMSP_MYSQL_IP_ADDRESS,
 			},
 		},
 	}
 	containerCreateResponse, containerCreateError := dockerClient.ContainerCreate(ctx, &container.Config{
-		Image: "itextmine/rlimsp-mysql",
+		Image: constants.RLIMSP_MYSQL_IMAGE,
 	}, nil, &rlimsMySQLNetworkConfig, constants.RLIMS_MYSQL_CONTAINER_NAME)
 
 	if containerCreateError != nil {

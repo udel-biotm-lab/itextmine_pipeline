@@ -17,6 +17,6 @@ This repo holds the source code for itextmine data processing pipeline
 
 4. go run main.go --help
 
-5. Run all tests go test -v itextmine/tests
+5. Run all tests: go test -v itextmine/tests
 
-6. Run individual test go test -v itextmine/tests -run TestExcuteRlimsp
+6. Run individual tests: go test -v itextmine/tests -run TestExcuteRlimsp
