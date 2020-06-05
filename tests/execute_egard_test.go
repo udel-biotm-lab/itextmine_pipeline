@@ -18,7 +18,7 @@ func TestExcuteEgard(t *testing.T) {
 
 	numOfParallelTasks := 3
 
-	defer misc.CleanDir(workDir)
+	//defer misc.CleanDir(workDir)
 
 	// split the document
 	splitErr := misc.SplitInputDoc(inputDoc, workDir, toolName, 20)
