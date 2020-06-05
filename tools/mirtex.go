@@ -205,7 +205,7 @@ func ReduceMirtex(toolWorkDir string, toolOutputDir string, collectionType strin
 	}
 
 	// build reduce align json
-	alignOutputFilePath := fmt.Sprintf("%s/mirtex.%s.align.json", toolOutputDir, collectionType)
+	alignOutputFilePath := fmt.Sprintf("%s/mirtex.%s.aligned.json", toolOutputDir, collectionType)
 	reduceAlignCmdStr := fmt.Sprintf("cat %s/*/align.json > %s", toolWorkDir, alignOutputFilePath)
 
 	log.Println(fmt.Sprintf("Reducing Mirtex align results to : %s", alignOutputFilePath))

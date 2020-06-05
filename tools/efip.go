@@ -120,7 +120,7 @@ func ReduceEfip(toolWorkDir string, toolOutputDir string, collectionType string)
 	}
 
 	// build align reduce json
-	alignOutputFilePath := fmt.Sprintf("%s/efip.%s.align.json", toolOutputDir, collectionType)
+	alignOutputFilePath := fmt.Sprintf("%s/efip.%s.aligned.json", toolOutputDir, collectionType)
 	reduceAlignCmdStr := fmt.Sprintf("cat %s/*/efip_align.json > %s", toolWorkDir, alignOutputFilePath)
 
 	log.Println(fmt.Sprintf("Reducing EFIP Align results to : %s", alignOutputFilePath))

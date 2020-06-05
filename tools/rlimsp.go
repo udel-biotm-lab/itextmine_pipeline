@@ -321,7 +321,7 @@ func ReduceRlimsp(toolWorkDir string, toolOutputDir string, collectionType strin
 	}
 
 	// build align reduce json path
-	alignOutputFilePath := fmt.Sprintf("%s/rlimsp.%s.align.json", toolOutputDir, collectionType)
+	alignOutputFilePath := fmt.Sprintf("%s/rlimsp.%s.aligned.json", toolOutputDir, collectionType)
 	reduceAlignCmdStr := fmt.Sprintf("cat %s/*/align.json > %s", toolWorkDir, alignOutputFilePath)
 
 	log.Println(fmt.Sprintf("Reducing RLIMSP align results to : %s", alignOutputFilePath))
