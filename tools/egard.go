@@ -18,7 +18,16 @@ import (
 	"github.com/gammazero/workerpool"
 )
 
-func ExecuteEGard(workDir string, numParallelTasks int) error {
+type EgardDBParams struct {
+	Mongo_host                  string
+	Mongo_port                  string
+	Pubtator_db                 string
+	Pubtator_medline_collection string
+	Medline_db                  string
+	Medline_text_collection     string
+}
+
+func ExecuteEGard(workDir string, numParallelTasks int, egardDBParams EgardDBParams) error {
 	dockerClient := misc.CreateDockerClient()
 	ctx := context.Background()
 
@@ -84,20 +93,20 @@ func ExecuteEGard(workDir string, numParallelTasks int) error {
 	wp := workerpool.New(numParallelTasks)
 
 	// number of tasks
-	num_tasks := len(*tasks) * 2 // multiple by three as we execute bionex, m2g and egard dockers
-	log.Println(fmt.Sprintf("Generated %d tasks", num_tasks))
+	numTasks := len(*tasks) * 2 // multiple by three as we execute bionex, m2g and egard dockers
+	log.Println(fmt.Sprintf("Generated %d tasks", numTasks))
 
 	// make a buffered channel to receive errors in go routine
-	errorChan := make(chan error, num_tasks)
+	errorChan := make(chan error, numTasks)
 
 	// make a buffered channel to receive progress
-	progressChan := make(chan bool, num_tasks)
+	progressChan := make(chan bool, numTasks)
 
 	// make a done channel to signal work completion
 	terminateChan := make(chan bool)
 
 	// start a goroutine to handle the messages from worker pool
-	go HandleProgress(progressChan, terminateChan, num_tasks)
+	go HandleProgress(progressChan, terminateChan, numTasks)
 
 	log.Println(fmt.Sprintf("Starting the pool with %d workers", numParallelTasks))
 
@@ -115,8 +124,10 @@ func ExecuteEGard(workDir string, numParallelTasks int) error {
 				return
 			}
 
+			progressChan <- true
+
 			// excute the merge_egard docker
-			mergeEgardError := executeMergeEgardDocker(ctx, dockerClient, taskCopy, workDir)
+			mergeEgardError := executeMergeEgardDocker(ctx, dockerClient, taskCopy, workDir, egardDBParams)
 			if mergeEgardError != nil {
 				// send the message to error channel and die early
 				log.Println(fmt.Sprintf("ERROR: %s", mergeEgardError.Error()))
@@ -125,13 +136,13 @@ func ExecuteEGard(workDir string, numParallelTasks int) error {
 				return
 			}
 
-			//progressChan <- true
+			progressChan <- true
 
 			// execute m2g
 			//progressChan <- true
 
 			// execute egard
-			progressChan <- true
+			//progressChan <- true
 
 		})
 	}
@@ -153,15 +164,15 @@ func ExecuteEGard(workDir string, numParallelTasks int) error {
 
 	// check if we had any errors
 	if len(errors) > 0 {
-		error_value := errors[0]
-		return error_value
+		errorValue := errors[0]
+		return errorValue
 	}
 
 	return nil
 
 }
 
-func executeMergeEgardDocker(ctx context.Context, dockerClient *client.Client, taskName string, workDir string) error {
+func executeMergeEgardDocker(ctx context.Context, dockerClient *client.Client, taskName string, workDir string, egardDBParams EgardDBParams) error {
 	taskPath := path.Join(workDir, "egard", taskName)
 	bionexWorkDirPath := path.Join(taskPath, "bionex")
 
@@ -170,13 +181,13 @@ func executeMergeEgardDocker(ctx context.Context, dockerClient *client.Client, t
 		return inputPathError
 	}
 
-	taskOutputJsonAbsolutePath, jsonOutputPathError := filepath.Abs(path.Join(taskPath, "merge_output.json"))
+	taskOutputJSONAbsolutePath, jsonOutputPathError := filepath.Abs(path.Join(taskPath, "merge_output.json"))
 	if jsonOutputPathError != nil {
 		return jsonOutputPathError
 	}
 
 	// touch output file
-	touchError := misc.TouchFile(taskOutputJsonAbsolutePath)
+	touchError := misc.TouchFile(taskOutputJSONAbsolutePath)
 	if touchError != nil {
 		return touchError
 	}
@@ -185,27 +196,29 @@ func executeMergeEgardDocker(ctx context.Context, dockerClient *client.Client, t
 	hostConfig := container.HostConfig{
 		Binds: []string{
 			fmt.Sprintf("%s:%s:ro", taskInputAbsolutePath, "/workdir/bionex_out.txt"),
-			fmt.Sprintf("%s:%s", taskOutputJsonAbsolutePath, "/bionex_workdir/out.json"),
+			fmt.Sprintf("%s:%s", taskOutputJSONAbsolutePath, "/workdir/merge_output.json"),
 		},
-	}
-
-	// network config
-	networkConfig := network.NetworkingConfig{
-		EndpointsConfig: map[string]*network.EndpointSettings{
-			"host": {},
-		},
+		NetworkMode: "host",
 	}
 
 	// container config
 	containerConfig := container.Config{
 		Image: constants.MERGE_EGARD_IMAGE,
+		Env: []string{
+			fmt.Sprintf("%s=%s", "MONGO_HOST", egardDBParams.Mongo_host),
+			fmt.Sprintf("%s=%s", "MONGO_PORT", egardDBParams.Mongo_port),
+			fmt.Sprintf("%s=%s", "PUBTATOR_DB", egardDBParams.Pubtator_db),
+			fmt.Sprintf("%s=%s", "PUBTATOR_MEDLINE_COLLECTION", egardDBParams.Pubtator_medline_collection),
+			fmt.Sprintf("%s=%s", "MEDLINE_DB", egardDBParams.Medline_db),
+			fmt.Sprintf("%s=%s", "MEDLINE_TEXT_COLLECTION", egardDBParams.Medline_text_collection),
+		},
 	}
 
 	// create the container
 	containerCreateResponse, containerCreateError := dockerClient.ContainerCreate(ctx,
 		&containerConfig,
 		&hostConfig,
-		&networkConfig,
+		nil,
 		fmt.Sprintf("%s-%s", constants.EGARD_MERGE_QUALIFIER, taskName))
 
 	if containerCreateError != nil {
@@ -227,7 +240,7 @@ func executeMergeEgardDocker(ctx context.Context, dockerClient *client.Client, t
 	defer dockerClient.ContainerRemove(ctx, containerCreateResponse.ID, types.ContainerRemoveOptions{Force: true})
 
 	// check the output
-	checkoutputErr := misc.CheckOutput(taskOutputJsonAbsolutePath)
+	checkoutputErr := misc.CheckOutput(taskOutputJSONAbsolutePath)
 	if checkoutputErr != nil {
 		return checkoutputErr
 	}
@@ -268,12 +281,12 @@ func executeBionexDocker(ctx context.Context, dockerClient *client.Client, taskN
 		return inputPathError
 	}
 
-	taskOutputJsonAbsolutePath, jsonOutputPathError := filepath.Abs(path.Join(bionexWorkDirPath, "output.json"))
+	taskOutputJSONAbsolutePath, jsonOutputPathError := filepath.Abs(path.Join(bionexWorkDirPath, "output.json"))
 	if jsonOutputPathError != nil {
 		return jsonOutputPathError
 	}
 	// create the output.json
-	jsonFile, jsonCreateError := os.Create(taskOutputJsonAbsolutePath)
+	jsonFile, jsonCreateError := os.Create(taskOutputJSONAbsolutePath)
 	if jsonCreateError != nil {
 		return jsonCreateError
 	}
@@ -294,7 +307,7 @@ func executeBionexDocker(ctx context.Context, dockerClient *client.Client, taskN
 	hostConfig := container.HostConfig{
 		Binds: []string{
 			fmt.Sprintf("%s:%s:ro", taskInputAbsolutePath, "/bionex_workdir/in.json"),
-			fmt.Sprintf("%s:%s", taskOutputJsonAbsolutePath, "/bionex_workdir/out.json"),
+			fmt.Sprintf("%s:%s", taskOutputJSONAbsolutePath, "/bionex_workdir/out.json"),
 			fmt.Sprintf("%s:%s", taskOutputTxtAbsolutePath, "/bionex_workdir/out.txt"),
 		},
 	}
@@ -482,7 +495,13 @@ func cleanUpEgard(ctx context.Context, dockerClient *client.Client) error {
 		return networkRemoveError
 	}
 
-	// remove mace2k network network
+	// remove mace2k mysql container
+	mace2kMysqlContainerRemoveError := misc.RemoveContainer(ctx, dockerClient, constants.MACE2K_MYSQL_CONTAINER)
+	if mace2kMysqlContainerRemoveError != nil {
+		return mace2kMysqlContainerRemoveError
+	}
+
+	// remove mace2k network
 	mac2kNetworkRemoveError := misc.RemoveNetwork(ctx, dockerClient, constants.MACE2K_NETWORK)
 	if mac2kNetworkRemoveError != nil {
 		return mac2kNetworkRemoveError
