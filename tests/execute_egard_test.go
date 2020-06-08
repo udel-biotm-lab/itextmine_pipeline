@@ -16,12 +16,12 @@ func TestExcuteEgard(t *testing.T) {
 	toolName := "egard"
 	//collectionType := "pmc"
 	egardDBParams := tools.EgardDBParams{
-		Mongo_host:                  "127.0.0.1",
-		Mongo_port:                  "27017",
-		Pubtator_db:                 "pubtator",
-		Pubtator_medline_collection: "medline.aligned",
-		Medline_db:                  "medline_current",
-		Medline_text_collection:     "text",
+		MongoHost:                 "127.0.0.1",
+		MongoPort:                 "27017",
+		PubtatorDB:                "pubtator",
+		PubtatorMedlineCollection: "medline.aligned",
+		MedlineDB:                 "medline_current",
+		MedlineTextCollection:     "text",
 	}
 
 	numberOfLines := 20

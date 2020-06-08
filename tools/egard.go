@@ -19,12 +19,12 @@ import (
 )
 
 type EgardDBParams struct {
-	Mongo_host                  string
-	Mongo_port                  string
-	Pubtator_db                 string
-	Pubtator_medline_collection string
-	Medline_db                  string
-	Medline_text_collection     string
+	MongoHost                 string
+	MongoPort                 string
+	PubtatorDB                string
+	PubtatorMedlineCollection string
+	MedlineDB                 string
+	MedlineTextCollection     string
 }
 
 func ExecuteEGard(workDir string, numParallelTasks int, egardDBParams EgardDBParams) error {
@@ -93,7 +93,7 @@ func ExecuteEGard(workDir string, numParallelTasks int, egardDBParams EgardDBPar
 	wp := workerpool.New(numParallelTasks)
 
 	// number of tasks
-	numTasks := len(*tasks) * 2 // multiple by three as we execute bionex, m2g and egard dockers
+	numTasks := len(*tasks) * 3 // multiple by three as we execute bionex, m2g and egard dockers
 	log.Println(fmt.Sprintf("Generated %d tasks", numTasks))
 
 	// make a buffered channel to receive errors in go routine
@@ -139,7 +139,16 @@ func ExecuteEGard(workDir string, numParallelTasks int, egardDBParams EgardDBPar
 			progressChan <- true
 
 			// execute m2g
-			//progressChan <- true
+			m2GError := executeM2GDocker(ctx, dockerClient, taskCopy, workDir)
+			if m2GError != nil {
+				// send the message to error channel and die early
+				log.Println(fmt.Sprintf("ERROR: %s", m2GError.Error()))
+				errorChan <- m2GError
+				progressChan <- true
+				return
+			}
+
+			progressChan <- true
 
 			// execute egard
 			//progressChan <- true
@@ -205,12 +214,12 @@ func executeMergeEgardDocker(ctx context.Context, dockerClient *client.Client, t
 	containerConfig := container.Config{
 		Image: constants.MERGE_EGARD_IMAGE,
 		Env: []string{
-			fmt.Sprintf("%s=%s", "MONGO_HOST", egardDBParams.Mongo_host),
-			fmt.Sprintf("%s=%s", "MONGO_PORT", egardDBParams.Mongo_port),
-			fmt.Sprintf("%s=%s", "PUBTATOR_DB", egardDBParams.Pubtator_db),
-			fmt.Sprintf("%s=%s", "PUBTATOR_MEDLINE_COLLECTION", egardDBParams.Pubtator_medline_collection),
-			fmt.Sprintf("%s=%s", "MEDLINE_DB", egardDBParams.Medline_db),
-			fmt.Sprintf("%s=%s", "MEDLINE_TEXT_COLLECTION", egardDBParams.Medline_text_collection),
+			fmt.Sprintf("%s=%s", "MONGO_HOST", egardDBParams.MongoHost),
+			fmt.Sprintf("%s=%s", "MONGO_PORT", egardDBParams.MongoPort),
+			fmt.Sprintf("%s=%s", "PUBTATOR_DB", egardDBParams.PubtatorDB),
+			fmt.Sprintf("%s=%s", "PUBTATOR_MEDLINE_COLLECTION", egardDBParams.PubtatorMedlineCollection),
+			fmt.Sprintf("%s=%s", "MEDLINE_DB", egardDBParams.MedlineDB),
+			fmt.Sprintf("%s=%s", "MEDLINE_TEXT_COLLECTION", egardDBParams.MedlineTextCollection),
 		},
 	}
 
@@ -249,6 +258,81 @@ func executeMergeEgardDocker(ctx context.Context, dockerClient *client.Client, t
 
 }
 
+func executeM2GDocker(ctx context.Context, dockerClient *client.Client, taskName string, workDir string) error {
+	taskPath, taskPathError := filepath.Abs(path.Join(workDir, "egard", taskName))
+	if taskPathError != nil {
+		return taskPathError
+	}
+
+	taskInputAbsolutePath, inputPathError := filepath.Abs(path.Join(taskPath, "merge_output.json"))
+	if inputPathError != nil {
+		return inputPathError
+	}
+	// check if input file exists
+	inputCheckError := misc.CheckOutput(taskInputAbsolutePath)
+	if inputCheckError != nil {
+		return inputCheckError
+	}
+
+	taskOutputJSONAbsolutePath, jsonOutputPathError := filepath.Abs(path.Join(taskPath, "m2g_output.json"))
+	if jsonOutputPathError != nil {
+		return jsonOutputPathError
+	}
+	// touch output file
+	touchError := misc.TouchFile(taskOutputJSONAbsolutePath)
+	if touchError != nil {
+		return touchError
+	}
+
+	// host config
+	hostConfig := container.HostConfig{
+		Binds: []string{
+			fmt.Sprintf("%s:%s:ro", taskPath, "/Workdir/input"),
+			fmt.Sprintf("%s:%s", taskPath, "/Workdir/output"),
+		},
+	}
+
+	// container config
+	containerConfig := container.Config{
+		Image: constants.M2G_IMAGE,
+		Cmd:   []string{"merge_output.json", "m2g_output.json", "json"},
+	}
+
+	// create the container
+	containerCreateResponse, containerCreateError := dockerClient.ContainerCreate(ctx,
+		&containerConfig,
+		&hostConfig,
+		nil,
+		fmt.Sprintf("%s-%s", constants.EGARD_M2G_QUALIFIER, taskName))
+
+	if containerCreateError != nil {
+		return containerCreateError
+	}
+
+	// start this container
+	containerStartError := dockerClient.ContainerStart(ctx, containerCreateResponse.ID, types.ContainerStartOptions{})
+	if containerStartError != nil {
+		return containerStartError
+	}
+
+	// wait for container to be done running
+	_, waitErr := dockerClient.ContainerWait(ctx, containerCreateResponse.ID)
+	if waitErr != nil {
+		return waitErr
+	}
+	// remove the container when we are done
+	defer dockerClient.ContainerRemove(ctx, containerCreateResponse.ID, types.ContainerRemoveOptions{Force: true})
+
+	// check the output
+	checkoutputErr := misc.CheckOutput(taskOutputJSONAbsolutePath)
+	if checkoutputErr != nil {
+		return checkoutputErr
+	}
+
+	return nil
+
+}
+
 func pullEgardImages(ctx context.Context, dockerClient *client.Client) error {
 	// pull bionex docker image
 	bionexPullError := misc.PullImage(ctx, dockerClient, constants.BIONEX_IMAGE)
@@ -256,10 +340,16 @@ func pullEgardImages(ctx context.Context, dockerClient *client.Client) error {
 		return bionexPullError
 	}
 
-	// pull bionex docker image
+	// pull merge egard docker image
 	mergeEgardPullError := misc.PullImage(ctx, dockerClient, constants.MERGE_EGARD_IMAGE)
 	if mergeEgardPullError != nil {
 		return mergeEgardPullError
+	}
+
+	// pull m2g docker image
+	m2gPullError := misc.PullImage(ctx, dockerClient, constants.M2G_IMAGE)
+	if m2gPullError != nil {
+		return m2gPullError
 	}
 
 	return nil
@@ -374,9 +464,10 @@ func createEgardRlimspNetwork(ctx context.Context, dockerClient *client.Client) 
 
 	if err != nil {
 		return "", err
-	} else {
-		return netWorkCreateResponse.ID, nil
 	}
+
+	return netWorkCreateResponse.ID, nil
+
 }
 
 func startEgardRLIMSPMySQLContainer(ctx context.Context, dockerClient *client.Client) (string, error) {
@@ -432,9 +523,9 @@ func createMace2KNetwork(ctx context.Context, dockerClient *client.Client) (stri
 
 	if err != nil {
 		return "", err
-	} else {
-		return netWorkCreateResponse.ID, nil
 	}
+
+	return netWorkCreateResponse.ID, nil
 }
 
 func startMace2KMySQLContainer(ctx context.Context, dockerClient *client.Client) (string, error) {
